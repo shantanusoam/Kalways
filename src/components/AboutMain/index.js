@@ -15,7 +15,7 @@ const AboutMain = ({ isOpen, toggle }) => {
       </TextContaner>
       <img
         src={whitetruck}
-        alt="Our services Truck on black road"
+        alt="Our services Truck on black road "
         width="1500rem"
       />
       <TextContanerS>
