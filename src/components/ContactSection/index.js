@@ -28,7 +28,7 @@ const ContactSectio = ({ isOpen, toggle }) => {
         </Heading>
         <div
           data-aidaform-widget="form-2019-12"
-          data-url="https://shantanu.aidaform.com/bigrig"
+          data-url="https://shantanu.aidaform.com/kalway"
           data-width="100%"
           data-height="500px"
           data-do-resize

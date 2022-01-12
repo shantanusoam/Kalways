@@ -62,7 +62,7 @@ const Lol = () => {
 
 class Home extends React.Component {
   componentDidMount() {
-    document.title = "BigRig";
+    document.title = "kalway";
   }
 
   render() {

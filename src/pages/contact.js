@@ -35,7 +35,7 @@ const Contac = () => {
 };
 class Contact extends React.Component {
   componentDidMount() {
-    document.title = "BigRig Contact";
+    document.title = "kalway Contact";
   }
 
   render() {

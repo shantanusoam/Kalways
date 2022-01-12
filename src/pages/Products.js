@@ -8,7 +8,7 @@ import Contact from "./contact";
 
 export default class Products extends React.Component {
   componentDidMount() {
-    document.title = "BigRig Product";
+    document.title = "kalway Product";
   }
 
   render() {

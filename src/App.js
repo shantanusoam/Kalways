@@ -30,7 +30,7 @@ function App() {
       <Navbar toggle={toggle}></Navbar>
 
       <Switch>
-        <Route exact path="/" component={Home} title="BigRig" />
+        <Route exact path="/" component={Home} title="kalway" />
         <Route exact path="/Contact" component={Contact} title="BigContact" />
 
         <Route exact path="/About" component={About} title="BigAbout" />
@@ -39,7 +39,7 @@ function App() {
           exact
           path="/Product"
           component={Products}
-          title="BigRigProduct"
+          title="kalwayProduct"
         />
         <Route
           exact
