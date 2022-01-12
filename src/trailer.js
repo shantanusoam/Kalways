@@ -2,11 +2,11 @@ import tr1 from "./images/dv.jpg";
 import tr2 from "./images/dv0.jpg";
 import tr3 from "./images/dv1.jpg";
 import Rt1 from "./images/Rt1.jpg";
-import Rt2 from "./images/Rt2.jpeg";
-import Rt3 from "./images/Rt3.jpeg";
+import Rt2 from "./images/Rt2.jpg";
+import Rt3 from "./images/Rt3.jpg";
 import Ut1 from "./images/Ut1.jpg";
-import Ut2 from "./images/Ut2.jpeg";
-import Ut3 from "./images/Ut3.jpeg";
+import Ut2 from "./images/Ut2.png";
+import Ut3 from "./images/Ut3.jpg";
 export const Trailers = [
   {
     id: 0,
