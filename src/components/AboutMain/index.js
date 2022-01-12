@@ -19,9 +19,7 @@ const AboutMain = ({ isOpen, toggle }) => {
         width="1500rem"
       />
       <TextContanerS>
-        <h1 className="text-left text-black font-bold text-4xl pb-8">
-          Big Rig Trailers & Leasing INC
-        </h1>
+        <h1 className="text-left text-black font-bold text-4xl pb-8">Kalway</h1>
         <p className="text-left text-gray-500 text-2xl pb-8 font-bold ">
           kalway’s mission is to move business forward with expertise and
           integrity. That’s why we’re committed to creating smarter, less

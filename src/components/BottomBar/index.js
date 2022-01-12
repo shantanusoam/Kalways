@@ -86,7 +86,7 @@ const BottomBar = ({ toggle }) => {
         </NavMenu>
         <NavBtn>
           <h3 className="text-left text-gray-200 font-bold text-1xl">
-            @ Copyright Big Rig Trailer and Leasing
+            @ Copyright kalway Trailer and Leasing
           </h3>
         </NavBtn>
         {/* <MobileIcon onClick={toggle}>

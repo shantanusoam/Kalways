@@ -14,7 +14,7 @@ const QuoteAtEnd = ({ isOpen, toggle }) => {
       <WWOCardContent>
         <WWOCCHeading>ARE YOU IN UNITED STATES? WE GOT YOUR BACK</WWOCCHeading>
         {/* <WWOCCParagraph>
-          Big Rig Trailers & Leasing extended its reach to distribution
+          kalway Trailers & Leasing extended its reach to distribution
           warehouses located in California, Texas, Indiana, North Carolina, and
           New Jersey
         </WWOCCParagraph> */}
