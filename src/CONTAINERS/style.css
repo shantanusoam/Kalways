@@ -1,0 +1,39 @@
+.footer {
+  padding: 100px 0px 30px 100px;
+  color: white;
+  background-color: rgb(44, 44, 44);
+  height: 50vh;
+}
+.footer label {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.footer input {
+  height: 36px;
+  width: 280px;
+  border-radius: 3px;
+  border: none;
+}
+.footer button {
+  height: 38px;
+  width: 70px;
+  background-color: #3bea1f;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  font-weight: 150px;
+  font-size: 20px;
+}
+.footer p {
+  font-family: sans-serif;
+  font-size:15px;
+
+}
+#email {
+  text-align: center;
+  font-size: 15px;
+}
+
+.pr1 {
+  padding-left: 450px;
+}

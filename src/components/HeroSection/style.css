@@ -1,0 +1,29 @@
+.btn {
+  border: none;
+  background-color: black;
+  color: #3bea1f;
+  width: 226px;
+  height: 71px;
+
+  padding: 10px 44px;
+  font-size: 16px;
+  position: relative;
+}
+.btn::before {
+  transition: all 0.2s ease-in-out;
+  content: "";
+  width: 0%;
+  height: 100%;
+  background-color: #3bea1f;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.btn .btn-text {
+  color: #3bea1f;
+  mix-blend-mode: difference;
+}
+.btn:hover::before {
+  background: #3bea1f;
+  width: 100%;
+}
