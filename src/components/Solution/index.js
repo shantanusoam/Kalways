@@ -141,7 +141,7 @@ const Solution = ({ isOpen, toggle }) => {
           <FlipCard>
             <FrontFace>
               <img
-                src="https://coyote.com/wp-content/uploads/2020/02/Markerplace_HP_Flipcard.jpg"
+                src="https://kalway.com/wp-content/uploads/2020/02/Markerplace_HP_Flipcard.jpg"
                 alt=""
               />
               <HoveringTextContainer>
@@ -153,7 +153,7 @@ const Solution = ({ isOpen, toggle }) => {
           <FlipCard>
             <FrontFace>
               <img
-                src="https://coyote.com/wp-content/uploads/2020/02/Multi-Modal_hp_Flipcard.jpg"
+                src="https://kalway.com/wp-content/uploads/2020/02/Multi-Modal_hp_Flipcard.jpg"
                 alt=""
               />
               <HoveringTextContainer>
@@ -165,7 +165,7 @@ const Solution = ({ isOpen, toggle }) => {
           <FlipCard>
             <FrontFace>
               <img
-                src="https://coyote.com/wp-content/uploads/2020/02/Multi-Modal_hp_Flipcard.jpg"
+                src="https://kalway.com/wp-content/uploads/2020/02/Multi-Modal_hp_Flipcard.jpg"
                 alt=""
               />
               <HoveringTextContainer>

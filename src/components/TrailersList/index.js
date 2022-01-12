@@ -27,7 +27,7 @@ class TrailerList extends React.Component {
     return (
       <AboutContainer id="Products">
         <h3 className="text-center text-black font-bold text-3xl pb-8 md:pb-3">
-          Inventory
+          Services
         </h3>
         <CardListRow>
           <div className="xl:px-14 xl:py-10 md:py-0 md:px-0 bg-white flex flex-row flex-wrap justify-center items-center space-y-5 ">

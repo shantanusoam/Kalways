@@ -73,7 +73,7 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               ) : (
                 <NavLinks to="/products" onClick={toggleHome}>
-                  <a to="/products">Products</a>
+                  <a to="/products">Services</a>
                 </NavLinks>
               )}
             </NavItem>

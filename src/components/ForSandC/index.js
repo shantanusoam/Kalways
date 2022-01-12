@@ -41,7 +41,7 @@ const ForSandC = ({ isOpen, toggle }) => {
               <span class="btn-text">Request a freight quote</span>
             </button>
             <button class="btn">
-              <span class="btn-text">Sign up for CoyoteGo</span>
+              <span class="btn-text">Sign up for Kalway</span>
             </button>
           </div>
           <div class="vl"></div>

@@ -10,7 +10,7 @@ const AboutMain = ({ isOpen, toggle }) => {
     <AboutContainer id="About">
       <TextContaner>
         <h1 className="text-left text-black font-bold text-5xl pb-8">
-          Who we are and what we do
+          Together, we'll drive a more sustainable global supply chain.
         </h1>
       </TextContaner>
       <img
@@ -23,12 +23,14 @@ const AboutMain = ({ isOpen, toggle }) => {
           Big Rig Trailers & Leasing INC
         </h1>
         <p className="text-left text-gray-500 text-2xl pb-8 font-bold ">
-          Big Rig Trailers & Leasing is a large and continually-growing trucking
-          company that starts in California as Kal Freight Inc, with over 800
-          trucks and 2,000 trailers and has over 800 employees. As a dynamic
-          modern transportation company with a strategic corporate location
-          based in Ontario, California, Kal Freight extended its reach to Canada
-          opening a new location in Abbotsford, as Big Rig Trailers & Leasing.
+          kalway’s mission is to move business forward with expertise and
+          integrity. That’s why we’re committed to creating smarter, less
+          environmentally impactful solutions for our network. Between 2019 and
+          2020, we reduced network CO2 emissions by 18% and improved our
+          SmartWay rankings. From environmental responsibility and sustainable
+          supply chain solutions, to industry insights and partnerships that
+          drive innovative thinking – we’re committed to moving towards a
+          greener future.
         </p>
       </TextContanerS>
     </AboutContainer>
