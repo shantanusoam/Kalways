@@ -4,7 +4,7 @@ import {
   TextContaner,
   TextContanerS,
 } from "./AboutMainElements";
-import whitetruck from "../../images/AbouMain.png";
+import whitetruck from "../../images/AP.jpeg";
 const AboutMain = ({ isOpen, toggle }) => {
   return (
     <AboutContainer id="About">
