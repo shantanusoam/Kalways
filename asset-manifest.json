@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Kalways/static/css/main.3f15cc50.chunk.css",
-    "main.js": "/Kalways/static/js/main.47090f86.chunk.js",
-    "main.js.map": "/Kalways/static/js/main.47090f86.chunk.js.map",
+    "main.js": "/Kalways/static/js/main.84bdf138.chunk.js",
+    "main.js.map": "/Kalways/static/js/main.84bdf138.chunk.js.map",
     "runtime-main.js": "/Kalways/static/js/runtime-main.bc55c5a9.js",
     "runtime-main.js.map": "/Kalways/static/js/runtime-main.bc55c5a9.js.map",
     "static/js/2.690e577d.chunk.js": "/Kalways/static/js/2.690e577d.chunk.js",
@@ -22,16 +22,16 @@
     "static/media/ProductTop.aa0be19f.png": "/Kalways/static/media/ProductTop.aa0be19f.png",
     "static/media/QuoteAtEnd.56fdd3db.png": "/Kalways/static/media/QuoteAtEnd.56fdd3db.png",
     "static/media/Rt1.453c35f2.jpg": "/Kalways/static/media/Rt1.453c35f2.jpg",
-    "static/media/Rt2.889689dd.jpeg": "/Kalways/static/media/Rt2.889689dd.jpeg",
-    "static/media/Rt3.14abf7b9.jpeg": "/Kalways/static/media/Rt3.14abf7b9.jpeg",
+    "static/media/Rt2.2618d974.jpg": "/Kalways/static/media/Rt2.2618d974.jpg",
+    "static/media/Rt3.f2f003b3.jpg": "/Kalways/static/media/Rt3.f2f003b3.jpg",
     "static/media/Ut1.e0a9e677.jpg": "/Kalways/static/media/Ut1.e0a9e677.jpg",
-    "static/media/Ut2.b669eb39.jpeg": "/Kalways/static/media/Ut2.b669eb39.jpeg",
-    "static/media/Ut3.c195d964.jpeg": "/Kalways/static/media/Ut3.c195d964.jpeg",
+    "static/media/Ut2.8fb7c032.png": "/Kalways/static/media/Ut2.8fb7c032.png",
+    "static/media/Ut3.0d71d18c.jpg": "/Kalways/static/media/Ut3.0d71d18c.jpg",
     "static/media/bg.cbc1315b.png": "/Kalways/static/media/bg.cbc1315b.png",
     "static/media/comtaimer.653ffdb4.png": "/Kalways/static/media/comtaimer.653ffdb4.png",
     "static/media/dv.edcc87df.jpg": "/Kalways/static/media/dv.edcc87df.jpg",
-    "static/media/dv0.c7ed51c3.jpg": "/Kalways/static/media/dv0.c7ed51c3.jpg",
-    "static/media/dv1.20820234.jpg": "/Kalways/static/media/dv1.20820234.jpg",
+    "static/media/dv0.f8c958f8.jpg": "/Kalways/static/media/dv0.f8c958f8.jpg",
+    "static/media/dv1.750ba483.jpg": "/Kalways/static/media/dv1.750ba483.jpg",
     "static/media/kalTire.b5514808.png": "/Kalways/static/media/kalTire.b5514808.png",
     "static/media/mapBackground.913e5719.png": "/Kalways/static/media/mapBackground.913e5719.png",
     "static/media/media-1.b9830aae.jpeg": "/Kalways/static/media/media-1.b9830aae.jpeg",
@@ -48,6 +48,6 @@
     "static/js/runtime-main.bc55c5a9.js",
     "static/js/2.690e577d.chunk.js",
     "static/css/main.3f15cc50.chunk.css",
-    "static/js/main.47090f86.chunk.js"
+    "static/js/main.84bdf138.chunk.js"
   ]
 }
