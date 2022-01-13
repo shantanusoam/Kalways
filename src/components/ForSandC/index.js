@@ -37,9 +37,12 @@ const ForSandC = ({ isOpen, toggle }) => {
               Get access to capacity and equipment solutions, regardless of
               market conditions.
             </p>
-            <button class="btn" id="m4">
-              <span class="btn-text">Request a freight quote</span>
-            </button>
+            <a href="/Contact">
+              <button class="btn" id="m4">
+                <span class="btn-text">Request a freight quote</span>
+              </button>
+            </a>
+
             <button class="btn">
               <span class="btn-text">
                 Sign up for <br></br> Kalway

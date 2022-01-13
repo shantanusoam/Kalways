@@ -40,9 +40,11 @@ const CenterSection = ({ isOpen, toggle }) => {
               <FormInput name="email" type="email" label="email" required />
             </ShippingToContainer>
             <h2>Moving furniture or personal items?</h2>
-            <RequestToQuote type="submit">
-              Request a freight quote?
-            </RequestToQuote>
+            <a href="/Contact">
+              <RequestToQuote type="submit">
+                Request a freight quote?
+              </RequestToQuote>
+            </a>
           </DataContainer>
         </form>
       </MapElement>

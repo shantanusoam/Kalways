@@ -278,9 +278,11 @@ const HeroSection = () => {
         <ContainerMain>
           <p className="text-white">KALWAY LOGISTIC</p>
           <HeroP>Drive your business forward</HeroP>
-          <button class="btn">
-            <span class="btn-text">Request a freight quote</span>
-          </button>
+          <a href="/Contact">
+            <button class="btn">
+              <span class="btn-text">Request a freight quote</span>
+            </button>
+          </a>
         </ContainerMain>
 
         <PCENTER class="text-gray-600 p-8">

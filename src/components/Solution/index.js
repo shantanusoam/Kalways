@@ -90,9 +90,11 @@ const Solution = ({ isOpen, toggle }) => {
                     everything from book loads to submit PODs. Learn more about
                     our tech tracking options for carriers.
                   </h3>
-                  <button class="btn">
-                    <span class="btn-text">Request a freight quote</span>
-                  </button>
+                  <a href="/Contact">
+                    <button class="btn">
+                      <span class="btn-text">Request a freight quote</span>
+                    </button>
+                  </a>
                 </div>
               </div>
             </Fade>
@@ -117,9 +119,11 @@ const Solution = ({ isOpen, toggle }) => {
                     stuck dealing with cost volatility and service disruptions.
                     We help you achieve end-to-end network execution, real-time
                   </h3>
-                  <button class="btn">
-                    <span class="btn-text">Request a freight quote</span>
-                  </button>
+                  <a href="/Contact">
+                    <button class="btn">
+                      <span class="btn-text">Request a freight quote</span>
+                    </button>
+                  </a>
                 </div>
               </div>
             </Fade>
@@ -143,9 +147,11 @@ const Solution = ({ isOpen, toggle }) => {
                     matches to help you eliminate empty miles and turn your
                     deadhead into profit.
                   </h3>
-                  <button class="btn">
-                    <span class="btn-text">Request a freight quote</span>
-                  </button>
+                  <a href="/Contact">
+                    <button class="btn">
+                      <span class="btn-text">Request a freight quote</span>
+                    </button>
+                  </a>
                 </div>
               </div>
             </Fade>
