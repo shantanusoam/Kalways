@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Kalways/static/css/main.3f15cc50.chunk.css",
-    "main.js": "/Kalways/static/js/main.f466abf3.chunk.js",
-    "main.js.map": "/Kalways/static/js/main.f466abf3.chunk.js.map",
+    "main.css": "/Kalways/static/css/main.1f9d3f92.chunk.css",
+    "main.js": "/Kalways/static/js/main.356dcacb.chunk.js",
+    "main.js.map": "/Kalways/static/js/main.356dcacb.chunk.js.map",
     "runtime-main.js": "/Kalways/static/js/runtime-main.bc55c5a9.js",
     "runtime-main.js.map": "/Kalways/static/js/runtime-main.bc55c5a9.js.map",
     "static/js/2.690e577d.chunk.js": "/Kalways/static/js/2.690e577d.chunk.js",
     "static/js/2.690e577d.chunk.js.map": "/Kalways/static/js/2.690e577d.chunk.js.map",
     "index.html": "/Kalways/index.html",
-    "static/css/main.3f15cc50.chunk.css.map": "/Kalways/static/css/main.3f15cc50.chunk.css.map",
+    "static/css/main.1f9d3f92.chunk.css.map": "/Kalways/static/css/main.1f9d3f92.chunk.css.map",
     "static/js/2.690e577d.chunk.js.LICENSE.txt": "/Kalways/static/js/2.690e577d.chunk.js.LICENSE.txt",
     "static/media/AP.3abef68c.jpeg": "/Kalways/static/media/AP.3abef68c.jpeg",
     "static/media/AbouMain.fc9f008e.png": "/Kalways/static/media/AbouMain.fc9f008e.png",
@@ -49,7 +49,7 @@
   "entrypoints": [
     "static/js/runtime-main.bc55c5a9.js",
     "static/js/2.690e577d.chunk.js",
-    "static/css/main.3f15cc50.chunk.css",
-    "static/js/main.f466abf3.chunk.js"
+    "static/css/main.1f9d3f92.chunk.css",
+    "static/js/main.356dcacb.chunk.js"
   ]
 }
