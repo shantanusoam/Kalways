@@ -17,10 +17,7 @@ const Solution = ({ isOpen, toggle }) => {
   return (
     <WWOCArd>
       <WWOCardContent>
-        <WWOCCHeading>
-          Supply chain solutions to fuel your business. Insights to make it
-          succeed.
-        </WWOCCHeading>
+        <WWOCCHeading>FREIGHT AT FULL SPEED</WWOCCHeading>
         <WWOCCParagraph>
           Work with a trusted global third-party logistics provider that has
           been empowering business growth for over 15 years. Our centralized
@@ -82,11 +79,16 @@ const Solution = ({ isOpen, toggle }) => {
                 />
 
                 <div className="p-8">
-                  {/* <h3 className="font-bold text-2xl mb-5">Build a Card</h3> */}
+                  <h3 className="font-bold text-2xl mb-5">Transportation</h3>
                   <br />
                   <h3 className=" text-1xl mb-5 ">
-                    Tap into a marketplace that matches over 10.000 shipments a
-                    day
+                    No matter how you prefer to manage your business, we have
+                    you covered. You can call or message a specialist who can
+                    access our proprietary technology platform on your behalf,
+                    or log into our on-demand web portal or download our Kalway
+                    Logistics mobile app. Get the instant access you need to do
+                    everything from book loads to submit PODs. Learn more about
+                    our tech tracking options for carriers.
                   </h3>
                   <button class="btn">
                     <span class="btn-text">Request a freight quote</span>
@@ -103,11 +105,17 @@ const Solution = ({ isOpen, toggle }) => {
                 />
 
                 <div className="p-8">
-                  {/* <h3 className="font-bold text-2xl mb-5">Build a Card</h3> */}
+                  <h3 className="font-bold text-2xl mb-5">
+                    Managed Supply Chain
+                  </h3>
                   <br />
                   <h3 className=" text-1xl mb-5 ">
-                    Scale up or down with flexible multimodal and equipment
-                    solutions
+                    As the market fluctuates, your supply chain must adapt
+                    instantly, which means you need more than just a
+                    transportation management system (TMS). Without a 3PL who
+                    can configure a solution to support your needs, you’ll be
+                    stuck dealing with cost volatility and service disruptions.
+                    We help you achieve end-to-end network execution, real-time
                   </h3>
                   <button class="btn">
                     <span class="btn-text">Request a freight quote</span>
@@ -124,10 +132,16 @@ const Solution = ({ isOpen, toggle }) => {
                 />
 
                 <div className="p-8">
-                  {/* <h3 className="font-bold text-2xl mb-5">Build a Card</h3> */}
+                  <h3 className="font-bold text-2xl mb-5">Become a Customer</h3>
                   <br />
                   <h3 className=" text-1xl mb-5 ">
-                    Easily manage and track your freight on demand using KALWAY
+                    Access scalable dedicated fleets that can quickly adapt to
+                    short-term market volatility. Kalway private and dedicated
+                    fleet services bring you the dependability of professional
+                    drivers on set schedules, without the expense of ownership.
+                    Do you have your own fleet? Kalway can identify back-haul
+                    matches to help you eliminate empty miles and turn your
+                    deadhead into profit.
                   </h3>
                   <button class="btn">
                     <span class="btn-text">Request a freight quote</span>
@@ -184,6 +198,19 @@ const Solution = ({ isOpen, toggle }) => {
             or see our portfolio
           </WWOCCParagraph>
         </CButton> */}
+        <WWOCCHeading>
+          CARRIER PACKET -JOIN TEAM A Kalway 1-800-295-9737
+        </WWOCCHeading>
+        <WWOCCParagraph>
+          Quickly browse, negotiate, book, track and invoice loads on any of our
+          easy-to-use technology channels. Plus, when you need to talk to a AXL
+          logistics specialist, we’re just a phone call away. Life on the road
+          is tough; let us make it easier. Rely on your specialist to know the
+          loads you want, find opportunities that fit your network and stand by
+          you when things get tough. We’re here to help you grow with a variety
+          of dedicated opportunities.
+        </WWOCCParagraph>
+        <CardListRow></CardListRow>
       </WWOCardContent>
     </WWOCArd>
   );

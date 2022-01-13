@@ -68,7 +68,7 @@ const Navbar = ({ toggle }) => {
                     exact={true}
                     offset={-80}
                   >
-                    Products
+                    Services
                   </Link>
                 </NavLinks>
               ) : (
@@ -80,7 +80,7 @@ const Navbar = ({ toggle }) => {
 
             <NavItem>
               <NavLinks to="/Contact" onClick={toggleHome}>
-                <a to="/Contact">Contact</a>
+                <a to="/Contact">Request To Quote</a>
               </NavLinks>
             </NavItem>
             {/* <NavItem>

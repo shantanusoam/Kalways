@@ -16,17 +16,17 @@ export const Trailers = [
     title: "Full TruckLoad",
     date: "See more",
     Description:
-      "At Kalway, we consolidate an extremely fragmented market by maintaining relationships with over 70,000 carriers to get you access across all equipment types and shipment needs. By maximizing truckload freight capacity, we help you achieve superior efficiency, wider reach and increased buying power.",
+      "We leverage our close relationships with thousands of carriers to get you access across all equipment types—owner-operators, nationwide fleets and everything in between like: dry van, refrigerated / temperature controlled, open deck, flatbed, RGN, step-deck, over-dimensional and heavy haul. ",
   },
   {
     id: 1,
     animation: "bottom",
     img: tr2,
     subImages: [Rt1, Rt2, Rt3],
-    title: "LessThan Truck Load",
+    title: "ShipFreight",
     date: "See more",
     Description:
-      "Choose Less Than Truckload (LTL) to ship your goods efficiently, even when you don’t have a full truck to fill. Kalway will help you identify modal conversion opportunities to maximize savings.",
+      "AXL Logistics Balance capacity, rate fluctuations and service more efficiently by leveraging our centralized marketplace. We’ve built relationships with many carriers, owner operators and private fleets to match with more than 1,000 freight shipments every day. This means we can move your freight any time or anywhere. ",
   },
   {
     id: 2,
@@ -36,6 +36,6 @@ export const Trailers = [
     title: "Air And Ocean Freight",
     date: "See more",
     Description:
-      "Kalway is an authorized reseller of UPS air services, with access to ocean services through UPS. This global footprint, combined with our massive centralized marketplace of carriers in North America, gives you the freedom to move freight anywhere your business demands—all with the same dedication, visibility and expertise you get from Kalway.",
+      " We take the time to learn your cross-border supply chain, then build capacity solutions with trusted providers to help execute it. Coyote can facilitate every step of the cross-border process, from sourcing carriers to coordinating with customs brokers on your behalf. ",
   },
 ];
