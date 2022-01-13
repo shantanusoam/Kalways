@@ -12,7 +12,7 @@ export default class ShipFlightPage extends React.Component {
 
   render() {
     return (
-      <div className="pt-36 flex flex-col pb-10">
+      <div className="pt-36 flex flex-col pb-10 bg-slate-500">
         <div className="flex flex-row">
           <img src={image1} className="flex-1 h-96" alt=""></img>
           <img src={image2} className="flex-1 h-96" alt=""></img>

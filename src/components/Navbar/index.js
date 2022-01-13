@@ -83,6 +83,11 @@ const Navbar = ({ toggle }) => {
                 <a to="/Contact">Request To Quote</a>
               </NavLinks>
             </NavItem>
+            <NavItem>
+              <NavLinks to="/ShipFlight" onClick={toggleHome}>
+                <a to="/ShipFlight">ShipFlight</a>
+              </NavLinks>
+            </NavItem>
             {/* <NavItem>
             
           <NavLinks >
