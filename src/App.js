@@ -16,6 +16,7 @@ import { FooterContainer } from "./components/FooterSection/FooterSectionElement
 import { FooterContainerBlack } from "./CONTAINERS/footer";
 import ShipFlight from "./pages/shipFlieghtPage";
 import ShipFlightPage from "./pages/shipFlieghtPage";
+import Shipper from "./pages/Shipper";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,6 +54,7 @@ function App() {
           component={ShipFlightPage}
           title="Inventory"
         />
+        <Route exact path="/Shipper" component={Shipper} title="Inventory" />
       </Switch>
 
       {/* <Switch>
