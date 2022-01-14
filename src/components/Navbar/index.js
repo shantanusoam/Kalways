@@ -93,6 +93,16 @@ const Navbar = ({ toggle }) => {
                 <a to="/Shipper">Shipper</a>
               </NavLinks>
             </NavItem>
+            <NavItem>
+              <NavLinks to="/CrossBordeerFreight" onClick={toggleHome}>
+                <a to="/CrossBordeerFreight">CrossBordeerFreight</a>
+              </NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to="/fulltruckload" onClick={toggleHome}>
+                <a to="/fulltruckload">fulltruckload</a>
+              </NavLinks>
+            </NavItem>
             {/* <NavItem>
             
           <NavLinks >

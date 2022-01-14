@@ -28,10 +28,10 @@ export default class Shipper extends React.Component {
               Your New, Upgraded LTL Solution
             </h3>
             <p className="font-medium pt-2 text-xl w-auto">
-              Put our purchasing intelligence to work. AXL Logistics has
+              Put our purchasing intelligence to work. kalway Logistics has
               negotiated pricing with over 120 of North America’s top LTL
               carriers. Enjoy extra savings with our extensive capacity and
-              access to lower rates. Choose AXL Logistics for complete supply
+              access to lower rates. Choose kalway Logistics for complete supply
               chain visibility. Save time as our experts do the transportation
               legwork, including carrier sourcing, step-by-step shipment
               tracking, and auditing and billing
@@ -40,11 +40,11 @@ export default class Shipper extends React.Component {
               Cost-Effective Truckload Solutions
             </h3>
             <p className="font-medium pt-2 text-xl w-auto">
-              AXL Logistics moves thousands of loads a day via our network of
+              kalway Logistics moves thousands of loads a day via our network of
               over 50,000 truckload carriers. Regardless of season or spikes, we
               have capacity for your shipments. Save time as our full-truckload
               experts handle load tender, track and trace, data management,
-              order processing, invoice auditing, and bill payment. AXL
+              order processing, invoice auditing, and bill payment. kalway
               Logistics technology gives you complete visibility into each
               shipment, from step-by-step tracking to custom reporting.
             </p>
@@ -93,7 +93,7 @@ export default class Shipper extends React.Component {
             <h3 className="font-bold pt-10 text-xl">Learn More</h3>
             <p className="font-medium pt-10 text-xl w-96 pb-8">
               We measure success by the results we generate for our clients.
-              With every solution, AXL Logistics simplifies transportation
+              With every solution, kalway Logistics simplifies transportation
               management—so you can focus on what you do best.
             </p>
             <button class="btn">
@@ -105,7 +105,7 @@ export default class Shipper extends React.Component {
         <div className="flex flex-row pr-16">
           <div className="self-end pl-32 pr-16 pb-16">
             <h3 className="font-bold pt-10 text-xl">
-              AXL Logistics has Combined 30 years’ experience moving
+              kalway Logistics has Combined 30 years’ experience moving
               time-critical freight across borders in the United States, Mexico
               and Canada.
             </h3>
@@ -116,7 +116,7 @@ export default class Shipper extends React.Component {
               kinds of cargo: raw materials, parts, finished goods and special
               handling. Our border partnership site offers cross-docking,
               transloading and warehousing capabilities, with a capacity of up
-              to 35,000 square feet. AXL has similar border services at all
+              to 35,000 square feet. kalway has similar border services at all
               other major crossing points of United states.
             </p>
 
