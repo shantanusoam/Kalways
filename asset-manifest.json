@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Kalways/static/css/main.43aa30be.chunk.css",
-    "main.js": "/Kalways/static/js/main.7373f7ef.chunk.js",
-    "main.js.map": "/Kalways/static/js/main.7373f7ef.chunk.js.map",
+    "main.css": "/Kalways/static/css/main.e1caf157.chunk.css",
+    "main.js": "/Kalways/static/js/main.799fc723.chunk.js",
+    "main.js.map": "/Kalways/static/js/main.799fc723.chunk.js.map",
     "runtime-main.js": "/Kalways/static/js/runtime-main.bc55c5a9.js",
     "runtime-main.js.map": "/Kalways/static/js/runtime-main.bc55c5a9.js.map",
-    "static/js/2.d151f49b.chunk.js": "/Kalways/static/js/2.d151f49b.chunk.js",
-    "static/js/2.d151f49b.chunk.js.map": "/Kalways/static/js/2.d151f49b.chunk.js.map",
+    "static/js/2.40cfcbf2.chunk.js": "/Kalways/static/js/2.40cfcbf2.chunk.js",
+    "static/js/2.40cfcbf2.chunk.js.map": "/Kalways/static/js/2.40cfcbf2.chunk.js.map",
     "index.html": "/Kalways/index.html",
-    "static/css/main.43aa30be.chunk.css.map": "/Kalways/static/css/main.43aa30be.chunk.css.map",
-    "static/js/2.d151f49b.chunk.js.LICENSE.txt": "/Kalways/static/js/2.d151f49b.chunk.js.LICENSE.txt",
+    "static/css/main.e1caf157.chunk.css.map": "/Kalways/static/css/main.e1caf157.chunk.css.map",
+    "static/js/2.40cfcbf2.chunk.js.LICENSE.txt": "/Kalways/static/js/2.40cfcbf2.chunk.js.LICENSE.txt",
     "static/media/AP.3abef68c.jpeg": "/Kalways/static/media/AP.3abef68c.jpeg",
     "static/media/AbouMain.fc9f008e.png": "/Kalways/static/media/AbouMain.fc9f008e.png",
     "static/media/Bgvideo2.0d3ea1da.mp4": "/Kalways/static/media/Bgvideo2.0d3ea1da.mp4",
     "static/media/Ccontainers.1934b71f.png": "/Kalways/static/media/Ccontainers.1934b71f.png",
     "static/media/ContactTire.2255f5aa.png": "/Kalways/static/media/ContactTire.2255f5aa.png",
+    "static/media/CrossBorder.e4c956b6.png": "/Kalways/static/media/CrossBorder.e4c956b6.png",
     "static/media/Hcontainers.e0afa382.png": "/Kalways/static/media/Hcontainers.e0afa382.png",
     "static/media/KalFreight.db05dc4f.png": "/Kalways/static/media/KalFreight.db05dc4f.png",
     "static/media/KalTrailerandLeasing.02a48c55.png": "/Kalways/static/media/KalTrailerandLeasing.02a48c55.png",
@@ -48,8 +49,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.bc55c5a9.js",
-    "static/js/2.d151f49b.chunk.js",
-    "static/css/main.43aa30be.chunk.css",
-    "static/js/main.7373f7ef.chunk.js"
+    "static/js/2.40cfcbf2.chunk.js",
+    "static/css/main.e1caf157.chunk.css",
+    "static/js/main.799fc723.chunk.js"
   ]
 }
