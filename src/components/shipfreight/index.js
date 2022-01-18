@@ -1,14 +1,14 @@
-import React, { useState } from "react";
-import image1 from "../../images/dv0.jpg";
-import image2 from "../../images/Ut1.jpg";
-import image3 from "../../images/Rt2.jpg";
-import grid1 from "../../images/fleet.png";
-import grid2 from "../../images/grid2.png";
-import grid3 from "../../images/grid3.png";
-import grid4 from "../../images/grid4.png";
-import Fade from "react-reveal/Fade";
+import React, { useState } from 'react';
+import image1 from '../../images/dv0.jpg';
+import image2 from '../../images/Ut1.jpg';
+import image3 from '../../images/Rt2.jpg';
+import grid1 from '../../images/fleet.png';
+import grid2 from '../../images/grid2.png';
+import grid3 from '../../images/grid3.png';
+import grid4 from '../../images/grid4.png';
+import Fade from 'react-reveal/Fade';
 // import bankground from "../../images";
-import { animateScroll as scroll, Link } from "react-scroll";
+import { animateScroll as scroll, Link } from 'react-scroll';
 import {
   HeroContainer,
   WWOCCButtonM,
@@ -27,8 +27,8 @@ import {
   ContainerMain,
   Callinfo,
   BgImage,
-} from "./fulltruckElememt";
-const FullTruckLoad = () => {
+} from './shipfreight';
+const shipfreight = () => {
   return (
     <>
       <HeroContainer id="Home">
@@ -64,9 +64,7 @@ const FullTruckLoad = () => {
         <div className="flex flex-row pr-16 pt-16">
           <div className="self-end pl-32 pr-32">
             {/* <h3 className="font-bold pt-10 text-xl">Additional Information</h3> */}
-            <h3 className="font-bold pt-10 text-3xl">
-              Reliable Capacity and Support for Your CPG Freight
-            </h3>
+            <h3 className="font-bold pt-10 text-3xl">Ways to Ship</h3>
             <p className="font-medium pt-8 text-xl w-auto">
               Your products are going to fly off the shelf. But first, they have
               to get there on time. Whether you ship tissues or toothpaste,
@@ -82,38 +80,70 @@ const FullTruckLoad = () => {
             <div className=" pt-10 grid gap-10 grid-cols-2 grid-cols-2">
               <div className="flex flex-col items-start">
                 <img src={grid1} className=""></img>
-                <h4 className="text-2xl">RELIABLE CAPACITY</h4>
+                <h4 className="text-2xl">Ship freight</h4>
                 <p className="font-medium pt-2 text-xl w-auto">
-                  We help move more than 700 CPG loads daily for producers of
-                  all sizes. Whether you’re shipping to retailers or moving
-                  product between your facilities, we’ve got you covered.
+                  Every day, increasingly complex shipping demands put pressure
+                  on your business. The ability to succeed requires a shift in
+                  focus—from short-term capacity to long-term agility. Work with
+                  a global 3PL provider that can build a supply chain solution
+                  for your business, no matter the size or complexity.
                 </p>
               </div>
               <div className="flex flex-col items-start">
                 <img src={grid2} className=""></img>
-                <h4 className="text-2xl">RELIABLE CAPACITY</h4>
+                <h4 className="text-2xl">Full truckload</h4>
                 <p className="font-medium pt-2 text-xl w-auto">
-                  We bring 15 years of industry experience across full
-                  truckload, standard LTL, volume LTL and more. We’ve seen it
-                  all, and we can help you through any challenge.
+                  At Kalways, we consolidate an extremely fragmented market by
+                  maintaining relationships with over 70,000 carriers to get you
+                  access across all equipment types and shipment needs. By
+                  maximizing truckload freight capacity, we help you achieve
+                  superior efficiency, wider reach and increased buying power.
                 </p>
               </div>
               <div className="flex flex-col items-start">
                 <img src={grid3} className=""></img>
-                <h4 className="text-2xl">RELIABLE CAPACITY</h4>
+                <h4 className="text-2xl">Less than Truckload</h4>
                 <p className="font-medium pt-2 text-xl w-auto">
-                  Get reliable TL and LTL spot quotes instantly through our
-                  CoyoteGO® digital freight platform. You can book and track
-                  your freight with the click of a button, too.
+                  Choose Less Than Truckload (LTL) to ship your goods
+                  efficiently, even when you don’t have a full truck to fill.
+                  Kalways will help you identify modal conversion opportunities
+                  to maximize savings.
                 </p>
               </div>
               <div className="flex flex-col items-start">
                 <img src={grid4} className=""></img>
-                <h4 className="text-2xl">RELIABLE CAPACITY</h4>
+                <h4 className="text-2xl">Intermodal Freight</h4>
                 <p className="font-medium pt-2 text-xl w-auto">
-                  With our network of more than 75,000 carriers, you can move
-                  freight wherever and however you need. We offer dry van,
-                  refrigerated, power-only, and more for your freight needs.
+                  Save money and contribute to your sustainability initiatives
+                  by shipping your goods through a combination of truckload and
+                  railway transport. Intermodal can add capacity, cut
+                  transportation costs and reduce your CO2 emissions by over 30%
+                  compared to over-the-road shipping alone. It’s a smart way to
+                  create an intermodal freight solution that keeps your business
+                  running more efficiently.
+                </p>
+              </div>
+              <div className="flex flex-col items-start">
+                <img src={grid4} className=""></img>
+                <h4 className="text-2xl">Air & Ocean</h4>
+                <p className="font-medium pt-2 text-xl w-auto">
+                  Kalways is an authorized reseller of UPS air services, with
+                  access to ocean services through UPS. This global footprint,
+                  combined with our massive centralized marketplace of carriers
+                  in North America, gives you the freedom to move freight
+                  anywhere your business demands—all with the same dedication,
+                  visibility and expertise you get from Kalways.
+                </p>
+              </div>
+              <div className="flex flex-col items-start">
+                <img src={grid4} className=""></img>
+                <h4 className="text-2xl">Cross-Border Freight</h4>
+                <p className="font-medium pt-2 text-xl w-auto">
+                  Whether shipping northbound or southbound, Kalways leverages a
+                  dense North American carrier network to bring you capacity
+                  when and where you need it. We source the right carrier for
+                  each opportunity, facilitate the crossing logistics and
+                  monitor your freight throughout the process.
                 </p>
               </div>
             </div>
@@ -231,7 +261,7 @@ const FullTruckLoad = () => {
               <br />
               <h3 className=" text-1xl mb-5 ">
                 You can trust the quote you get from us, whether it comes
-                through your rep or CoyoteGO. If you are quoting for a spot LTL
+                through your rep or KalwaysGO. If you are quoting for a spot LTL
                 load, a high-volume lane, or anything else, we can get you a
                 clear, reliable price.
               </h3>
@@ -278,6 +308,87 @@ const FullTruckLoad = () => {
           </div>
         </Fade>
       </div>
+      <div className="m-24">
+        <h3 className="font-bold pt-10 text-3xl">Business Solutions</h3>
+        <p className="font-medium pt-8 text-xl w-auto">
+          Your products are going to fly off the shelf. But first, they have to
+          get there on time. Whether you ship tissues or toothpaste, sunscreen
+          or salty snacks, your supply chain is feeling the pressure. Consumer
+          expectations are rising, delivery times are shortening and excuses
+          won’t cut it.
+        </p>
+        <p className="font-medium pt-9 text-xl w-auto">
+          We will help you get your products where they need to go fast,
+          efficiently and without interruption. Join the more than 3,500 CPG
+          companies who trust us with their freight.
+        </p>
+        <div className=" pt-10 grid gap-10 grid-cols-2 grid-cols-2">
+          <div className="flex flex-col items-start">
+            <img src={grid1} className=""></img>
+            <h4 className="text-2xl">Flex Solution</h4>
+            <p className="font-medium pt-2 text-xl w-auto">
+              Customer expectations are changing by the minute. To keep up, your
+              business needs custom asset-based solutions to fit your
+              high-volume capacity projects. We can help you leverage multiple
+              networks—including access to over 75,000 UPS assets and one of the
+              largest, most efficient procurement networks in the world.
+            </p>
+          </div>
+
+          <div className="flex flex-col items-start">
+            <img src={grid3} className=""></img>
+            <h4 className="text-2xl">Transportation Management</h4>
+            <p className="font-medium pt-2 text-xl w-auto">
+              Drive cost savings across your network through a combination of a
+              dedicated operations team, proprietary cloud-based TMS technology
+              and carrier agnostic capacity solutions. Kalways Transportation
+              Management (CTM) provides professional logistics services that can
+              help you achieve end-to-end network execution, visibility,
+              reporting, optimization and management at a competitive cost.
+            </p>
+          </div>
+          <div className="flex flex-col items-start">
+            <img src={grid4} className=""></img>
+            <h4 className="text-2xl">Primary Capicity</h4>
+            <p className="font-medium pt-2 text-xl w-auto">
+              Give your business the ability to navigate the market with
+              primary, backup and spot capacity from Kalways. Our dedicated team
+              of transportation specialists tap into one of the largest
+              centralized supply chain networks to customize your contract
+              commitment based on your business needs
+            </p>
+          </div>
+          <div className="flex flex-col items-start">
+            <img src={grid4} className=""></img>
+            <h4 className="text-2xl">Sustainability</h4>
+            <p className="font-medium pt-2 text-xl w-auto">
+              Kalways’s mission is to move business forward with expertise and
+              integrity. That’s why we’re committed to creating smarter, less
+              environmentally impactful solutions for our network. Between 2019
+              and 2020, we reduced network CO2 emissions by 18% and improved our
+              SmartWay rankings. From environmental responsibility and
+              sustainable supply chain solutions, to industry insights and
+              partnerships that drive innovative thinking – we’re committed to
+              moving towards a greener future.
+            </p>
+          </div>
+          <div className="flex flex-col items-start">
+            <img src={grid4} className=""></img>
+            <h4 className="text-2xl">ShipperTechnlogy</h4>
+            <p className="font-medium pt-2 text-xl w-auto">
+              At Kalways, we know there isn’t a one-size-fits-all solution for
+              your business. Use our digital solutions for connectivity at your
+              fingertips—including on-demand quoting, tendering, tracking and
+              settlement through KalwaysGO®. Or make real-time data exchange
+              easier by automating manual tasks through EDI or API integration
+              for full truckload and LTL. Plus, with TMS-enabled transportation
+              management services and over 500,000 unique facility reviews,
+              optimizing your operations has never been easier.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div className="flex flex-col bg-gray-200">
         <h2 className=" self-center font-bold pt-16 text-4xl">
           Reliable Solutions to Keep Your Products Stocked
@@ -331,4 +442,4 @@ const FullTruckLoad = () => {
   );
 };
 
-export default FullTruckLoad;
+export default shipfreight;

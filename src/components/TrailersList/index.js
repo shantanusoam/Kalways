@@ -1,17 +1,17 @@
-import React, { useRef } from "react";
+import React, { useRef } from 'react';
 
-import VanillaTilt from "vanilla-tilt";
+import VanillaTilt from 'vanilla-tilt';
 import {
   AboutContainer,
   CardListRow,
   NavLink,
   LinkRo,
-} from "./TrailerListElement";
-import Roll from "react-reveal/Roll";
-import Fade from "react-reveal/Fade";
-import EmblaCarousel from "./EmblaCarousel";
-import { animateScroll as scroll, Link } from "react-scroll";
-import { Trailers } from "../../trailer.js";
+} from './TrailerListElement';
+import Roll from 'react-reveal/Roll';
+import Fade from 'react-reveal/Fade';
+import EmblaCarousel from './EmblaCarousel';
+import { animateScroll as scroll, Link } from 'react-scroll';
+import { Trailers } from '../../trailer.js';
 const SLIDE_COUNT = 3;
 
 const slides = Array.from(Array(SLIDE_COUNT).keys());
@@ -26,7 +26,7 @@ class TrailerList extends React.Component {
 
     return (
       <AboutContainer id="Products">
-        <h3 className="text-center text-black font-bold text-3xl pb-8 md:pb-3">
+        <h3 className="text-center text-black font-bold text-3xl pb-8 mt-14 md:pb-3">
           Services
         </h3>
         <CardListRow>
@@ -35,7 +35,7 @@ class TrailerList extends React.Component {
               <LinkRo
                 key={trailer.id}
                 to={{
-                  pathname: "/Product",
+                  pathname: '/Product',
                   state: { id: trailer.id }, // your data array of objects
                 }}
                 className=" flex-1 "
@@ -60,7 +60,7 @@ class TrailerList extends React.Component {
                       <NavLink
                         key={trailer.id}
                         to={{
-                          pathname: "/Product",
+                          pathname: '/Product',
                           state: { id: trailer.id }, // your data array of objects
                         }}
                       >
@@ -116,7 +116,7 @@ const TrailerLists = ({ isOpen, toggle }) => {
 
       speed: 400,
       glare: true,
-      "max-glare": 0.5,
+      'max-glare': 0.5,
     });
   });
   return (

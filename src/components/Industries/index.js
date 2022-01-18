@@ -1,16 +1,16 @@
-import React, { useState } from "react";
-import { TiArrowRightThick } from "react-icons/ti";
-import image1 from "../../images/dv0.jpg";
-import image2 from "../../images/Ut1.jpg";
-import image3 from "../../images/Rt2.jpg";
-import grid1 from "../../images/fleet.png";
-import grid2 from "../../images/grid2.png";
-import grid3 from "../../images/grid3.png";
-import grid4 from "../../images/grid3.png";
+import React, { useState } from 'react';
+import { TiArrowRightThick } from 'react-icons/ti';
+import image1 from '../../images/dv0.jpg';
+import image2 from '../../images/Ut1.jpg';
+import image3 from '../../images/Rt2.jpg';
+import grid1 from '../../images/fleet.png';
+import grid2 from '../../images/grid2.png';
+import grid3 from '../../images/grid3.png';
+import grid4 from '../../images/grid3.png';
 
-import Fade from "react-reveal/Fade";
+import Fade from 'react-reveal/Fade';
 // import bankground from "../../images";
-import { animateScroll as scroll, Link } from "react-scroll";
+import { animateScroll as scroll, Link } from 'react-scroll';
 import {
   HeroContainer,
   WWOCCButtonM,
@@ -29,8 +29,8 @@ import {
   ContainerMain,
   Callinfo,
   BgImage,
-} from "./CrossBordeerFreight";
-const CrossBordeerFreight = () => {
+} from './Industries';
+const Industries = () => {
   return (
     <>
       <HeroContainer id="Home">
@@ -303,7 +303,7 @@ const CrossBordeerFreight = () => {
 
               <div className="p-8 bg-white  self-center m-0 w-64 shadow-md absolute bottom-0 left-50% z-10">
                 <h3 className="font-bold text-2xl mb-5 flex flex-row justify-center ">
-                  Unmatched Support{" "}
+                  Unmatched Support{' '}
                   <TiArrowRightThick className="self-center w-8" />
                 </h3>
               </div>
@@ -319,7 +319,7 @@ const CrossBordeerFreight = () => {
 
               <div className="p-8 bg-white  self-center m-0 w-64 shadow-md absolute bottom-10 left-50% z-10">
                 <h3 className="font-bold text-2xl mb-5 flex flex-row justify-center ">
-                  Unmatched Support{" "}
+                  Unmatched Support{' '}
                   <TiArrowRightThick className="self-center w-8" />
                 </h3>
               </div>
@@ -335,7 +335,7 @@ const CrossBordeerFreight = () => {
 
               <div className="p-8 bg-white  self-center m-0 w-64 shadow-md absolute bottom-10 left-50% z-10">
                 <h3 className="font-bold text-2xl mb-5 flex flex-row justify-center ">
-                  Unmatched Support{" "}
+                  Unmatched Support{' '}
                   <TiArrowRightThick className="self-center w-8" />
                 </h3>
               </div>
@@ -351,7 +351,7 @@ const CrossBordeerFreight = () => {
 
               <div className="p-8 bg-white  self-center m-0 w-64 shadow-md absolute bottom-10 left-50% z-10">
                 <h3 className="font-bold text-2xl mb-5 flex flex-row justify-center ">
-                  Unmatched Support{" "}
+                  Unmatched Support{' '}
                   <TiArrowRightThick className="self-center w-8" />
                 </h3>
               </div>
@@ -436,4 +436,4 @@ const CrossBordeerFreight = () => {
   );
 };
 
-export default CrossBordeerFreight;
+export default Industries;

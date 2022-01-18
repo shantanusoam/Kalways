@@ -1,24 +1,24 @@
-import React, { useState } from "react";
-import "./App.css";
-import Stickbar from "./components/Stickbar";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./pages";
-import FooterSection from "./components/FooterSection";
-import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
-import About from "./pages/about";
-import Contact from "./pages/contact";
-import Products from "./pages/Products";
-import BottomBar from "./components/BottomBar";
-import PartnerCompnay from "./components/PartnerCompnay";
-import { ProductsPage } from "./pages/ProductsPage";
-import { FooterContainer } from "./components/FooterSection/FooterSectionElements";
-import { FooterContainerBlack } from "./CONTAINERS/footer";
-import ShipFlight from "./pages/shipFlieghtPage";
-import ShipFlightPage from "./pages/shipFlieghtPage";
-import Shipper from "./pages/Shipper";
-import FullTruckLoad from "./components/Fulltruckload";
-import CrossBordeerFreight from "./components/CrossBordeerFreight";
+import React, { useState } from 'react';
+import './App.css';
+import Stickbar from './components/Stickbar';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './pages';
+import FooterSection from './components/FooterSection';
+import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
+import About from './pages/about';
+import Contact from './pages/contact';
+import Products from './pages/Products';
+import BottomBar from './components/BottomBar';
+import PartnerCompnay from './components/PartnerCompnay';
+import { ProductsPage } from './pages/ProductsPage';
+import { FooterContainer } from './components/FooterSection/FooterSectionElements';
+import { FooterContainerBlack } from './CONTAINERS/footer';
+import ShipFlight from './pages/shipFlieghtPage';
+import ShipFlightPage from './pages/shipFlieghtPage';
+import Shipper from './pages/Shipper';
+import Industries from './components/shipfreight';
+import shipfreight from './components/Industries';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -59,14 +59,14 @@ function App() {
         <Route exact path="/Shipper" component={Shipper} title="Inventory" />
         <Route
           exact
-          path="/fulltruckload"
-          component={FullTruckLoad}
+          path="/shipfreight"
+          component={Industries}
           title="Inventory"
         />
         <Route
           exact
-          path="/CrossBordeerFreight"
-          component={CrossBordeerFreight}
+          path="/industries"
+          component={shipfreight}
           title="Inventory"
         />
       </Switch>

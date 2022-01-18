@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
-import { FaBars } from "react-icons/fa";
-import logo from "../../images/logo.png";
-import logo1 from "../../images/vanguard.png";
-import { IconContext } from "react-icons/lib";
-import { animateScroll as scroll, Link } from "react-scroll";
+import React, { useEffect, useState } from 'react';
+import { FaBars } from 'react-icons/fa';
+import logo from '../../images/logo.png';
+import logo1 from '../../images/vanguard.png';
+import { IconContext } from 'react-icons/lib';
+import { animateScroll as scroll, Link } from 'react-scroll';
 
 import {
   Nav,
@@ -13,7 +13,7 @@ import {
   MobileIcon,
   NavItem,
   NavLinks,
-} from "./NavbarElements";
+} from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -26,18 +26,18 @@ const Navbar = ({ toggle }) => {
     }
   };
   useEffect(() => {
-    window.addEventListener("scroll", changeNav);
+    window.addEventListener('scroll', changeNav);
   }, []);
   const toggleHome = () => {
     scroll.scrollToTop();
   };
   function disabeled() {
-    console.log(Boolean(window.localStorage.getItem("product")));
-    return window.localStorage.getItem("product");
+    console.log(Boolean(window.localStorage.getItem('product')));
+    return window.localStorage.getItem('product');
   }
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff", size: "1em" }}>
+      <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
         <Nav scrollNav={scrollNav}>
           <NavLogo to="/" onClick={toggleHome}>
             <img src={logo} alt="logo" />
@@ -45,11 +45,11 @@ const Navbar = ({ toggle }) => {
 
           {/* <Bars onClick={toggle}/> */}
           <NavMenu>
-            <NavItem>
+            {/* <NavItem>
               <NavLinks to="/" onClick={toggleHome}>
                 <a to="/">Home</a>
               </NavLinks>
-            </NavItem>
+            </NavItem> */}
 
             <NavItem>
               <NavLinks to="/About" onClick={toggleHome}>
@@ -58,7 +58,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
 
             <NavItem>
-              {disabeled() === "true" ? (
+              {disabeled() === 'true' ? (
                 <NavLinks>
                   <Link
                     to="Products"
@@ -78,11 +78,11 @@ const Navbar = ({ toggle }) => {
               )}
             </NavItem>
 
-            <NavItem>
+            {/* <NavItem>
               <NavLinks to="/Contact" onClick={toggleHome}>
                 <a to="/Contact">Request To Quote</a>
               </NavLinks>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <NavLinks to="/ShipFlight" onClick={toggleHome}>
                 <a to="/ShipFlight">CARRIERS</a>
@@ -94,13 +94,13 @@ const Navbar = ({ toggle }) => {
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/CrossBordeerFreight" onClick={toggleHome}>
-                <a to="/CrossBordeerFreight">CrossBordeerFreight</a>
+              <NavLinks to="/shipfreight" onClick={toggleHome}>
+                <a to="/shipfreight">shipfreight</a>
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/fulltruckload" onClick={toggleHome}>
-                <a to="/fulltruckload">fulltruckload</a>
+              <NavLinks to="/Industries" onClick={toggleHome}>
+                <a to="/Industries">Industries</a>
               </NavLinks>
             </NavItem>
             {/* <NavItem>
@@ -120,11 +120,11 @@ const Navbar = ({ toggle }) => {
           {/* <NavBtn>
             <h3 className=" text-white font-bold text-1xl">Signup</h3>
           </NavBtn> */}
-          <NavBtn>
+          {/* <NavBtn>
             <h3 className=" text-white font-bold border-2 p-3 text-1xl">
               Login
             </h3>
-          </NavBtn>
+          </NavBtn> */}
           {/* <MobileIcon onClick={toggle}>
           <FaBars/>
         </MobileIcon> */}
