@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Kalways/static/css/main.3093ffdf.chunk.css",
-    "main.js": "/Kalways/static/js/main.94e236b2.chunk.js",
-    "main.js.map": "/Kalways/static/js/main.94e236b2.chunk.js.map",
-    "runtime-main.js": "/Kalways/static/js/runtime-main.e4a92d06.js",
-    "runtime-main.js.map": "/Kalways/static/js/runtime-main.e4a92d06.js.map",
-    "static/js/2.8475a7b4.chunk.js": "/Kalways/static/js/2.8475a7b4.chunk.js",
-    "static/js/2.8475a7b4.chunk.js.map": "/Kalways/static/js/2.8475a7b4.chunk.js.map",
+    "main.js": "/Kalways/static/js/main.18ef34f7.chunk.js",
+    "main.js.map": "/Kalways/static/js/main.18ef34f7.chunk.js.map",
+    "runtime-main.js": "/Kalways/static/js/runtime-main.19ea64b8.js",
+    "runtime-main.js.map": "/Kalways/static/js/runtime-main.19ea64b8.js.map",
+    "static/js/2.1d4221d8.chunk.js": "/Kalways/static/js/2.1d4221d8.chunk.js",
+    "static/js/2.1d4221d8.chunk.js.map": "/Kalways/static/js/2.1d4221d8.chunk.js.map",
     "index.html": "/Kalways/index.html",
     "static/css/main.3093ffdf.chunk.css.map": "/Kalways/static/css/main.3093ffdf.chunk.css.map",
-    "static/js/2.8475a7b4.chunk.js.LICENSE.txt": "/Kalways/static/js/2.8475a7b4.chunk.js.LICENSE.txt",
+    "static/js/2.1d4221d8.chunk.js.LICENSE.txt": "/Kalways/static/js/2.1d4221d8.chunk.js.LICENSE.txt",
     "static/media/AP.3abef68c.jpeg": "/Kalways/static/media/AP.3abef68c.jpeg",
     "static/media/AbouMain.fc9f008e.png": "/Kalways/static/media/AbouMain.fc9f008e.png",
     "static/media/Bgvideo2.0d3ea1da.mp4": "/Kalways/static/media/Bgvideo2.0d3ea1da.mp4",
@@ -48,9 +48,9 @@
     "static/media/whitetruck.0fe4c730.png": "/Kalways/static/media/whitetruck.0fe4c730.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e4a92d06.js",
-    "static/js/2.8475a7b4.chunk.js",
+    "static/js/runtime-main.19ea64b8.js",
+    "static/js/2.1d4221d8.chunk.js",
     "static/css/main.3093ffdf.chunk.css",
-    "static/js/main.94e236b2.chunk.js"
+    "static/js/main.18ef34f7.chunk.js"
   ]
 }
