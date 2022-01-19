@@ -94,7 +94,112 @@ const Industries = () => {
           What Makes Us Different
         </h2> */}
       </div>
-
+      <div className="flex flex-row pr-16 pt-16">
+        <div className="self-end pl-32 pr-32">
+          {/* <h3 className="font-bold pt-10 text-xl">Additional Information</h3> */}
+          <h3 className="font-bold pt-10 text-3xl">Ways to Ship</h3>
+          <p className="font-medium pt-8 text-xl w-auto">
+            Your products are going to fly off the shelf. But first, they have
+            to get there on time. Whether you ship tissues or toothpaste,
+            sunscreen or salty snacks, your supply chain is feeling the
+            pressure. Consumer expectations are rising, delivery times are
+            shortening and excuses won’t cut it.
+          </p>
+          <p className="font-medium pt-9 text-xl w-auto">
+            We will help you get your products where they need to go fast,
+            efficiently and without interruption. Join the more than 3,500 CPG
+            companies who trust us with their freight.
+          </p>
+          <div className=" pt-10 grid gap-10 grid-cols-2 grid-cols-2">
+            <div className="flex flex-col items-start">
+              <img src={grid1} className=""></img>
+              <h4 className="text-2xl">AUTOMOTIVE LOGISTICS</h4>
+              <p className="font-medium pt-2 text-xl w-auto">
+                Automotive shippers can’t afford to have their supply chain slam
+                on the brakes. Keeping up with changes in demand and fulfilling
+                orders can be daunting. You need a 3PL you can trust with a
+                reliable, responsive carrier network to make sure you never hit
+                a roadblock.
+              </p>
+            </div>
+            <div className="flex flex-col items-start">
+              <img src={grid2} className=""></img>
+              <h4 className="text-2xl">CONSUMER PACKAGED GOODS LOGISTICS</h4>
+              <p className="font-medium pt-2 text-xl w-auto">
+                our products are going to fly off the shelf. But first, they
+                have to get there on time. Whether you ship tissues or
+                toothpaste, sunscreen or salty snacks, your supply chain is
+                feeling the pressure. Consumer expectations are rising, delivery
+                times are shortening and excuses won’t cut it.
+                <br />
+                We will help you get your products where they need to go fast,
+                efficiently and without interruption. Join the more than 3,500
+                CPG companies who trust us with their freight
+              </p>
+            </div>
+            <div className="flex flex-col items-start">
+              <img src={grid3} className=""></img>
+              <h4 className="text-2xl">FOOD & BEVERAGE LOGISTICS</h4>
+              <p className="font-medium pt-2 text-xl w-auto">
+                Running a food and beverage supply chain is not easy — margins
+                are tight, deliveries are strict, and customer demand is
+                seasonal.
+                <br />
+                You grow, crate, can and bottle the essential products we all
+                rely on. Your supply chain needs experienced refrigerated
+                carriers and national providers you can rely on.
+                <br />
+                Whether you’re shipping three pallets of craft beer, 30
+                truckloads of leafy greens or 3,000 annual loads of ice cream,
+                you can trust Coyote’s 15-years of food and beverage experience
+                to cover sensitive freight on-time, in-full.
+              </p>
+            </div>
+            <div className="flex flex-col items-start">
+              <img src={grid4} className=""></img>
+              <h4 className="text-2xl">HEALTHCARE LOGISTICS</h4>
+              <p className="font-medium pt-2 text-xl w-auto">
+                Healthcare shippers need fast and reliable service to keep up
+                with changes in demand. From medical equipment and
+                pharmaceuticals to PPE and emergency supplies — deliveries must
+                arrive on-time and intact.
+              </p>
+            </div>
+            <div className="flex flex-col items-start">
+              <img src={grid4} className=""></img>
+              <h4 className="text-2xl">Air & Ocean</h4>
+              <p className="font-medium pt-2 text-xl w-auto">
+                Running a manufacturing supply chain is not easy. Though
+                transportation is often viewed as a commodity, the cost of
+                missed deliveries can shut down production. Manufacturers have
+                to control freight spend while delivering high service.
+              </p>
+            </div>
+            <div className="flex flex-col items-start">
+              <img src={grid4} className=""></img>
+              <h4 className="text-2xl">MANUFACTURING LOGISTICS</h4>
+              <p className="font-medium pt-2 text-xl w-auto">
+                Running a manufacturing supply chain is not easy. Though
+                transportation is often viewed as a commodity, the cost of
+                missed deliveries can shut down production. Manufacturers have
+                to control freight spend while delivering high service.
+              </p>
+            </div>
+            <div className="flex flex-col items-start">
+              <img src={grid4} className=""></img>
+              <h4 className="text-2xl">RETAIL LOGISTICS</h4>
+              <p className="font-medium pt-2 text-xl w-auto">
+                It’s never been harder to manage a retail supply chain. The line
+                between brick-and-mortar and e-commerce is blurring. Everyday,
+                consumer expectations rise higher, while delivery times get
+                shorter. To execute a modern retail supply chain, you need agile
+                capacity and readily-available assets — not only for the last
+                mile, but for every mile along the way.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="xl:px-14 xl:py-10 md:py-0 md:px-0 bg-white flex flex-row flex-wrap justify-center items-center space-y-5 ">
         {/* <LinkRo
               key={4}

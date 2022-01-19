@@ -17,8 +17,8 @@ import { FooterContainerBlack } from './CONTAINERS/footer';
 import ShipFlight from './pages/shipFlieghtPage';
 import ShipFlightPage from './pages/shipFlieghtPage';
 import Shipper from './pages/Shipper';
-import Industries from './components/shipfreight';
-import shipfreight from './components/Industries';
+import shipfreight from './components/shipfreight';
+import Industries from './components/Industries';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -60,13 +60,13 @@ function App() {
         <Route
           exact
           path="/shipfreight"
-          component={Industries}
+          component={shipfreight}
           title="Inventory"
         />
         <Route
           exact
           path="/industries"
-          component={shipfreight}
+          component={Industries}
           title="Inventory"
         />
       </Switch>
