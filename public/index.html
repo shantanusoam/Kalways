@@ -17,6 +17,7 @@
     <link rel="apple-touch-icon" href="./logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel=”shortcut icon” href=”%PUBLIC_URL%/favicon.ico”>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
@@ -58,12 +59,12 @@
         gt = d.getElementById,
         cr = d.createElement,
         tg = d.getElementsByTagName,
-        id = "aidaform-embed";
+        id = 'aidaform-embed';
       if (!gt.call(d, id)) {
-        r = cr.call(d, "script");
+        r = cr.call(d, 'script');
         r.id = id;
-        r.src = "https://embed.aidaform.com/embed.js";
-        (d.head || tg.call(d, "head")[0]).appendChild(r);
+        r.src = 'https://embed.aidaform.com/embed.js';
+        (d.head || tg.call(d, 'head')[0]).appendChild(r);
       }
     })();
   </script>

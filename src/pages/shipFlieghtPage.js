@@ -1,10 +1,26 @@
 import { render } from '@testing-library/react';
 import React, { useState, useEffect } from 'react';
 import { shipfreight } from '../components/waystoship/shipfreight';
+import Styled from 'styled-components';
 import './shipFleight.css';
 import image1 from '../images/dv0.jpg';
 import image2 from '../images/Ut1.jpg';
 import image3 from '../images/Rt2.jpg';
+const Card = Styled.div`
+h3 {
+  div {
+    background: #00e700;
+    width: 10%;
+    transition: all 0.5s ease;
+  }
+  :hover {
+    cursor: pointer;
+    div {
+      width: 100%;
+    }
+  }
+}
+`;
 export default class ShipFlightPage extends React.Component {
   componentDidMount() {
     document.title = 'Kalway shipfreight';
@@ -18,7 +34,14 @@ export default class ShipFlightPage extends React.Component {
           <img src={image2} className="flex-1 h-96" alt=""></img>
           <img src={image3} className="flex-1 h-96" alt=""></img>
         </div>
-        <h2 className=" self-center pt-10 text-3xl">CARRIER SERVICES</h2>
+        <Card className=" self-center pt-10 pr-96">
+          <h3 className=" self-center pt-10  text-4xl">
+            CARRIER SERVICES
+            <p className="h-4"></p>
+            <div className="w-40 h-2  hover:w-10"></div>
+          </h3>
+        </Card>
+
         <div className="flex flex-row pl-16 pt-16">
           <img src={image1} className="flex-1 h-64" alt=""></img>
           <div className="self-end pl-32">

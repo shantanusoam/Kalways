@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { TiArrowRightThick } from 'react-icons/ti';
+import Pulse from 'react-reveal/Pulse';
 import image1 from '../../images/dv0.jpg';
 import image2 from '../../images/Ut1.jpg';
 import image3 from '../../images/Rt2.jpg';
@@ -355,99 +356,133 @@ const Industries = () => {
         </h2>
 
         <div className=" pt-10 grid gap-10 grid-cols-4 grid-cols-2 self-center justify-center justify-items-center ">
-          <Card className="flex flex-col items-center 	align-content:center place-items-center bg-white w-80 p-8">
-            <img src={grid1} className="w-32"></img>
-            <h4 className="text-2xl  hover:text-lime-500">
-              Primary Truckload Capacity
-            </h4>
-          </Card>
+          <Pulse>
+            <Card className="flex flex-col items-center 	align-content:center place-items-center bg-white w-80 p-8">
+              <img src={grid1} className="w-32"></img>
+              <h4 className="text-2xl  hover:text-lime-500">
+                Primary Truckload Capacity
+              </h4>
+            </Card>
+          </Pulse>
 
-          <Card className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={igrid2} className=" w-32"></img>
-            <h4 className="text-2xl">Spot Truckload Capacity</h4>
-          </Card>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8">
+              <img src={igrid2} className=" w-32"></img>
+              <h4 className="text-2xl">Spot Truckload Capacity</h4>
+            </Card>
+          </Pulse>
 
-          <Card className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={igrid3} className="w-32"></img>
-            <h4 className="text-2xl">Dedicated Surge Capacity</h4>
-          </Card>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8">
+              <img src={igrid3} className="w-32"></img>
+              <h4 className="text-2xl">Dedicated Surge Capacity</h4>
+            </Card>
+          </Pulse>
 
-          <Card className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={igrid4} className="w-32"></img>
-            <h4 className="text-2xl">Power Only Capacity</h4>
-          </Card>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8">
+              <img src={igrid4} className="w-40"></img>
+              <h4 className="text-2xl">Power Only Capacity</h4>
+            </Card>
+          </Pulse>
 
-          <Card className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={igrid5} className="w-32"></img>
-            <h4 className="text-2xl">Mobile Storage Solutions</h4>
-          </Card>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8">
+              <img src={igrid5} className="w-32"></img>
+              <h4 className="text-2xl">Mobile Storage Solutions</h4>
+            </Card>
+          </Pulse>
 
-          <Card className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={igrid6} className="w-32"></img>
-            <h4 className="text-2xl">Leased Trailer Solutions</h4>
-          </Card>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8">
+              <img src={igrid6} className="w-32"></img>
+              <h4 className="text-2xl">Leased Trailer Solutions</h4>
+            </Card>
+          </Pulse>
 
-          <Card className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={igrid7} className="w-32"></img>
-            <h4 className="text-2xl">Cross-Border Shipping</h4>
-          </Card>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8">
+              <img src={igrid7} className="w-40"></img>
+              <h4 className="text-2xl">Cross-Border Shipping</h4>
+            </Card>
+          </Pulse>
 
-          <Card className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={igrid8} className="w-32"></img>
-            <h4 className="text-2xl">Refrigerated</h4>
-          </Card>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8">
+              <img src={igrid8} className="w-40"></img>
+              <h4 className="text-2xl">Refrigerated</h4>
+            </Card>
+          </Pulse>
         </div>
         <div className="self-center pt-8 pb-10">
-          <Card className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={igrid9} className="w-32"></img>
-            <h4 className="text-2xl">High-Value Cargo</h4>
-          </Card>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8">
+              <img src={igrid9} className="w-32"></img>
+              <h4 className="text-2xl">High-Value Cargo</h4>
+            </Card>
+          </Pulse>
         </div>
         <h2 className=" self-center font-bold pt-28 text-4xl">
           Canada Cross-Border Services
         </h2>
 
         <div className=" pt-10 grid gap-10 grid-cols-4 grid-cols-2 self-center justify-center justify-items-center ">
-          <Card className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={igrid2} className=" w-32"></img>
-            <h4 className="text-2xl">Spot Truckload Capacity</h4>
-          </Card>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8">
+              <img src={igrid2} className=" w-32"></img>
+              <h4 className="text-2xl">Spot Truckload Capacity</h4>
+            </Card>
+          </Pulse>
 
-          <Card className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={igrid3} className="w-32"></img>
-            <h4 className="text-2xl">Dedicated Surge Capacity</h4>
-          </Card>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8">
+              <img src={igrid3} className="w-32"></img>
+              <h4 className="text-2xl">Dedicated Surge Capacity</h4>
+            </Card>
+          </Pulse>
 
-          <Card className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={igrid4} className="w-32"></img>
-            <h4 className="text-2xl">Power Only Capacity</h4>
-          </Card>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8">
+              <img src={igrid4} className="w-40"></img>
+              <h4 className="text-2xl">Power Only Capacity</h4>
+            </Card>
+          </Pulse>
 
-          <Card className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={igrid5} className="w-32"></img>
-            <h4 className="text-2xl">Mobile Storage Solutions</h4>
-          </Card>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8">
+              <img src={igrid5} className="w-32"></img>
+              <h4 className="text-2xl">Mobile Storage Solutions</h4>
+            </Card>
+          </Pulse>
 
-          <Card className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={igrid6} className="w-32"></img>
-            <h4 className="text-2xl">Leased Trailer Solutions</h4>
-          </Card>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8">
+              <img src={igrid6} className="w-32"></img>
+              <h4 className="text-2xl">Leased Trailer Solutions</h4>
+            </Card>
+          </Pulse>
 
-          <Card className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={igrid7} className="w-32"></img>
-            <h4 className="text-2xl">Cross-Border Shipping</h4>
-          </Card>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8">
+              <img src={igrid7} className="w-40"></img>
+              <h4 className="text-2xl">Cross-Border Shipping</h4>
+            </Card>
+          </Pulse>
 
-          <Card className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={igrid8} className="w-32"></img>
-            <h4 className="text-2xl">Refrigerated</h4>
-          </Card>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8">
+              <img src={igrid8} className="w-40"></img>
+              <h4 className="text-2xl">Refrigerated</h4>
+            </Card>
+          </Pulse>
         </div>
         <div className="self-center pt-8 pb-10">
-          <Card className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={igrid9} className="w-32"></img>
-            <h4 className="text-2xl">High-Value Cargo</h4>
-          </Card>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8">
+              <img src={igrid9} className="w-32"></img>
+              <h4 className="text-2xl">High-Value Cargo</h4>
+            </Card>
+          </Pulse>
         </div>
       </div>
       <div className="flex flex-col">

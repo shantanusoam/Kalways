@@ -5,6 +5,7 @@ import './shipFleight.css';
 import image1 from '../images/dv0.jpg';
 import image2 from '../images/Ut1.jpg';
 import image3 from '../images/Rt2.jpg';
+import { Card } from '../components/shipfreight/shipfreight';
 export default class Shipper extends React.Component {
   componentDidMount() {
     document.title = 'Kalway shipfreight';
@@ -18,12 +19,17 @@ export default class Shipper extends React.Component {
           <img src={image3} className="flex-1 h-96" alt=""></img>
           <img src={image1} className="flex-1 h-96" alt=""></img>
         </div>
-        <h2 className=" self-left pt-10 pr-16 text-3xl">
-          FREIGHT BROKERAGE OVERVIEW
-        </h2>
+        <Card>
+          <h2 className=" self-left pt-10 pl-32 text-3xl">
+            FREIGHT BROKERAGE OVERVIEW
+            <p className="h-4"></p>
+            <div className="w-40 h-2  hover:w-10"></div>
+          </h2>
+        </Card>
+
         <div className="flex flex-row pr-16 pt-16">
           <div className="self-end pl-32 pr-32">
-            <h3 className="font-bold pt-10 text-xl">Additional Information</h3>
+            <h3 className="font-bold pt-10 text-3xl">Additional Information</h3>
             <h3 className="font-bold pt-10 text-xl">
               Your New, Upgraded LTL Solution
             </h3>
@@ -101,7 +107,7 @@ export default class Shipper extends React.Component {
             </button>
           </div>
         </div>
-        <h2 className=" self-center pt-10 text-3xl">CROSS - BORDER</h2>
+        <h2 className=" self-center pt-20 text-4xl">CROSS - BORDER</h2>
         <div className="flex flex-row pr-16">
           <div className="self-end pl-32 pr-16 pb-16">
             <h3 className="font-bold pt-10 text-xl">

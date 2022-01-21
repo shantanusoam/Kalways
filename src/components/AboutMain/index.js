@@ -8,16 +8,17 @@ import whitetruck from '../../images/AP.jpeg';
 const AboutMain = ({ isOpen, toggle }) => {
   return (
     <AboutContainer id="About">
-      <TextContaner>
-        <h1 className="text-left text-black font-bold text-5xl pb-8">
-          Together, we'll drive a more sustainable global supply chain.
-        </h1>
-      </TextContaner>
       <img
         src={whitetruck}
         alt="Our services Truck on black road "
-        width="1500rem"
+        width="2500rem"
       />
+      <TextContaner className="align-left">
+        <h1 className="text-left text-white font-bold text-7xl bg-black p-8">
+          Together, we'll drive a more sustainable global supply chain.
+        </h1>
+      </TextContaner>
+
       <TextContanerS>
         <h1 className="text-left text-black font-bold text-4xl pb-8">Kalway</h1>
         <p className="text-left text-gray-800 text-2xl pb-8 font-bold ">
