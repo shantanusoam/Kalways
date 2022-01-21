@@ -1,6 +1,6 @@
-import Styled from "styled-components";
-import bgimage from "../../images/bg.png";
-import { Link as LinkR } from "react-router-dom";
+import Styled from 'styled-components';
+import bgimage from '../../images/bgfreight.png';
+import { Link as LinkR } from 'react-router-dom';
 export const HeroContainer = Styled.div`
 
 overflow: hidden;
@@ -26,6 +26,23 @@ z-index: 1;
     background: transparent url(${bgimage}) no-repeat center center;
     
 }
+
+`;
+export const Card = Styled.div`
+box-shadow: 6px 4px 8px 2px rgb(0 0 0 / 20%);
+&hover: {
+    box-shadow: 6px 4px 8px 2px rgb(0 0 0 / 70%);
+}
+h4{
+    text-align: center;
+}
+:hover{
+    h4{
+        color: #00e700;
+
+    }
+}
+
 `;
 export const ContainerMain = Styled.div`
 display: flex;
@@ -443,7 +460,7 @@ display: block;
 }
 `;
 export const NavLinks = Styled(LinkR)`
-color: ${({ scrollNav }) => (scrollNav ? "#fff" : `#000`)};
+color: ${({ scrollNav }) => (scrollNav ? '#fff' : `#000`)};
 display: flex;
 align-items: center;
 text-decoration: none;

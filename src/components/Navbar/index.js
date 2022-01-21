@@ -52,30 +52,23 @@ const Navbar = ({ toggle }) => {
             </NavItem> */}
 
             <NavItem>
-              <NavLinks to="/About" onClick={toggleHome}>
+              <NavLinks
+                to="/About"
+                activeClassName="active"
+                onClick={toggleHome}
+              >
                 <a to="/About">About</a>
               </NavLinks>
             </NavItem>
 
             <NavItem>
-              {disabeled() === 'true' ? (
-                <NavLinks>
-                  <Link
-                    to="Products"
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact={true}
-                    offset={-80}
-                  >
-                    Services
-                  </Link>
-                </NavLinks>
-              ) : (
-                <NavLinks to="/products" onClick={toggleHome}>
-                  <a to="/products">Services</a>
-                </NavLinks>
-              )}
+              <NavLinks
+                to="/products"
+                onClick={toggleHome}
+                activeClassName="active"
+              >
+                <a to="/products">Services</a>
+              </NavLinks>
             </NavItem>
 
             {/* <NavItem>
@@ -84,22 +77,38 @@ const Navbar = ({ toggle }) => {
               </NavLinks>
             </NavItem> */}
             <NavItem>
-              <NavLinks to="/ShipFlight" onClick={toggleHome}>
-                <a to="/ShipFlight">CARRIERS</a>
+              <NavLinks
+                to="/ShipFlight"
+                onClick={toggleHome}
+                activeClassName="active"
+              >
+                <a to="/ShipFlight">Carriers</a>
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/Shipper" onClick={toggleHome}>
+              <NavLinks
+                to="/Shipper"
+                onClick={toggleHome}
+                activeClassName="active"
+              >
                 <a to="/Shipper">Shipper</a>
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/shipfreight" onClick={toggleHome}>
-                <a to="/shipfreight">shipfreight</a>
+              <NavLinks
+                to="/Shipfreight"
+                onClick={toggleHome}
+                activeClassName="active"
+              >
+                <a to="/Shipfreight">Shipfreight</a>
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/Industries" onClick={toggleHome}>
+              <NavLinks
+                to="/Industries"
+                onClick={toggleHome}
+                activeClassName="active"
+              >
                 <a to="/Industries">Industries</a>
               </NavLinks>
             </NavItem>

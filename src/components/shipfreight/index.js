@@ -6,6 +6,18 @@ import grid1 from '../../images/fleet.png';
 import grid2 from '../../images/grid2.png';
 import grid3 from '../../images/grid3.png';
 import grid4 from '../../images/grid4.png';
+import grid5 from '../../images/grid5.png';
+import grid6 from '../../images/grid6.png';
+import grid7 from '../../images/grid7.png';
+import grid8 from '../../images/grid8.png';
+import grid9 from '../../images/grid9.png';
+import mgrid1 from '../../images/mgrid1.png';
+import mgrid2 from '../../images/mgrid2.png';
+import mgrid4 from '../../images/mgrid4.png';
+import mgrid5 from '../../images/mgrid5.png';
+import mgrid6 from '../../images/mgrid6.png';
+import Pulse from 'react-reveal/Pulse';
+
 import Fade from 'react-reveal/Fade';
 // import bankground from "../../images";
 import { animateScroll as scroll, Link } from 'react-scroll';
@@ -13,6 +25,7 @@ import {
   HeroContainer,
   WWOCCButtonM,
   PCENTER,
+  Card,
   HeroP,
   HeroContent,
   WWOCCButton,
@@ -61,8 +74,8 @@ const shipfreight = () => {
           <img src={image1} className="flex-1 h-96" alt=""></img>
         </div> */}
 
-        <div className="flex flex-row pr-16 pt-16">
-          <div className="self-end pl-32 pr-32">
+        <div className="flex flex-row  pr-16 pt-16">
+          <div className="self-end pl-40 pr-32">
             {/* <h3 className="font-bold pt-10 text-xl">Additional Information</h3> */}
             <h3 className="font-bold pt-10 text-3xl">Ways to Ship</h3>
             <p className="font-medium pt-8 text-xl w-auto">
@@ -80,8 +93,8 @@ const shipfreight = () => {
             <div className=" pt-10 grid gap-10 grid-cols-2 grid-cols-2">
               <div className="flex flex-col items-start">
                 <img src={grid1} className=""></img>
-                <h4 className="text-2xl">Ship freight</h4>
-                <p className="font-medium pt-2 text-xl w-auto">
+                <h4 className="text-3xl">Ship freight</h4>
+                <p className="font-medium pt-5 text-xl w-auto">
                   Every day, increasingly complex shipping demands put pressure
                   on your business. The ability to succeed requires a shift in
                   focus—from short-term capacity to long-term agility. Work with
@@ -90,9 +103,9 @@ const shipfreight = () => {
                 </p>
               </div>
               <div className="flex flex-col items-start">
-                <img src={grid2} className=""></img>
-                <h4 className="text-2xl">Full truckload</h4>
-                <p className="font-medium pt-2 text-xl w-auto">
+                <img src={mgrid1} className=""></img>
+                <h4 className="text-3xl">Full truckload</h4>
+                <p className="font-medium pt-5 text-xl w-auto">
                   At Kalways, we consolidate an extremely fragmented market by
                   maintaining relationships with over 70,000 carriers to get you
                   access across all equipment types and shipment needs. By
@@ -101,9 +114,9 @@ const shipfreight = () => {
                 </p>
               </div>
               <div className="flex flex-col items-start">
-                <img src={grid3} className=""></img>
-                <h4 className="text-2xl">Less than Truckload</h4>
-                <p className="font-medium pt-2 text-xl w-auto">
+                <img src={mgrid2} className=""></img>
+                <h4 className="text-3xl">Less than Truckload</h4>
+                <p className="font-medium pt-5 text-xl w-auto">
                   Choose Less Than Truckload (LTL) to ship your goods
                   efficiently, even when you don’t have a full truck to fill.
                   Kalways will help you identify modal conversion opportunities
@@ -111,9 +124,9 @@ const shipfreight = () => {
                 </p>
               </div>
               <div className="flex flex-col items-start">
-                <img src={grid4} className=""></img>
-                <h4 className="text-2xl">Intermodal Freight</h4>
-                <p className="font-medium pt-2 text-xl w-auto">
+                <img src={mgrid4} className=""></img>
+                <h4 className="text-3xl">Intermodal Freight</h4>
+                <p className="font-medium pt-5 text-xl w-auto">
                   Save money and contribute to your sustainability initiatives
                   by shipping your goods through a combination of truckload and
                   railway transport. Intermodal can add capacity, cut
@@ -124,9 +137,9 @@ const shipfreight = () => {
                 </p>
               </div>
               <div className="flex flex-col items-start">
-                <img src={grid4} className=""></img>
-                <h4 className="text-2xl">Air & Ocean</h4>
-                <p className="font-medium pt-2 text-xl w-auto">
+                <img src={grid5} className=""></img>
+                <h4 className="text-3xl">Air & Ocean</h4>
+                <p className="font-medium pt-5 text-xl w-auto">
                   Kalways is an authorized reseller of UPS air services, with
                   access to ocean services through UPS. This global footprint,
                   combined with our massive centralized marketplace of carriers
@@ -136,9 +149,9 @@ const shipfreight = () => {
                 </p>
               </div>
               <div className="flex flex-col items-start">
-                <img src={grid4} className=""></img>
-                <h4 className="text-2xl">Cross-Border Freight</h4>
-                <p className="font-medium pt-2 text-xl w-auto">
+                <img src={grid6} className=""></img>
+                <h4 className="text-3xl">Cross-Border Freight</h4>
+                <p className="font-medium pt-5 text-xl w-auto">
                   Whether shipping northbound or southbound, Kalways leverages a
                   dense North American carrier network to bring you capacity
                   when and where you need it. We source the right carrier for
@@ -147,46 +160,6 @@ const shipfreight = () => {
                 </p>
               </div>
             </div>
-            {/* <h3 className="font-bold pt-10 text-xl">REAL-TIME TRACKING</h3>
-            <p className="font-medium pt-2 text-xl">
-              The kalway Logistics mobile app allows drivers to provide
-              real-time tracking, reducing the need for check-in phone calls.{" "}
-            </p>
-            <h3 className="font-bold pt-10 text-xl">DOCUMENT UPLOAD</h3>
-            <p className="font-medium pt-2 text-xl">
-              TWith the kalway Logistics mobile app, drivers can quickly and
-              easily submit delivery documents to ensure they get paid faster.
-            </p>
-            <h3 className="font-bold pt-10 text-xl">
-              Dispatcher Web Portal Benefits:
-            </h3>
-            <div className="self-center pt-10 ">
-              <li className="font-medium pt-2 text-xl">
-                Search Available Loads and submit bids
-              </li>
-              <li className="font-medium pt-2 text-xl">
-                Full fleet overview with ability to manage loads and drivers
-              </li>
-              <li className="font-medium pt-2 text-xl">
-                Visibility into your Echo shipment volume history
-              </li>
-              <li className="font-medium pt-2 text-xl">
-                Complete load visibility during shipment process
-              </li>
-              <li className="font-medium pt-2 text-xl">
-                Invoice portal to view current and past receivables
-              </li>
-              <li className="font-medium pt-2 text-xl">
-                Ability to share load info with one click
-              </li>
-              <li className="font-medium pt-2 text-xl">
-                Set Preferred Lanes and receive daily Suggested Loads tailored
-                to your needs{" "}
-              </li>
-              <li className="font-medium pt-2 text-xl">
-                Receive Reload opportunities for shipments booked with Echo
-              </li>
-            </div> */}
           </div>
           <div className="flex-1 h-64 drop-shadow-lg z-10">
             <h3 className="font-bold pt-10 text-xl">Learn More</h3>
@@ -196,11 +169,11 @@ const shipfreight = () => {
               management—so you can focus on what you do best.
             </p>
             <button class="btn">
-              <span class="btn-text">- 1-800-295-9737 -</span>
+              <span class="btn-text ">- 1-800-295-9737 -</span>
             </button>
           </div>
         </div>
-        <h2 className=" self-center font-bold pt-28 text-6xl">
+        <h2 className=" self-center font-bold pt-40 text-6xl">
           What Makes Us Different
         </h2>
       </div>
@@ -229,7 +202,7 @@ const shipfreight = () => {
                 />
 
                 <div className="p-8"> */}
-        {/* <h3 className="font-bold text-2xl mb-5">fine</h3> */}
+        {/* <h3 className="font-bold text-3xl font-boldmb-5">fine</h3> */}
         {/* <br />
                   <h3 className=" text-1xl mb-5 ">
                     Tap into a marketplace that matches over 10.000 shipments a
@@ -257,7 +230,9 @@ const shipfreight = () => {
             />
 
             <div className="p-8">
-              <h3 className="font-bold text-2xl mb-5">Pricing You Can Trust</h3>
+              <h3 className="font-bold text-3xl font-boldmb-5">
+                Pricing You Can Trust
+              </h3>
               <br />
               <h3 className=" text-1xl mb-5 ">
                 You can trust the quote you get from us, whether it comes
@@ -277,7 +252,9 @@ const shipfreight = () => {
             />
 
             <div className="p-8">
-              <h3 className="font-bold text-2xl mb-5">Network Density</h3>
+              <h3 className="font-bold text-3xl font-boldmb-5">
+                Network Density
+              </h3>
               <br />
               <h3 className=" text-1xl mb-5 ">
                 You need quick access to a diverse carrier base to control your
@@ -296,7 +273,7 @@ const shipfreight = () => {
             />
 
             <div className="p-8">
-              <h3 className="font-bold text-2xl mb-5">Unmatched Support</h3>
+              <h3 className="font-bold text-3xl  mb-5">Unmatched Support</h3>
               <br />
               <h3 className=" text-1xl mb-5 ">
                 When moving CPG freight, you need the support of a dedicated
@@ -308,25 +285,33 @@ const shipfreight = () => {
           </div>
         </Fade>
       </div>
-      <div className="m-24">
-        <h3 className="font-bold pt-10 text-3xl">Business Solutions</h3>
-        <p className="font-medium pt-8 text-xl w-auto">
-          Your products are going to fly off the shelf. But first, they have to
-          get there on time. Whether you ship tissues or toothpaste, sunscreen
-          or salty snacks, your supply chain is feeling the pressure. Consumer
-          expectations are rising, delivery times are shortening and excuses
-          won’t cut it.
-        </p>
-        <p className="font-medium pt-9 text-xl w-auto">
-          We will help you get your products where they need to go fast,
-          efficiently and without interruption. Join the more than 3,500 CPG
-          companies who trust us with their freight.
-        </p>
-        <div className=" pt-10 grid gap-10 grid-cols-2 grid-cols-2">
+      <div className="ml-40 mr-40">
+        <h3 className="font-bold pt-10 text-5xl">Business Solutions</h3>
+        <div className="flex flex-row">
+          <div className="pr-40">
+            <p className="font-medium pt-8 text-xl w-auto ">
+              Your products are going to fly off the shelf. But first, they have
+              to get there on time. Whether you ship tissues or toothpaste,
+              sunscreen or salty snacks, your supply chain is feeling the
+              pressure. Consumer expectations are rising, delivery times are
+              shortening and excuses won’t cut it.
+            </p>
+            <p className="font-medium pt-9 pb-10 text-xl w-auto">
+              We will help you get your products where they need to go fast,
+              efficiently and without interruption. Join the more than 3,500 CPG
+              companies who trust us with their freight.
+            </p>
+          </div>
+          <div className="w-2/2 drop-shadow-md ">
+            <img src={image3} className="w-auto "></img>
+          </div>
+        </div>
+
+        <div className=" pt-10 pb-20 grid gap-10 grid-cols-2 grid-cols-2">
           <div className="flex flex-col items-start">
             <img src={grid1} className=""></img>
-            <h4 className="text-2xl">Flex Solution</h4>
-            <p className="font-medium pt-2 text-xl w-auto">
+            <h4 className="text-3xl">Flex Solution</h4>
+            <p className="font-medium pt-5 text-xl w-auto">
               Customer expectations are changing by the minute. To keep up, your
               business needs custom asset-based solutions to fit your
               high-volume capacity projects. We can help you leverage multiple
@@ -337,8 +322,8 @@ const shipfreight = () => {
 
           <div className="flex flex-col items-start">
             <img src={grid3} className=""></img>
-            <h4 className="text-2xl">Transportation Management</h4>
-            <p className="font-medium pt-2 text-xl w-auto">
+            <h4 className="text-3xl">Transportation Management</h4>
+            <p className="font-medium pt-5 text-xl w-auto">
               Drive cost savings across your network through a combination of a
               dedicated operations team, proprietary cloud-based TMS technology
               and carrier agnostic capacity solutions. Kalways Transportation
@@ -349,8 +334,8 @@ const shipfreight = () => {
           </div>
           <div className="flex flex-col items-start">
             <img src={grid4} className=""></img>
-            <h4 className="text-2xl">Primary Capicity</h4>
-            <p className="font-medium pt-2 text-xl w-auto">
+            <h4 className="text-3xl">Primary Capicity</h4>
+            <p className="font-medium pt-5 text-xl w-auto">
               Give your business the ability to navigate the market with
               primary, backup and spot capacity from Kalways. Our dedicated team
               of transportation specialists tap into one of the largest
@@ -360,8 +345,8 @@ const shipfreight = () => {
           </div>
           <div className="flex flex-col items-start">
             <img src={grid4} className=""></img>
-            <h4 className="text-2xl">Sustainability</h4>
-            <p className="font-medium pt-2 text-xl w-auto">
+            <h4 className="text-3xl">Sustainability</h4>
+            <p className="font-medium pt-5 text-xl w-auto">
               Kalways’s mission is to move business forward with expertise and
               integrity. That’s why we’re committed to creating smarter, less
               environmentally impactful solutions for our network. Between 2019
@@ -374,8 +359,8 @@ const shipfreight = () => {
           </div>
           <div className="flex flex-col items-start">
             <img src={grid4} className=""></img>
-            <h4 className="text-2xl">ShipperTechnlogy</h4>
-            <p className="font-medium pt-2 text-xl w-auto">
+            <h4 className="text-3xl">ShipperTechnlogy</h4>
+            <p className="font-medium pt-5 text-xl w-auto">
               At Kalways, we know there isn’t a one-size-fits-all solution for
               your business. Use our digital solutions for connectivity at your
               fingertips—including on-demand quoting, tendering, tracking and
@@ -393,49 +378,65 @@ const shipfreight = () => {
         <h2 className=" self-center font-bold pt-16 text-4xl">
           Reliable Solutions to Keep Your Products Stocked
         </h2>
-        <h2 className=" self-center  pt-4 text-2xl">
+        <h2 className=" self-center  pt-4 text-3xl">
           We can help buffer your supply chain against market volatility with a
           variety of dependable freight solutions.
         </h2>
         <div className=" pt-10 grid gap-10 grid-cols-4 grid-cols-2 self-center justify-center justify-items-center ">
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid1} className="w-32"></img>
-            <h4 className="text-2xl  hover:text-lime-500">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid2} className=" w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid3} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid4} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid1} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid2} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid3} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid4} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
+          <Pulse>
+            <Card className="flex flex-col items-center 	align-content:center place-items-center bg-white w-80 p-8 ">
+              <img src={grid2} className="w-32"></img>
+              <h4 className="text-2xl font-bold self-center">Wholesale</h4>
+            </Card>
+          </Pulse>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8 ">
+              <img src={grid3} className="w-32"></img>
+              <h4 className="text-2xl font-bold ">Drayage</h4>
+            </Card>
+          </Pulse>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8 ">
+              <img src={grid4} className="w-32"></img>
+              <h4 className="text-2xl font-bold ">Cross-Border</h4>
+            </Card>
+          </Pulse>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8 ">
+              <img src={grid5} className="w-32"></img>
+              <h4 className="text-2xl font-bold ">Refrigerated</h4>
+            </Card>
+          </Pulse>
+
+          <Card className="flex flex-col items-center bg-white w-80 p-8 ">
+            <img src={grid6} className="w-32"></img>
+            <h4 className="text-2xl font-bold ">Carload</h4>
+          </Card>
+
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8 ">
+              <img src={grid7} className="w-32"></img>
+              <h4 className="text-2xl font-bold ">Carrier & Modal Solutions</h4>
+            </Card>
+          </Pulse>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8 ">
+              <img src={grid8} className="w-32"></img>
+              <h4 className="text-2xl font-bold ">Tendering & Management</h4>
+            </Card>
+          </Pulse>
+          <Pulse>
+            <Card className="flex flex-col items-center bg-white w-80 p-8 ">
+              <img src={grid9} className="w-32"></img>
+              <h4 className="text-2xl font-bold ">Dedicated Execution Team</h4>
+            </Card>
+          </Pulse>
         </div>
         <div className="self-center pt-8 pb-10">
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid4} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
+          <Card className="flex flex-col items-center bg-white w-80 p-8 ">
+            <img src={grid1} className="w-32"></img>
+            <h4 className="text-2xl font-bold ">Primary Truckload Capacity</h4>
+          </Card>
         </div>
       </div>
     </>

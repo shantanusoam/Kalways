@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from "react";
-import ContactSection from "../components/ContactSection";
-import DAboutSection from "../components/DAboutSection";
-import HeroSection from "../components/HeroSection";
-import Navbar from "../components/Navbar";
-import QuoteAtEnd from "../components/QuoteAtEnd";
-import ForSandC from "../components/ForSandC";
+import React, { useState, useEffect } from 'react';
+import ContactSection from '../components/ContactSection';
+import DAboutSection from '../components/DAboutSection';
+import HeroSection from '../components/HeroSection';
+import Navbar from '../components/Navbar';
+import QuoteAtEnd from '../components/QuoteAtEnd';
+import ForSandC from '../components/ForSandC';
 
-import ProvideExpertService from "../components/ProvideExpertService";
-import MapSection from "../components/MapSection";
-import TrailerList from "../components/TrailersList";
-import CenterSection from "../components/CenterSection";
-import Solution from "../components/Solution";
+import ProvideExpertService from '../components/ProvideExpertService';
+import MapSection from '../components/MapSection';
+import TrailerList from '../components/TrailersList';
+import CenterSection from '../components/CenterSection';
+import Solution from '../components/Solution';
 
 const SLIDE_COUNT = 5;
 const slides = Array.from(Array(SLIDE_COUNT).keys());
@@ -18,18 +18,18 @@ const slides = Array.from(Array(SLIDE_COUNT).keys());
 const Lol = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [disabel, setdisabel] = useState(
-    () => window.localStorage.getItem("product") ?? false
+    () => window.localStorage.getItem('product') ?? false
   );
   useEffect(() => {
     // Update the document title using the browser API
     disabeled() ? setdisabel(true) : setdisabel(false);
-    window.localStorage.setItem("product", disabel);
+    window.localStorage.setItem('product', disabel);
   });
 
   function disabeled() {
     const path = window.location.pathname;
-    console.log(path === "/");
-    if (path === "/") {
+    console.log(path === '/');
+    if (path === '/') {
       return true;
     }
     return false;
@@ -62,7 +62,7 @@ const Lol = () => {
 
 class Home extends React.Component {
   componentDidMount() {
-    document.title = "kalway";
+    document.title = 'kalway';
   }
 
   render() {

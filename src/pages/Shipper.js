@@ -1,13 +1,13 @@
-import { render } from "@testing-library/react";
-import React, { useState, useEffect } from "react";
-import { Shipfreight } from "../components/waystoship/shipfreight";
-import "./shipFleight.css";
-import image1 from "../images/dv0.jpg";
-import image2 from "../images/Ut1.jpg";
-import image3 from "../images/Rt2.jpg";
+import { render } from '@testing-library/react';
+import React, { useState, useEffect } from 'react';
+import { shipfreight } from '../components/waystoship/shipfreight';
+import './shipFleight.css';
+import image1 from '../images/dv0.jpg';
+import image2 from '../images/Ut1.jpg';
+import image3 from '../images/Rt2.jpg';
 export default class Shipper extends React.Component {
   componentDidMount() {
-    document.title = "Kalway shipfreight";
+    document.title = 'Kalway shipfreight';
   }
 
   render() {
@@ -18,7 +18,7 @@ export default class Shipper extends React.Component {
           <img src={image3} className="flex-1 h-96" alt=""></img>
           <img src={image1} className="flex-1 h-96" alt=""></img>
         </div>
-        <h2 className=" self-center pt-10 text-3xl">
+        <h2 className=" self-left pt-10 pr-16 text-3xl">
           FREIGHT BROKERAGE OVERVIEW
         </h2>
         <div className="flex flex-row pr-16 pt-16">

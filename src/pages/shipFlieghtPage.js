@@ -1,13 +1,13 @@
-import { render } from "@testing-library/react";
-import React, { useState, useEffect } from "react";
-import { Shipfreight } from "../components/waystoship/shipfreight";
-import "./shipFleight.css";
-import image1 from "../images/dv0.jpg";
-import image2 from "../images/Ut1.jpg";
-import image3 from "../images/Rt2.jpg";
+import { render } from '@testing-library/react';
+import React, { useState, useEffect } from 'react';
+import { shipfreight } from '../components/waystoship/shipfreight';
+import './shipFleight.css';
+import image1 from '../images/dv0.jpg';
+import image2 from '../images/Ut1.jpg';
+import image3 from '../images/Rt2.jpg';
 export default class ShipFlightPage extends React.Component {
   componentDidMount() {
-    document.title = "Kalway shipfreight";
+    document.title = 'Kalway shipfreight';
   }
 
   render() {
@@ -40,7 +40,7 @@ export default class ShipFlightPage extends React.Component {
             <h3 className="font-bold pt-10 text-xl">REAL-TIME TRACKING</h3>
             <p className="font-medium pt-2 text-xl">
               The kalway Logistics mobile app allows drivers to provide
-              real-time tracking, reducing the need for check-in phone calls.{" "}
+              real-time tracking, reducing the need for check-in phone calls.{' '}
             </p>
             <h3 className="font-bold pt-10 text-xl">DOCUMENT UPLOAD</h3>
             <p className="font-medium pt-2 text-xl">
@@ -71,7 +71,7 @@ export default class ShipFlightPage extends React.Component {
               </li>
               <li className="font-medium pt-2 text-xl">
                 Set Preferred Lanes and receive daily Suggested Loads tailored
-                to your needs{" "}
+                to your needs{' '}
               </li>
               <li className="font-medium pt-2 text-xl">
                 Receive Reload opportunities for shipments booked with Echo

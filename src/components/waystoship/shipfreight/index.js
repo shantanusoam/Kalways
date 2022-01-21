@@ -1,7 +1,7 @@
-import React from "react";
-import RFQTTS from "../../RFQTTS";
+import React from 'react';
+import RFQTTS from '../../RFQTTS';
 
-export const Shipfreight = () => {
+export const shipfreight = () => {
   return (
     <div>
       <RFQTTS></RFQTTS>

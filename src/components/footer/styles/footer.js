@@ -1,7 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 80px 60px;
+  height: 100%;
+  padding: 40px 30px;
   background: radial-gradient(circle, #111 100%, #101010fa 100%);
 
   @media (max-width: 1000px) {
@@ -38,7 +39,7 @@ export const Row = styled.div`
 export const Link = styled.a`
   color: #fff;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 14px;
   text-decoration: none;
 
   &:hover {
@@ -48,7 +49,7 @@ export const Link = styled.a`
 `;
 
 export const Title = styled.p`
-  font-size: 24px;
+  font-size: 18px;
   color: #fff;
   margin-bottom: 40px;
   font-weight: bold;

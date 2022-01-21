@@ -1,8 +1,8 @@
-import React from "react";
-import trucks from "../../images/LOTSOFTRUCKS.png";
-import Containers from "../../images/comtaimer.png";
-import Shiping from "../../images/shiping.png";
-import "./style.css";
+import React from 'react';
+import trucks from '../../images/LOTSOFTRUCKS.png';
+import Containers from '../../images/comtaimer.png';
+import Shiping from '../../images/shiping.png';
+import './style.css';
 import {
   WWOCArd,
   WWOCardContent,
@@ -11,8 +11,8 @@ import {
   CardListRow,
   LinkRo,
   NavLink,
-} from "./SolutionElement";
-import Fade from "react-reveal/Fade";
+} from './SolutionElement';
+import Fade from 'react-reveal/Fade';
 const Solution = ({ isOpen, toggle }) => {
   return (
     <WWOCArd>
@@ -92,7 +92,7 @@ const Solution = ({ isOpen, toggle }) => {
                   </h3>
                   <a href="/Contact">
                     <button class="btn">
-                      <span class="btn-text">Request a freight quote</span>
+                      <span class="btn-text">Happy to have you</span>
                     </button>
                   </a>
                 </div>
@@ -121,7 +121,7 @@ const Solution = ({ isOpen, toggle }) => {
                   </h3>
                   <a href="/Contact">
                     <button class="btn">
-                      <span class="btn-text">Request a freight quote</span>
+                      <span class="btn-text">Happy to have you</span>
                     </button>
                   </a>
                 </div>
@@ -149,7 +149,7 @@ const Solution = ({ isOpen, toggle }) => {
                   </h3>
                   <a href="/Contact">
                     <button class="btn">
-                      <span class="btn-text">Request a freight quote</span>
+                      <span class="btn-text">Happy to have you</span>
                     </button>
                   </a>
                 </div>

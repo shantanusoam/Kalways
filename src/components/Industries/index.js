@@ -7,6 +7,22 @@ import grid1 from '../../images/fleet.png';
 import grid2 from '../../images/grid2.png';
 import grid3 from '../../images/grid3.png';
 import grid4 from '../../images/grid3.png';
+import mgrid10 from '../../images/mgrid10.png';
+import mgrid11 from '../../images/mgrid11.png';
+import mgrid13 from '../../images/mgrid13.png';
+import mgrid14 from '../../images/mgrid14.png';
+import mgrid12 from '../../images/mgrid12.png';
+import mgrid15 from '../../images/grid4.png';
+import mgrid16 from '../../images/grid2.png';
+import igrid1 from '../../images/igrid1.png';
+import igrid2 from '../../images/igrid2.png';
+import igrid3 from '../../images/igrid3.png';
+import igrid4 from '../../images/igrid4.png';
+import igrid5 from '../../images/igrid5.png';
+import igrid6 from '../../images/igrid6.png';
+import igrid7 from '../../images/igrid7.png';
+import igrid8 from '../../images/igrid8.png';
+import igrid9 from '../../images/igrade9.png';
 
 import Fade from 'react-reveal/Fade';
 // import bankground from "../../images";
@@ -15,6 +31,7 @@ import {
   HeroContainer,
   WWOCCButtonM,
   PCENTER,
+  Container,
   HeroP,
   HeroContent,
   WWOCCButton,
@@ -29,6 +46,7 @@ import {
   ContainerMain,
   Callinfo,
   BgImage,
+  Card,
 } from './Industries';
 const Industries = () => {
   return (
@@ -40,14 +58,18 @@ const Industries = () => {
         </HeroBg> */}
         <HeroContent>
           <ContainerMain>
-            <h3 className=" pt-10 text-3xl text-white">CROSS-BORDER FREIGHT</h3>
-            <p className="font-medium font-bold pt-8 text-white text-4xl w-auto">
-              Driving your business across borders.
-            </p>
-            <p className="font-medium pt-8 text-xl w-auto text-white">
-              Bring simplicity to an intricate supply chain process with our
-              reliable cross-border solutions.
-            </p>
+            <div className="mt-40 m-4">
+              <h3 className=" pt-10 text-3xl text-white">
+                CROSS-BORDER FREIGHT
+              </h3>
+              <p className="font-medium font-bold pt-8 text-white text-4xl w-auto">
+                Driving your business across borders.
+              </p>
+              <p className="font-medium pt-8 text-xl w-auto text-white">
+                Bring simplicity to an intricate supply chain process with our
+                reliable cross-border solutions.
+              </p>
+            </div>
           </ContainerMain>
 
           {/* <PCENTER class="text-gray-600 p-8">
@@ -58,17 +80,30 @@ const Industries = () => {
           </PCENTER> */}
         </HeroContent>
       </HeroContainer>
-      <div className=" flex flex-col pb-10 bg-slate-800">
-        <h2 className=" self-center font-bold pt-16 text-4xl">
+      <div className=" flex flex-col pb-10 bg-slate-800  ml-40">
+        <h2 className="  font-bold pt-16 text-5xl  ">
           Expand your supply chain. Ship without borders.
         </h2>
-        <h2 className=" self-center  pt-4 text-2xl">
-          Whether shipping northbound or southbound, Coyote leverages a dense
-          North American carrier network to bring you capacity when and where
-          you need it. We source the right carrier for each opportunity,
-          facilitate the crossing logistics and monitor your freight throughout
-          the process.
-        </h2>
+
+        <div className="flex flex-row pt-16">
+          <div className="pr-40">
+            <p className="font-medium pt-8 text-2xl w-auto ">
+              Whether shipping northbound or southbound, Coyote leverages a
+              dense North American carrier network to bring you capacity when
+              and where you need it. We source the right carrier for each
+              opportunity, facilitate the crossing logistics and monitor your
+              freight throughout the process.
+            </p>
+            <p className="font-medium pt-9 pb-10 text-2xl w-auto">
+              We will help you get your products where they need to go fast,
+              efficiently and without interruption. Join the more than 3,500 CPG
+              companies who trust us with their freight.
+            </p>
+          </div>
+          <div className="w-2/2 drop-shadow-md pr-20 ">
+            <img src={image3} className="w-auto "></img>
+          </div>
+        </div>
 
         {/* <div className="flex flex-row">
           <img src={image2} className="flex-1 h-96" alt=""></img>
@@ -97,19 +132,30 @@ const Industries = () => {
       <div className="flex flex-row pr-16 pt-16">
         <div className="self-end pl-32 pr-32">
           {/* <h3 className="font-bold pt-10 text-xl">Additional Information</h3> */}
-          <h3 className="font-bold pt-10 text-3xl">Ways to Ship</h3>
-          <p className="font-medium pt-8 text-xl w-auto">
-            Your products are going to fly off the shelf. But first, they have
-            to get there on time. Whether you ship tissues or toothpaste,
-            sunscreen or salty snacks, your supply chain is feeling the
-            pressure. Consumer expectations are rising, delivery times are
-            shortening and excuses won’t cut it.
-          </p>
-          <p className="font-medium pt-9 text-xl w-auto">
-            We will help you get your products where they need to go fast,
-            efficiently and without interruption. Join the more than 3,500 CPG
-            companies who trust us with their freight.
-          </p>
+          <div className="flex flex-col items-center justify-items-center">
+            <Container className="pb-8">
+              <h3 className="font-bold pt-10 text-5xl">
+                Ways to Ship
+                <br></br>
+                <p className="w-40 h-5 pt-2 hover:w-10 bg-white "></p>
+                <div className="w-40 h-2 pt-2 hover:w-10 "></div>
+              </h3>
+            </Container>
+
+            <p className="font-medium pt-8 text-2xl w-auto text-center ">
+              Your products are going to fly off the shelf. But first, they have
+              to get there on time. Whether you ship tissues or toothpaste,
+              sunscreen or salty snacks, your supply chain is feeling the
+              pressure. Consumer expectations are rising, delivery times are
+              shortening and excuses won’t cut it.
+            </p>
+            <p className="font-medium pt-9 text-2xl w-auto text-center">
+              We will help you get your products where they need to go fast,
+              efficiently and without interruption. Join the more than 3,500 CPG
+              companies who trust us with their freight.
+            </p>
+          </div>
+
           <div className=" pt-10 grid gap-10 grid-cols-2 grid-cols-2">
             <div className="flex flex-col items-start">
               <img src={grid1} className=""></img>
@@ -123,7 +169,7 @@ const Industries = () => {
               </p>
             </div>
             <div className="flex flex-col items-start">
-              <img src={grid2} className=""></img>
+              <img src={mgrid10} className=""></img>
               <h4 className="text-2xl">CONSUMER PACKAGED GOODS LOGISTICS</h4>
               <p className="font-medium pt-2 text-xl w-auto">
                 our products are going to fly off the shelf. But first, they
@@ -138,7 +184,7 @@ const Industries = () => {
               </p>
             </div>
             <div className="flex flex-col items-start">
-              <img src={grid3} className=""></img>
+              <img src={mgrid12} className=""></img>
               <h4 className="text-2xl">FOOD & BEVERAGE LOGISTICS</h4>
               <p className="font-medium pt-2 text-xl w-auto">
                 Running a food and beverage supply chain is not easy — margins
@@ -156,7 +202,7 @@ const Industries = () => {
               </p>
             </div>
             <div className="flex flex-col items-start">
-              <img src={grid4} className=""></img>
+              <img src={mgrid13} className=""></img>
               <h4 className="text-2xl">HEALTHCARE LOGISTICS</h4>
               <p className="font-medium pt-2 text-xl w-auto">
                 Healthcare shippers need fast and reliable service to keep up
@@ -166,7 +212,7 @@ const Industries = () => {
               </p>
             </div>
             <div className="flex flex-col items-start">
-              <img src={grid4} className=""></img>
+              <img src={mgrid14} className=""></img>
               <h4 className="text-2xl">Air & Ocean</h4>
               <p className="font-medium pt-2 text-xl w-auto">
                 Running a manufacturing supply chain is not easy. Though
@@ -176,7 +222,7 @@ const Industries = () => {
               </p>
             </div>
             <div className="flex flex-col items-start">
-              <img src={grid4} className=""></img>
+              <img src={mgrid15} className=""></img>
               <h4 className="text-2xl">MANUFACTURING LOGISTICS</h4>
               <p className="font-medium pt-2 text-xl w-auto">
                 Running a manufacturing supply chain is not easy. Though
@@ -186,7 +232,7 @@ const Industries = () => {
               </p>
             </div>
             <div className="flex flex-col items-start">
-              <img src={grid4} className=""></img>
+              <img src={mgrid16} className=""></img>
               <h4 className="text-2xl">RETAIL LOGISTICS</h4>
               <p className="font-medium pt-2 text-xl w-auto">
                 It’s never been harder to manage a retail supply chain. The line
@@ -309,88 +355,99 @@ const Industries = () => {
         </h2>
 
         <div className=" pt-10 grid gap-10 grid-cols-4 grid-cols-2 self-center justify-center justify-items-center ">
-          <div className="flex flex-col items-center bg-white w-80 p-8">
+          <Card className="flex flex-col items-center 	align-content:center place-items-center bg-white w-80 p-8">
             <img src={grid1} className="w-32"></img>
-            <h4 className="text-2xl  hover:text-lime-500">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid2} className=" w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid3} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid4} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid1} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid2} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid3} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid4} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
+            <h4 className="text-2xl  hover:text-lime-500">
+              Primary Truckload Capacity
+            </h4>
+          </Card>
+
+          <Card className="flex flex-col items-center bg-white w-80 p-8">
+            <img src={igrid2} className=" w-32"></img>
+            <h4 className="text-2xl">Spot Truckload Capacity</h4>
+          </Card>
+
+          <Card className="flex flex-col items-center bg-white w-80 p-8">
+            <img src={igrid3} className="w-32"></img>
+            <h4 className="text-2xl">Dedicated Surge Capacity</h4>
+          </Card>
+
+          <Card className="flex flex-col items-center bg-white w-80 p-8">
+            <img src={igrid4} className="w-32"></img>
+            <h4 className="text-2xl">Power Only Capacity</h4>
+          </Card>
+
+          <Card className="flex flex-col items-center bg-white w-80 p-8">
+            <img src={igrid5} className="w-32"></img>
+            <h4 className="text-2xl">Mobile Storage Solutions</h4>
+          </Card>
+
+          <Card className="flex flex-col items-center bg-white w-80 p-8">
+            <img src={igrid6} className="w-32"></img>
+            <h4 className="text-2xl">Leased Trailer Solutions</h4>
+          </Card>
+
+          <Card className="flex flex-col items-center bg-white w-80 p-8">
+            <img src={igrid7} className="w-32"></img>
+            <h4 className="text-2xl">Cross-Border Shipping</h4>
+          </Card>
+
+          <Card className="flex flex-col items-center bg-white w-80 p-8">
+            <img src={igrid8} className="w-32"></img>
+            <h4 className="text-2xl">Refrigerated</h4>
+          </Card>
         </div>
         <div className="self-center pt-8 pb-10">
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid4} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
+          <Card className="flex flex-col items-center bg-white w-80 p-8">
+            <img src={igrid9} className="w-32"></img>
+            <h4 className="text-2xl">High-Value Cargo</h4>
+          </Card>
         </div>
         <h2 className=" self-center font-bold pt-28 text-4xl">
           Canada Cross-Border Services
         </h2>
 
         <div className=" pt-10 grid gap-10 grid-cols-4 grid-cols-2 self-center justify-center justify-items-center ">
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid1} className="w-32"></img>
-            <h4 className="text-2xl  hover:text-lime-500">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid2} className=" w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid3} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid4} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid1} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid2} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid3} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid4} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
+          <Card className="flex flex-col items-center bg-white w-80 p-8">
+            <img src={igrid2} className=" w-32"></img>
+            <h4 className="text-2xl">Spot Truckload Capacity</h4>
+          </Card>
+
+          <Card className="flex flex-col items-center bg-white w-80 p-8">
+            <img src={igrid3} className="w-32"></img>
+            <h4 className="text-2xl">Dedicated Surge Capacity</h4>
+          </Card>
+
+          <Card className="flex flex-col items-center bg-white w-80 p-8">
+            <img src={igrid4} className="w-32"></img>
+            <h4 className="text-2xl">Power Only Capacity</h4>
+          </Card>
+
+          <Card className="flex flex-col items-center bg-white w-80 p-8">
+            <img src={igrid5} className="w-32"></img>
+            <h4 className="text-2xl">Mobile Storage Solutions</h4>
+          </Card>
+
+          <Card className="flex flex-col items-center bg-white w-80 p-8">
+            <img src={igrid6} className="w-32"></img>
+            <h4 className="text-2xl">Leased Trailer Solutions</h4>
+          </Card>
+
+          <Card className="flex flex-col items-center bg-white w-80 p-8">
+            <img src={igrid7} className="w-32"></img>
+            <h4 className="text-2xl">Cross-Border Shipping</h4>
+          </Card>
+
+          <Card className="flex flex-col items-center bg-white w-80 p-8">
+            <img src={igrid8} className="w-32"></img>
+            <h4 className="text-2xl">Refrigerated</h4>
+          </Card>
         </div>
         <div className="self-center pt-8 pb-10">
-          <div className="flex flex-col items-center bg-white w-80 p-8">
-            <img src={grid4} className="w-32"></img>
-            <h4 className="text-2xl">RELIABLE CAPACITY</h4>
-          </div>
+          <Card className="flex flex-col items-center bg-white w-80 p-8">
+            <img src={igrid9} className="w-32"></img>
+            <h4 className="text-2xl">High-Value Cargo</h4>
+          </Card>
         </div>
       </div>
       <div className="flex flex-col">

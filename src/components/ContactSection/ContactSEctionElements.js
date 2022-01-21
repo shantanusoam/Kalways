@@ -1,9 +1,9 @@
-import { FaBars } from "react-icons/fa";
-import { Link as LinkR } from "react-router-dom";
-import { Link as LinkS } from "react-scroll";
-import styled from "styled-components";
-import bgimage from "../../images/ContactTire.png";
-import { mobile, laptop } from "../../responsive";
+import { FaBars } from 'react-icons/fa';
+import { Link as LinkR } from 'react-router-dom';
+import { Link as LinkS } from 'react-scroll';
+import styled from 'styled-components';
+import bgimage from '../../images/ContactTire.png';
+import { mobile, laptop } from '../../responsive';
 export const ContactContainer = styled.div`
   background: #fff;
   display: flex;
@@ -11,9 +11,9 @@ export const ContactContainer = styled.div`
   align-items: center;
   padding: 50px;
   width: 100%;
-  padding-top: 200px;
+  padding-top: 300px;
   justify-content: flex-end;
-  height: 90vh;
+  height: 95vh;
   overflow: hidden;
   // @media screen and (max-width: 768px) {
   //     transition: 0.8s all ease;

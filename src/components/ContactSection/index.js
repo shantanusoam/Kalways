@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   ContactContainer,
   ContactForm,
@@ -10,25 +10,23 @@ import {
   FotterContactNo,
   FotterContactName,
   Heading,
-} from "./ContactSEctionElements";
+} from './ContactSEctionElements';
 
-import { animateScroll as scroll, Link } from "react-scroll";
+import { animateScroll as scroll, Link } from 'react-scroll';
 const ContactSectio = ({ isOpen, toggle }) => {
   function refreshPage() {
-    hide = "lol";
+    hide = 'lol';
     window.location.reload();
   }
 
-  var hide = "ContactUs";
+  var hide = 'ContactUs';
   return (
     <ContactContainer id="ContactUs">
       <ContactForm>
-        <Heading style={{ paddingTop: "20px" }}>
-          Get in touch with our experts
-        </Heading>
+        <Heading style={{ paddingTop: '20px' }}>Work At Kalways</Heading>
         <div
           data-aidaform-widget="form-2019-12"
-          data-url="https://shantanu.aidaform.com/request-for-quote-kalalwys"
+          data-url="https://shantanu.aidaform.com/work-at-kalways"
           data-width="100%"
           data-height="500px"
           data-do-resize

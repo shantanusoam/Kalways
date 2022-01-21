@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   ContactContainer,
   BackgroundImage,
@@ -11,7 +11,7 @@ import {
   ShippingToContainer,
   FormInput,
   RequestToQuote,
-} from "./CenterSectionElements";
+} from './CenterSectionElements';
 
 const CenterSection = ({ isOpen, toggle }) => {
   return (
@@ -41,9 +41,7 @@ const CenterSection = ({ isOpen, toggle }) => {
             </ShippingToContainer>
             <h2>Moving furniture or personal items?</h2>
             <a href="/Contact">
-              <RequestToQuote type="submit">
-                Request a freight quote?
-              </RequestToQuote>
+              <RequestToQuote type="submit">Happy to have you?</RequestToQuote>
             </a>
           </DataContainer>
         </form>

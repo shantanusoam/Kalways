@@ -1,6 +1,6 @@
-import Styled from "styled-components";
-import bgimage from "../../images/CrossBorder.png";
-import { Link as LinkR } from "react-router-dom";
+import Styled from 'styled-components';
+import bgimage from '../../images/CrossBorder.png';
+import { Link as LinkR } from 'react-router-dom';
 export const HeroContainer = Styled.div`
 
 overflow: hidden;
@@ -27,11 +27,29 @@ z-index: 1;
     
 }
 `;
+
 export const ContainerMain = Styled.div`
 display: flex;
 flex-direction: column;
+
+height:100vh;
 `;
-// export const HeroBg = Styled.div`
+
+export const Card = Styled.div`
+box-shadow: 6px 4px 8px 2px rgb(0 0 0 / 20%);
+&hover: {
+    box-shadow: 6px 4px 8px 2px rgb(0 0 0 / 70%);
+}
+h4{
+    text-align: center;
+}
+:hover{
+    h4{
+        color: #00e700;
+
+    }
+}
+// export const HeroBg = Styled.div`;
 
 // position: absolute;
 // z-index: 2;
@@ -69,7 +87,20 @@ transition: 0.3s all ease;
     box-shadow: 2px 5px 6px 0px  rgba(0,0,6,0.2);
 }
 `;
-
+export const Container = Styled.div`
+h3 {
+    div {
+      background: #00e700;
+      width: 20%;
+      transition: all 0.5s ease;
+    }
+    :hover {
+      cursor: pointer;
+      div {
+        width: 100%;
+      }
+    }
+`;
 export const WWOCardContent = Styled.div`
 display: flex;
 flex-direction: column;
@@ -443,7 +474,7 @@ display: block;
 }
 `;
 export const NavLinks = Styled(LinkR)`
-color: ${({ scrollNav }) => (scrollNav ? "#fff" : `#000`)};
+color: ${({ scrollNav }) => (scrollNav ? '#fff' : `#000`)};
 display: flex;
 align-items: center;
 text-decoration: none;

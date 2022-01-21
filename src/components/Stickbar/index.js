@@ -1,21 +1,21 @@
-import React from "react";
-import { SticNav, NavLink, Bars, NavMenu } from "./StickbarElements";
+import React from 'react';
+import { SticNav, NavLink, Bars, NavMenu } from './StickbarElements';
 
 const Stickbar = () => {
   return (
     <>
       <SticNav>
         <NavMenu>
-          <NavLink to="/" activeStyle></NavLink>
+          {/* <NavLink to="/" activeStyle></NavLink> */}
 
-          <NavLink to="/" activeStyle>
+          {/* <NavLink to="/" activeStyle>
             Track Your Shipment
+          </NavLink> */}
+          <NavLink to="/Abut" activeStyle>
+            <a href="/About">About Us</a>
           </NavLink>
-          <NavLink to="/" activeStyle>
-            About Us
-          </NavLink>
-          <NavLink to="/" activeStyle>
-            Work at KalWay
+          <NavLink to="/Contact" activeStyle>
+            <a href="/Contact">Work at KalWay</a>
           </NavLink>
           {/* <NavLink to="/" activeStyle>
             Contact

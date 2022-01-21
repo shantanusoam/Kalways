@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import Video from "./media/Bgvideo2.mp4";
+import React, { useState } from 'react';
+import Video from './media/Bgvideo2.mp4';
 // import bankground from "../../images";
-import "./style.css";
+import './style.css';
 import {
   HeroContainer,
   WWOCCButtonM,
@@ -20,24 +20,24 @@ import {
   ContainerMain,
   Callinfo,
   BgImage,
-} from "./HeroElements";
-import { FiPhoneCall } from "react-icons/fi";
-import { AiOutlineMail } from "react-icons/ai";
-import { GoLocation } from "react-icons/go";
-import { animateScroll as scroll, Link } from "react-scroll";
+} from './HeroElements';
+import { FiPhoneCall } from 'react-icons/fi';
+import { AiOutlineMail } from 'react-icons/ai';
+import { GoLocation } from 'react-icons/go';
+import { animateScroll as scroll, Link } from 'react-scroll';
 
-import EmblaCarousel from "./EmblaCarousel";
+import EmblaCarousel from './EmblaCarousel';
 
-import styled from "styled-components";
-import { sliderItems } from "./media/data";
-import { mobile } from "./media/responsive";
+import styled from 'styled-components';
+import { sliderItems } from './media/data';
+import { mobile } from './media/responsive';
 const Container = styled.div`
   width: 100%;
   height: 100vh;
   display: flex;
   overflow: hidden;
   position: relative;
-  ${mobile({ display: "none" })}
+  ${mobile({ display: 'none' })}
 `;
 const Gradients = styled.div`
   background-image: linear-gradient(
@@ -67,8 +67,8 @@ const Arrow = styled.div`
   bottom: 0;
 
   margin: auto;
-  left: ${(props) => props.direction === "left" && "10px"};
-  right: ${(props) => props.direction === "right" && "10px"};
+  left: ${(props) => props.direction === 'left' && '10px'};
+  right: ${(props) => props.direction === 'right' && '10px'};
   cursor: pointer;
   opacity: 0.5;
   z-index: 2;
@@ -280,7 +280,7 @@ const HeroSection = () => {
           <HeroP>Drive your business forward</HeroP>
           <a href="/Contact">
             <button class="btn">
-              <span class="btn-text">Request a freight quote</span>
+              <span class="btn-text">Moving furniture or personal items?</span>
             </button>
           </a>
         </ContainerMain>

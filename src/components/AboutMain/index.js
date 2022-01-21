@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 import {
   AboutContainer,
   TextContaner,
   TextContanerS,
-} from "./AboutMainElements";
-import whitetruck from "../../images/AP.jpeg";
+} from './AboutMainElements';
+import whitetruck from '../../images/AP.jpeg';
 const AboutMain = ({ isOpen, toggle }) => {
   return (
     <AboutContainer id="About">
@@ -20,7 +20,7 @@ const AboutMain = ({ isOpen, toggle }) => {
       />
       <TextContanerS>
         <h1 className="text-left text-black font-bold text-4xl pb-8">Kalway</h1>
-        <p className="text-left text-gray-500 text-2xl pb-8 font-bold ">
+        <p className="text-left text-gray-800 text-2xl pb-8 font-bold ">
           kalway’s mission is to move business forward with expertise and
           integrity. That’s why we’re committed to creating smarter, less
           environmentally impactful solutions for our network. Between 2019 and

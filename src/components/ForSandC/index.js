@@ -1,8 +1,8 @@
-import React from "react";
-import containers from "../../images/Ccontainers.png";
-import Hcontainers from "../../images/Hcontainers.png";
+import React from 'react';
+import containers from '../../images/Ccontainers.png';
+import Hcontainers from '../../images/Hcontainers.png';
 
-import "./style.css";
+import './style.css';
 import {
   WWOCArd,
   ImageContainer,
@@ -14,9 +14,9 @@ import {
   CardListRow,
   LinkRo,
   NavLink,
-} from "./SolutionElement";
-import Fade from "react-reveal/Fade";
-import { CardContainer } from "../Solution/SolutionElement";
+} from './SolutionElement';
+import Fade from 'react-reveal/Fade';
+import { CardContainer } from '../Solution/SolutionElement';
 const ForSandC = ({ isOpen, toggle }) => {
   return (
     <WWOCArd>
@@ -37,9 +37,9 @@ const ForSandC = ({ isOpen, toggle }) => {
               Get access to capacity and equipment solutions, regardless of
               market conditions.
             </p>
-            <a href="/Contact">
+            {/* <a href="/Contact">
               <button class="btn" id="m4">
-                <span class="btn-text">Request a freight quote</span>
+                <span class="btn-text">Happy to have you</span>
               </button>
             </a>
 
@@ -47,7 +47,7 @@ const ForSandC = ({ isOpen, toggle }) => {
               <span class="btn-text">
                 Sign up for <br></br> Kalway
               </span>
-            </button>
+            </button> */}
           </div>
           <div class="vl"></div>
           <div class="container">
@@ -56,12 +56,12 @@ const ForSandC = ({ isOpen, toggle }) => {
               Instantly book your preferred loads and consistent lanes to keep
               your fleet hauling.
             </p>
-            <button class="btn2" id="m4">
+            {/* <button class="btn2" id="m4">
               <span class="btn-text">Login</span>
             </button>
             <button class="btn2">
               <span class="btn-text">Sign up</span>
-            </button>
+            </button> */}
           </div>
         </div>
       </SandCcontainer>
