@@ -22,11 +22,16 @@ const ContactSectio = ({ isOpen, toggle }) => {
   var hide = 'ContactUs';
   return (
     <ContactContainer id="ContactUs">
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <div className="pt-20"> </div>
       <ContactForm>
-        <Heading style={{ paddingTop: '20px' }}>Work At Kalways</Heading>
+        <Heading style={{ paddingTop: '20px' }}>Contact Us</Heading>
         <div
           data-aidaform-widget="form-2019-12"
-          data-url="https://shantanu.aidaform.com/work-at-kalways"
+          data-url="https://shantanu.aidaform.com/contact-us-kalways"
           data-width="100%"
           data-height="500px"
           data-do-resize
@@ -43,12 +48,12 @@ const ContactSectio = ({ isOpen, toggle }) => {
               <FotterContactlist>
                 <FotterContactName>Address</FotterContactName>
                 <FotterContactNo>
-                  1225 Riverside Rd, Abbotsford, BC V2S 7P1, Canada
+                  10156 Live Oak Ave, Fontana, CA 92335
                 </FotterContactNo>
 
                 <FotterContactName>United states</FotterContactName>
                 <FotterContactNo>
-                  California, Texas, Indiana, New jersey and North Caroline
+                  California
                   {/* Finsweet@gmail.com */}
                 </FotterContactNo>
               </FotterContactlist>
@@ -58,7 +63,7 @@ const ContactSectio = ({ isOpen, toggle }) => {
               <FotterContactlist>
                 <FotterContactName>Contact Details</FotterContactName>
                 <FotterContactNo>
-                  (604) 864 3100
+                  800-502-7000
                   {/* Finsweet@gmail.com */}
                 </FotterContactNo>
               </FotterContactlist>

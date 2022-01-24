@@ -34,7 +34,7 @@ export default class ShipFlightPage extends React.Component {
           <img src={image2} className="flex-1 h-96" alt=""></img>
           <img src={image3} className="flex-1 h-96" alt=""></img>
         </div>
-        <Card className=" self-center pt-10 pr-96">
+        <Card className=" self-center pt-10 pr-48">
           <h3 className=" self-center pt-10  text-4xl">
             CARRIER SERVICES
             <p className="h-4"></p>
@@ -65,11 +65,7 @@ export default class ShipFlightPage extends React.Component {
               The kalway Logistics mobile app allows drivers to provide
               real-time tracking, reducing the need for check-in phone calls.{' '}
             </p>
-            <h3 className="font-bold pt-10 text-xl">DOCUMENT UPLOAD</h3>
-            <p className="font-medium pt-2 text-xl">
-              TWith the kalway Logistics mobile app, drivers can quickly and
-              easily submit delivery documents to ensure they get paid faster.
-            </p>
+
             <h3 className="font-bold pt-10 text-xl">
               Dispatcher Web Portal Benefits:
             </h3>

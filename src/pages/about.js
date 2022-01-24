@@ -1,32 +1,32 @@
-import React, { useState, useEffect } from "react";
-import trucks from "../images/sustain1.jpg";
-import Containers from "../images/sustain2.jpg";
-import Shiping from "../images/sustain3.jpg";
-import Navbar from "../components/Navbar";
+import React, { useState, useEffect } from 'react';
+import trucks from '../images/sustain1.jpg';
+import Containers from '../images/sustain2.jpg';
+import Shiping from '../images/sustain3.jpg';
+import Navbar from '../components/Navbar';
 
-import Sidebar from "../components/Sidebar";
+import Sidebar from '../components/Sidebar';
 
-import FooterSection from "../components/FooterSection";
-import AboutMain from "../components/AboutMain";
-import QuoteAtEnd from "../components/QuoteAtEnd";
-import AboutMain2 from "../components/AboutMain2";
-import Fade from "react-reveal/Fade";
+import FooterSection from '../components/FooterSection';
+import AboutMain from '../components/AboutMain';
+import QuoteAtEnd from '../components/QuoteAtEnd';
+import AboutMain2 from '../components/AboutMain2';
+import Fade from 'react-reveal/Fade';
 const About = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [disabel, setdisabel] = useState(
-    () => window.localStorage.getItem("product") ?? false
+    () => window.localStorage.getItem('product') ?? false
   );
 
   useEffect(() => {
     // Update the document title using the browser API
     disabeled() ? setdisabel(true) : setdisabel(false);
-    window.localStorage.setItem("product", disabel);
+    window.localStorage.setItem('product', disabel);
   });
 
   function disabeled() {
     const path = window.location.pathname;
-    console.log(path === "/");
-    if (path === "/") {
+    console.log(path === '/');
+    if (path === '/') {
       return true;
     }
     return false;
@@ -91,7 +91,7 @@ const About = () => {
             <div className="p-8">
               <h3 className="font-bold text-2xl mb-5">For Kalways</h3>
               <br />
-              <h3 className=" text-1xl mb-5 ">
+              <h3 className=" text-1xl mb-5 h-44">
                 Every Kalway employee has a part to play in driving a more
                 sustainable industry. From in-office recycling programs and
                 digital efficiency efforts, to volunteer opportunities with
@@ -115,7 +115,7 @@ const About = () => {
             <div className="p-8">
               <h3 className="font-bold text-2xl mb-5">For Shippers</h3>
               <br />
-              <h3 className=" text-1xl mb-5 ">
+              <h3 className=" text-1xl mb-5 h-44">
                 Improving your sustainability performance starts with adjusting
                 your approach. Kalway can help you customize solutions that
                 include eliminating empty miles, intermodal conversion, order
@@ -139,7 +139,7 @@ const About = () => {
             <div className="p-8">
               <h3 className="font-bold text-2xl mb-5">For Carriers</h3>
               <br />
-              <h3 className=" text-1xl mb-5 ">
+              <h3 className=" text-1xl mb-5 h-44">
                 Whether you’re a carrier who is already leveraging fuel
                 alternatives, like biodiesel, or looking to run dedicated routes
                 for sustainability-minded shippers, we’re here to help. We can

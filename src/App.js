@@ -19,6 +19,7 @@ import ShipFlightPage from './pages/shipFlieghtPage';
 import Shipper from './pages/Shipper';
 import shipfreight from './components/shipfreight';
 import Industries from './components/Industries';
+import WorkAtKalwayss from './components/WorkAtKalways';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -68,6 +69,12 @@ function App() {
           path="/industries"
           component={Industries}
           title="Inventory"
+        />
+        <Route
+          exact
+          path="/WorkAtKalway"
+          component={WorkAtKalwayss}
+          title="WorkAtKalway"
         />
       </Switch>
 

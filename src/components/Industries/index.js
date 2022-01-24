@@ -485,7 +485,7 @@ const Industries = () => {
           </Pulse>
         </div>
       </div>
-      <div className="flex flex-col">
+      {/* <div className="flex flex-col">
         <h2 className=" self-center font-bold pt-28 text-4xl">
           ONE CENTRALIZED MARKETPLACE. MULTIPLE MODES FOR WHAT YOU NEED.
         </h2>
@@ -555,7 +555,7 @@ const Industries = () => {
             </div>
           </Fade>
         </div>
-      </div>
+      </div> */}
       <div className="flex flex-col">
         <h2 className=" self-center  pt-28 text-2xl">
           ONE CENTRALIZED MARKETPLACE. MULTIPLE MODES FOR WHAT YOU NEED.

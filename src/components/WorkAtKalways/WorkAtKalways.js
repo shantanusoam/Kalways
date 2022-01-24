@@ -7,13 +7,13 @@ import { mobile, laptop } from '../../responsive';
 export const ContactContainer = styled.div`
   background: #fff;
   display: flex;
-  flex-direction: row;
+
   align-items: center;
   padding: 50px;
   width: 100%;
   padding-top: 300px;
-  justify-content: flex-end;
-  height: 110vh;
+  justify-content: center;
+  height: 120vh;
   overflow: hidden;
   // @media screen and (max-width: 768px) {
   //     transition: 0.8s all ease;
@@ -31,14 +31,14 @@ export const ContactForm = styled.div`
   /* display: flex;
 flex-direction: column;
 align-items: flex-start; */
-
+  margin-top: 15rem;
   width: 50%;
   @media screen and (max-width: 768px) {
     width: 100%;
     height: 100%;
   }
   div {
-    padding-top: 100px @media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       width: 100%;
       height: 40%;
     }
@@ -179,7 +179,7 @@ export const FotterContactName = styled.div`
   }
 `;
 export const Heading = styled.div`
-  margin: 100px 0px 0px 60px;
+  padding: 20rem 0px 0px 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
