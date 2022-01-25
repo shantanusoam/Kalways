@@ -1,6 +1,6 @@
-import Styled from "styled-components";
-import bgimage from "../../images/bg.png";
-import { Link as LinkR } from "react-router-dom";
+import Styled from 'styled-components';
+import bgimage from '../../images/bg.jpg';
+import { Link as LinkR } from 'react-router-dom';
 export const HeroContainer = Styled.div`
 
 overflow: hidden;
@@ -31,18 +31,18 @@ export const ContainerMain = Styled.div`
 display: flex;
 flex-direction: column;
 `;
-// export const HeroBg = Styled.div`
+export const HeroBg = Styled.div`
 
-// position: absolute;
-// z-index: 2;
-// top: 0;
-// left: 0;
-// bottom: 0;
-// right: 0;
-// overflow: hidden;
-// width: 100vw;
-// height: 100vh;
-// `
+position: absolute;
+z-index: z;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+overflow: hidden;
+width: 100vw;
+height: 100vh;
+`;
 export const WWOCardContainer = Styled.div`
 display: flex;
 flex-wrap: wrap;
@@ -440,7 +440,7 @@ display: block;
 }
 `;
 export const NavLinks = Styled(LinkR)`
-color: ${({ scrollNav }) => (scrollNav ? "#fff" : `#000`)};
+color: ${({ scrollNav }) => (scrollNav ? '#fff' : `#000`)};
 display: flex;
 align-items: center;
 text-decoration: none;

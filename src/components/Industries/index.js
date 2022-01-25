@@ -73,21 +73,19 @@ const Industries = () => {
             </div>
           </ContainerMain>
 
-          {/* <PCENTER class="text-gray-600 p-8">
-            One-stop-shop for all your trucking needs. We are an authorized
-            dealer for Vanguard trailers servicing in British Columbia, Canada.
-            We are an established retailer of pre-owned trucks and trailers as
-            well.
-          </PCENTER> */}
+          <PCENTER class="text-gray-600 p-8">
+            Bring simplicity to an intricate supply chain process with our
+            reliable cross-border solutions.
+          </PCENTER>
         </HeroContent>
       </HeroContainer>
-      <div className=" flex flex-col pb-10 bg-slate-800  ml-40">
-        <h2 className="  font-bold pt-16 text-5xl  ">
+      <div className=" flex flex-col pb-10 bg-slate-800 m-8  lg:ml-40">
+        <h2 className="  font-bold pt-16 lg:text-5xl  text-3xl">
           Expand your supply chain. Ship without borders.
         </h2>
 
         <div className="flex flex-row pt-16">
-          <div className="pr-40">
+          <div className="lg:pr-40">
             <p className="font-medium pt-8 text-2xl w-auto ">
               Whether shipping northbound or southbound, Coyote leverages a
               dense North American carrier network to bring you capacity when
@@ -101,7 +99,7 @@ const Industries = () => {
               companies who trust us with their freight.
             </p>
           </div>
-          <div className="w-2/2 drop-shadow-md pr-20 ">
+          <div className="w-2/2 drop-shadow-md pr-20 hidden lg:block ">
             <img src={image3} className="w-auto "></img>
           </div>
         </div>
@@ -122,7 +120,7 @@ const Industries = () => {
               management—so you can focus on what you do best.
             </p>
             <button class="btn">
-              <span class="btn-text">- 1-800-295-9737 -</span>
+              <span class="btn-text">- 1-800-502-7000 -</span>
             </button>
           </div>
         </div>
@@ -130,8 +128,8 @@ const Industries = () => {
           What Makes Us Different
         </h2> */}
       </div>
-      <div className="flex flex-row pr-16 pt-16">
-        <div className="self-end pl-32 pr-32">
+      <div className="flex flex-row lg:pr-16 lg:pt-16 p-8">
+        <div className="self-end lg:pl-32 lg:pr-32">
           {/* <h3 className="font-bold pt-10 text-xl">Additional Information</h3> */}
           <div className="flex flex-col items-center justify-items-center">
             <Container className="pb-8">
@@ -157,7 +155,7 @@ const Industries = () => {
             </p>
           </div>
 
-          <div className=" pt-10 grid gap-10 grid-cols-2 grid-cols-2">
+          <div className=" pt-10 grid gap-10 lg:grid-cols-2 grid-cols-1">
             <div className="flex flex-col items-start">
               <img src={grid1} className=""></img>
               <h4 className="text-2xl">AUTOMOTIVE LOGISTICS</h4>
@@ -351,11 +349,11 @@ const Industries = () => {
         </Fade>
       </div>
       <div className="flex flex-col bg-gray-200">
-        <h2 className=" self-center font-bold pt-16 text-4xl">
+        <h2 className=" self-center font-bold pt-16 lg:text-4xl text-2xl p-8">
           Mexico Cross-Border Services
         </h2>
 
-        <div className=" pt-10 grid gap-10 grid-cols-4 grid-cols-2 self-center justify-center justify-items-center ">
+        <div className="m-8 pt-10 grid gap-10 lg:grid-cols-4 grid-cols-1 self-center justify-center justify-items-center ">
           <Pulse>
             <Card className="flex flex-col items-center 	align-content:center place-items-center bg-white w-80 p-8">
               <img src={grid1} className="w-32"></img>
@@ -422,11 +420,11 @@ const Industries = () => {
             </Card>
           </Pulse>
         </div>
-        <h2 className=" self-center font-bold pt-28 text-4xl">
+        <h2 className=" self-center font-bold pt-28 lg:text-4xl text-2xl ">
           Canada Cross-Border Services
         </h2>
 
-        <div className=" pt-10 grid gap-10 grid-cols-4 grid-cols-2 self-center justify-center justify-items-center ">
+        <div className=" pt-10 grid gap-10 lg:grid-cols-4 grid-cols-1 self-center justify-center justify-items-center ">
           <Pulse>
             <Card className="flex flex-col items-center bg-white w-80 p-8">
               <img src={igrid2} className=" w-32"></img>
@@ -556,8 +554,8 @@ const Industries = () => {
           </Fade>
         </div>
       </div> */}
-      <div className="flex flex-col">
-        <h2 className=" self-center  pt-28 text-2xl">
+      <div className="flex flex-col m-2">
+        <h2 className=" self-center  lg:pt-28 text-2xl m-2">
           ONE CENTRALIZED MARKETPLACE. MULTIPLE MODES FOR WHAT YOU NEED.
         </h2>
         <h2 className=" self-center font-bold pt-8 text-4xl">

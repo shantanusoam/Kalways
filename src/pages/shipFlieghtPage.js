@@ -28,13 +28,13 @@ export default class ShipFlightPage extends React.Component {
 
   render() {
     return (
-      <div className="pt-36 flex flex-col pb-10 bg-slate-500">
-        <div className="flex flex-row">
+      <div className="lg:pt-36 flex flex-col pb-10 bg-slate-500">
+        <div className="flex lg:flex-row flex-col">
           <img src={image1} className="flex-1 h-96" alt=""></img>
           <img src={image2} className="flex-1 h-96" alt=""></img>
           <img src={image3} className="flex-1 h-96" alt=""></img>
         </div>
-        <Card className=" self-center pt-10 pr-48">
+        <Card className=" self-center pt-10 lg:pr-48">
           <h3 className=" self-center pt-10  text-4xl">
             CARRIER SERVICES
             <p className="h-4"></p>
@@ -42,9 +42,13 @@ export default class ShipFlightPage extends React.Component {
           </h3>
         </Card>
 
-        <div className="flex flex-row pl-16 pt-16">
-          <img src={image1} className="flex-1 h-64" alt=""></img>
-          <div className="self-end pl-32">
+        <div className="flex flex-row lg:pl-16 pl-8 pt-16">
+          <img
+            src={image1}
+            className="flex-1 h-64 lg:block hidden"
+            alt=""
+          ></img>
+          <div className="self-end lg:pl-32">
             <h3 className="font-bold pt-10 text-xl">CARRIER PARTNERSHIP</h3>
             <h3 className="font-bold pt-10 text-xl">AVAILABLE LOADS ACCESS</h3>
             <p className="font-medium pt-2 text-xl ">
@@ -54,7 +58,7 @@ export default class ShipFlightPage extends React.Component {
             <h3 className="font-bold pt-10 text-xl">
               LOAD LIFECYCLE MANAGEMENT
             </h3>
-            <p className="font-medium pt-2 text-xl w-1/2">
+            <p className="font-medium pt-2 text-xl lg:w-1/2">
               kalway Logistics gives dispatchers the ability to manage loads and
               drivers with one easy-to-use portal, putting all the information
               you need, including load documents and invoices, at your

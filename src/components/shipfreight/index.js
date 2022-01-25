@@ -13,7 +13,7 @@ import grid8 from '../../images/grid8.png';
 import grid9 from '../../images/grid9.png';
 import mgrid1 from '../../images/mgrid1.png';
 import mgrid2 from '../../images/mgrid2.png';
-import mgrid4 from '../../images/mgrid4.png';
+import mgrid4 from '../../images/intermodal.png';
 import mgrid5 from '../../images/mgrid5.png';
 import mgrid6 from '../../images/mgrid6.png';
 import Pulse from 'react-reveal/Pulse';
@@ -49,33 +49,32 @@ const shipfreight = () => {
         <HeroBg>
           <BgImage></BgImage>
         </HeroBg> */}
-        <HeroContent className="flex flex-col 	justify-items-end w-1/2">
-          <ContainerMain className="absolute bottom-0 left-20 pb-12 pl-28">
+        <HeroContent className="flex flex-col 	justify-items-end lg:w-1/2">
+          <ContainerMain className="absolute bottom-0 left-20 pb-8 pl-28">
             <p className="text-white  font-medium pt-8 text-xl w-auto">
               CONSUMER PACKAGED GOODS LOGISTICS
             </p>
-            <p className="text-white font-bold  font-medium pt-8 text-6xl w-5/6">
+            <p className="text-white font-bold  font-medium pt-3 text-6xl w-5/6">
               Make it, Package it, and We'll Take it From There
             </p>
           </ContainerMain>
 
-          <PCENTER class="text-gray-600 p-8">
-            One-stop-shop for all your trucking needs. We are an authorized
-            dealer for Vanguard trailers servicing in British Columbia, Canada.
-            We are an established retailer of pre-owned trucks and trailers as
-            well.
+          <PCENTER class="text-gray-600 lg:p-8">
+            We will help you get your products where they need to go fast,
+            efficiently and without interruption. Join the more than 3,500 CPG
+            companies who trust us with their freight.
           </PCENTER>
         </HeroContent>
       </HeroContainer>
-      <div className=" flex flex-col pb-10 bg-slate-800">
+      <div className=" flex flex-col  lg:pb-10 bg-slate-800">
         {/* <div className="flex flex-row">
           <img src={image2} className="flex-1 h-96" alt=""></img>
           <img src={image3} className="flex-1 h-96" alt=""></img>
           <img src={image1} className="flex-1 h-96" alt=""></img>
         </div> */}
 
-        <div className="flex flex-row  pr-16 pt-16">
-          <div className="self-end pl-40 pr-32">
+        <div className="flex lg:flex-row flex-col lg:pr-16 lg:pt-16 p-8">
+          <div className="self-end lg:pl-40 lg:pr-32">
             {/* <h3 className="font-bold pt-10 text-xl">Additional Information</h3> */}
             <h3 className="font-bold pt-10 text-3xl">Ways to Ship</h3>
             <p className="font-medium pt-8 text-xl w-auto">
@@ -90,7 +89,7 @@ const shipfreight = () => {
               efficiently and without interruption. Join the more than 3,500 CPG
               companies who trust us with their freight.
             </p>
-            <div className=" pt-10 grid gap-10 grid-cols-2 grid-cols-2">
+            <div className=" pt-10 grid gap-10 lg:grid-cols-2 grid-cols-1">
               <div className="flex flex-col items-start">
                 <img src={grid1} className=""></img>
                 <h4 className="text-3xl">Ship freight</h4>
@@ -106,7 +105,7 @@ const shipfreight = () => {
                 <img src={mgrid1} className=""></img>
                 <h4 className="text-3xl">Full truckload</h4>
                 <p className="font-medium pt-5 text-xl w-auto">
-                  At Kalways, we consolidate an extremely fragmented market by
+                  At Kalway, we consolidate an extremely fragmented market by
                   maintaining relationships with over 70,000 carriers to get you
                   access across all equipment types and shipment needs. By
                   maximizing truckload freight capacity, we help you achieve
@@ -119,12 +118,12 @@ const shipfreight = () => {
                 <p className="font-medium pt-5 text-xl w-auto">
                   Choose Less Than Truckload (LTL) to ship your goods
                   efficiently, even when you don’t have a full truck to fill.
-                  Kalways will help you identify modal conversion opportunities
+                  Kalway will help you identify modal conversion opportunities
                   to maximize savings.
                 </p>
               </div>
               <div className="flex flex-col items-start">
-                <img src={mgrid4} className=""></img>
+                <img src={mgrid4} className="" width="150px"></img>
                 <h4 className="text-3xl">Intermodal Freight</h4>
                 <p className="font-medium pt-5 text-xl w-auto">
                   Save money and contribute to your sustainability initiatives
@@ -140,19 +139,19 @@ const shipfreight = () => {
                 <img src={grid5} className=""></img>
                 <h4 className="text-3xl">Air & Ocean</h4>
                 <p className="font-medium pt-5 text-xl w-auto">
-                  Kalways is an authorized reseller of UPS air services, with
+                  Kalway is an authorized reseller of UPS air services, with
                   access to ocean services through UPS. This global footprint,
                   combined with our massive centralized marketplace of carriers
                   in North America, gives you the freedom to move freight
                   anywhere your business demands—all with the same dedication,
-                  visibility and expertise you get from Kalways.
+                  visibility and expertise you get from Kalway.
                 </p>
               </div>
               <div className="flex flex-col items-start">
                 <img src={grid6} className=""></img>
                 <h4 className="text-3xl">Cross-Border Freight</h4>
                 <p className="font-medium pt-5 text-xl w-auto">
-                  Whether shipping northbound or southbound, Kalways leverages a
+                  Whether shipping northbound or southbound, Kalway leverages a
                   dense North American carrier network to bring you capacity
                   when and where you need it. We source the right carrier for
                   each opportunity, facilitate the crossing logistics and
@@ -169,11 +168,11 @@ const shipfreight = () => {
               management—so you can focus on what you do best.
             </p>
             <button class="btn">
-              <span class="btn-text ">- 1-800-295-9737 -</span>
+              <span class="btn-text ">- 1-800-502-7000 -</span>
             </button>
           </div>
         </div>
-        <h2 className=" self-center font-bold pt-40 text-6xl">
+        <h2 className=" self-center font-bold pt-40 lg:text-6xl text-2xl">
           What Makes Us Different
         </h2>
       </div>
@@ -236,7 +235,7 @@ const shipfreight = () => {
               <br />
               <h3 className=" text-1xl mb-5 ">
                 You can trust the quote you get from us, whether it comes
-                through your rep or KalwaysGO. If you are quoting for a spot LTL
+                through your rep or KalwayGO. If you are quoting for a spot LTL
                 load, a high-volume lane, or anything else, we can get you a
                 clear, reliable price.
               </h3>
@@ -285,10 +284,10 @@ const shipfreight = () => {
           </div>
         </Fade>
       </div>
-      <div className="ml-40 mr-40">
+      <div className="lg:ml-40 lg:mr-40 m-8">
         <h3 className="font-bold pt-10 text-5xl">Business Solutions</h3>
         <div className="flex flex-row">
-          <div className="pr-40">
+          <div className="lg:pr-40">
             <p className="font-medium pt-8 text-xl w-auto ">
               Your products are going to fly off the shelf. But first, they have
               to get there on time. Whether you ship tissues or toothpaste,
@@ -302,12 +301,12 @@ const shipfreight = () => {
               companies who trust us with their freight.
             </p>
           </div>
-          <div className="w-2/2 drop-shadow-md ">
+          <div className="w-2/2 drop-shadow-md hidden lg:block">
             <img src={image3} className="w-auto "></img>
           </div>
         </div>
 
-        <div className=" pt-10 pb-20 grid gap-10 grid-cols-2 grid-cols-2">
+        <div className=" pt-10 pb-20 grid gap-10 lg:grid-cols-2 grid-cols-1">
           <div className="flex flex-col items-start">
             <img src={grid1} className=""></img>
             <h4 className="text-3xl">Flex Solution</h4>
@@ -326,7 +325,7 @@ const shipfreight = () => {
             <p className="font-medium pt-5 text-xl w-auto">
               Drive cost savings across your network through a combination of a
               dedicated operations team, proprietary cloud-based TMS technology
-              and carrier agnostic capacity solutions. Kalways Transportation
+              and carrier agnostic capacity solutions. Kalway Transportation
               Management (CTM) provides professional logistics services that can
               help you achieve end-to-end network execution, visibility,
               reporting, optimization and management at a competitive cost.
@@ -337,7 +336,7 @@ const shipfreight = () => {
             <h4 className="text-3xl">Primary Capicity</h4>
             <p className="font-medium pt-5 text-xl w-auto">
               Give your business the ability to navigate the market with
-              primary, backup and spot capacity from Kalways. Our dedicated team
+              primary, backup and spot capacity from Kalway. Our dedicated team
               of transportation specialists tap into one of the largest
               centralized supply chain networks to customize your contract
               commitment based on your business needs
@@ -347,7 +346,7 @@ const shipfreight = () => {
             <img src={grid4} className=""></img>
             <h4 className="text-3xl">Sustainability</h4>
             <p className="font-medium pt-5 text-xl w-auto">
-              Kalways’s mission is to move business forward with expertise and
+              Kalway’s mission is to move business forward with expertise and
               integrity. That’s why we’re committed to creating smarter, less
               environmentally impactful solutions for our network. Between 2019
               and 2020, we reduced network CO2 emissions by 18% and improved our
@@ -361,10 +360,10 @@ const shipfreight = () => {
             <img src={grid4} className=""></img>
             <h4 className="text-3xl">ShipperTechnlogy</h4>
             <p className="font-medium pt-5 text-xl w-auto">
-              At Kalways, we know there isn’t a one-size-fits-all solution for
+              At Kalway, we know there isn’t a one-size-fits-all solution for
               your business. Use our digital solutions for connectivity at your
               fingertips—including on-demand quoting, tendering, tracking and
-              settlement through KalwaysGO®. Or make real-time data exchange
+              settlement through KalwayGO®. Or make real-time data exchange
               easier by automating manual tasks through EDI or API integration
               for full truckload and LTL. Plus, with TMS-enabled transportation
               management services and over 500,000 unique facility reviews,
@@ -375,14 +374,14 @@ const shipfreight = () => {
       </div>
 
       <div className="flex flex-col bg-gray-200">
-        <h2 className=" self-center font-bold pt-16 text-4xl">
+        <h2 className=" self-center font-bold pt-16 text-4xl p-8">
           Reliable Solutions to Keep Your Products Stocked
         </h2>
-        <h2 className=" self-center  pt-4 text-3xl">
+        <h2 className=" self-center  pt-4 text-3xl p-8">
           We can help buffer your supply chain against market volatility with a
           variety of dependable freight solutions.
         </h2>
-        <div className=" pt-10 grid gap-10 grid-cols-4 grid-cols-2 self-center justify-center justify-items-center ">
+        <div className=" pt-10 grid gap-10 lg:grid-cols-4 grid-cols-1 self-center justify-center justify-items-center ">
           <Pulse>
             <Card className="flex flex-col items-center 	align-content:center place-items-center bg-white w-80 p-8 ">
               <img src={grid2} className="w-32"></img>

@@ -17,7 +17,6 @@ import {
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
-
   const changeNav = () => {
     if (window.scrollY >= 100) {
       setScrollNav(true);
@@ -40,7 +39,7 @@ const Navbar = ({ toggle }) => {
       <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
         <Nav scrollNav={scrollNav}>
           <NavLogo to="/" onClick={toggleHome}>
-            <img src={logo} alt="logo" />
+            <img src={logo} width="150px" alt="logo" />
           </NavLogo>
 
           {/* <Bars onClick={toggle}/> */}

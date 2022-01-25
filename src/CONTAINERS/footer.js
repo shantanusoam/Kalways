@@ -48,33 +48,30 @@ export function FooterContainerBlack() {
             </div>
             <div>
               <h1 className="pt-10 font-bold text-xl   text-white">
-                @ Copyright Kalways
+                © KalWay Inc, 2022 All rights reserved.
               </h1>
             </div>
           </div>
           <Footer.Column>
             <Footer.Title>About Us</Footer.Title>
-            <Footer.Link href="/Shipfreight">Story</Footer.Link>
-            <Footer.Link href="/Shipfreight">Clients</Footer.Link>
-            <Footer.Link href="/Shipfreight">Testimonials</Footer.Link>
-            <Footer.Link href="/Shipfreight">Story</Footer.Link>
-            <Footer.Link href="/Shipfreight">Clients</Footer.Link>
-            <Footer.Link href="/Shipfreight">Work at KalWay</Footer.Link>
+
+            <Footer.Link href="/About">About</Footer.Link>
+            <Footer.Link href="/WorkAtKalway">Work at KalWay</Footer.Link>
           </Footer.Column>
           <Footer.Column>
             <Footer.Title>Services</Footer.Title>
 
             <Footer.Link href="/Shipfreight">Ship Freight</Footer.Link>
-            <Footer.Link href="/Shipfreight">Full Truckload</Footer.Link>
+            {/* <Footer.Link href="/Shipfreight">Full Truckload</Footer.Link>
             <Footer.Link href="/Shipfreight">Less Than Truckload</Footer.Link>
             <Footer.Link href="/Shipfreight">Intermodal Freight</Footer.Link>
             <Footer.Link href="/Shipfreight">Air & Ocean</Footer.Link>
-            <Footer.Link href="/Shipfreight">Cross-Border Freight</Footer.Link>
+            <Footer.Link href="/Shipfreight">Cross-Border Freight</Footer.Link> */}
           </Footer.Column>
           <Footer.Column>
             <Footer.Title>INDUSTRIES</Footer.Title>
             <Footer.Link href="/Shipfreight">Automotive Logistics</Footer.Link>
-            <Footer.Link href="/Shipfreight">CPG Logistics</Footer.Link>
+            {/* <Footer.Link href="/Shipfreight">CPG Logistics</Footer.Link>
             <Footer.Link href="/Shipfreight">
               Food & Beverage Logistics
             </Footer.Link>
@@ -82,7 +79,7 @@ export function FooterContainerBlack() {
             <Footer.Link href="/Shipfreight">
               Manufacturing Logistics
             </Footer.Link>
-            <Footer.Link href="/Shipfreight">Retail Logistics</Footer.Link>
+            <Footer.Link href="/Shipfreight">Retail Logistics</Footer.Link> */}
           </Footer.Column>
           {/* <Footer.Column>
             <Footer.Title>Social</Footer.Title>

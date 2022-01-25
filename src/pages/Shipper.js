@@ -13,22 +13,22 @@ export default class Shipper extends React.Component {
 
   render() {
     return (
-      <div className="pt-36 flex flex-col pb-10 bg-slate-800">
-        <div className="flex flex-row">
+      <div className="lg:pt-36 flex flex-col pb-10 bg-slate-800">
+        <div className="flex lg:flex-row flex-col">
           <img src={image2} className="flex-1 h-96" alt=""></img>
           <img src={image3} className="flex-1 h-96" alt=""></img>
           <img src={image1} className="flex-1 h-96" alt=""></img>
         </div>
         <Card>
-          <h2 className=" self-left pt-10 pl-32 text-3xl">
+          <h2 className=" self-left lg:pt-10 lg:pl-32 text-3xl p-8">
             FREIGHT BROKERAGE OVERVIEW
             <p className="h-4"></p>
             <div className="w-40 h-2  hover:w-10"></div>
           </h2>
         </Card>
 
-        <div className="flex flex-row pr-16 pt-16">
-          <div className="self-end pl-32 pr-32">
+        <div className="flex lg:flex-row lg:pr-16 lg:pt-16 flex-col p-8">
+          <div className="self-end lg:pl-32 lg:pr-32">
             <h3 className="font-bold pt-10 text-3xl">Additional Information</h3>
             <h3 className="font-bold pt-10 text-xl">
               Your New, Upgraded LTL Solution
@@ -103,13 +103,13 @@ export default class Shipper extends React.Component {
               management—so you can focus on what you do best.
             </p>
             <button class="btn">
-              <span class="btn-text">- 1-800-295-9737 -</span>
+              <span class="btn-text">- 1-800-502-7000 -</span>
             </button>
           </div>
         </div>
         <h2 className=" self-center pt-20 text-4xl">CROSS - BORDER</h2>
-        <div className="flex flex-row pr-16">
-          <div className="self-end pl-32 pr-16 pb-16">
+        <div className="flex flex-row lg:pr-16 p-8">
+          <div className="self-end lg:pl-32 lg:pr-16 pb-16">
             <h3 className="font-bold pt-10 text-xl">
               kalway Logistics has Combined 30 years’ experience moving
               time-critical freight across borders in the United States, Mexico
@@ -167,7 +167,11 @@ export default class Shipper extends React.Component {
               </li>
             </div> */}
           </div>
-          <img src={image1} className="flex-1 h-64" alt=""></img>
+          <img
+            src={image1}
+            className="flex-1 h-64 hidden lg:block"
+            alt=""
+          ></img>
         </div>
       </div>
     );

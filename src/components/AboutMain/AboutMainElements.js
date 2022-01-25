@@ -11,6 +11,9 @@ export const TextContaner = styled.div`
   justify-content: center;
   width: 60%;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 export const TextContanerS = styled.div`
   display: flex;
@@ -19,6 +22,10 @@ export const TextContanerS = styled.div`
   justify-content: flex-start;
   width: 70%;
   align-items: flex-start;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    padding-left: 10px;
+  }
 `;
 export const AboutContainer = styled.div`
   background: #fff;

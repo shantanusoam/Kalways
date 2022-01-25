@@ -89,7 +89,7 @@ const About = () => {
             />
 
             <div className="p-8">
-              <h3 className="font-bold text-2xl mb-5">For Kalways</h3>
+              <h3 className="font-bold text-2xl mb-5">For Kalway</h3>
               <br />
               <h3 className=" text-1xl mb-5 h-44">
                 Every Kalway employee has a part to play in driving a more

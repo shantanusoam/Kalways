@@ -183,13 +183,13 @@ export const Heading = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 60%;
+  width: 100%;
   justify-content: center;
 
-  font-family: Poppins;
+  font-family: Roboto;
   font-weight: bold;
 
-  font-size: 40px;
+  font-size: 55px;
 
   color: #000;
 

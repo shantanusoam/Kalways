@@ -230,6 +230,7 @@ display: none;
     font-size: 1.5rem;
     font-weight: bold;
     color: #fff;
+    width:50%;
     text-align: center;
     margin: 0px;
     padding: 0px;

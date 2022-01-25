@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Video from './media/Bgvideo2.mp4';
+import Slider from 'react-slick';
+import bg from '../../images/bg.jpg';
 // import bankground from "../../images";
 import './style.css';
 import {
@@ -53,6 +55,8 @@ const Gradients = styled.div`
   position: absolute;
   z-index: 2;
 `;
+const SLIDE_COUNT = 3;
+const slides = Array.from(Array(SLIDE_COUNT).keys());
 const Arrow = styled.div`
   width: 50px;
   height: 50px;
@@ -268,19 +272,25 @@ const HeroSection = () => {
   const onHover = () => {
     setHover(!hover);
   };
+  const settings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: 'linear',
+  };
   return (
     <HeroContainer id="Home">
-      {/* <Gradients></Gradients>
-      <HeroBg>
-        <BgImage></BgImage>
-      </HeroBg> */}
       <HeroContent>
         <ContainerMain>
           <p className="text-white">KALWAY LOGISTIC</p>
           <HeroP>Drive your business forward</HeroP>
           <a href="/Contact">
             <button class="btn">
-              <span class="btn-text">Moving furniture or personal items?</span>
+              <span class="btn-text">Contact us</span>
             </button>
           </a>
         </ContainerMain>

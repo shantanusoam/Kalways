@@ -28,7 +28,7 @@ const WorkAtKalwayss = ({ isOpen, toggle }) => {
       <br></br>
       <div className="pt-20"> </div>
       <ContactForm>
-        <Heading style={{ paddingTop: '20px' }}>Work At Kalways</Heading>
+        <Heading  style={{ paddingTop: '20px' }}>Work At Kalway</Heading>
         <div
           data-aidaform-widget="form-2019-12"
           data-url="https://shantanu.aidaform.com/work-at-kalways"

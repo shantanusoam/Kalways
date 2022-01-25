@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useCallback } from "react";
-import { PrevButton, NextButton } from "./EmblaCarouselButtons";
-import { useRecursiveTimeout } from "./useRecursiveTimeout";
-import useEmblaCarousel from "embla-carousel-react";
-import { mediaByIndex } from "./media";
-import "./embla.css";
+import React, { useState, useEffect, useCallback } from 'react';
+import { PrevButton, NextButton } from './EmblaCarouselButtons';
+import { useRecursiveTimeout } from './useRecursiveTimeout';
+import useEmblaCarousel from 'embla-carousel-react';
+import { mediaByIndex } from './media';
+import './embla.css';
 
 const AUTOPLAY_INTERVAL = 4000;
 
@@ -44,8 +44,8 @@ const EmblaCarousel = ({ slides }) => {
   useEffect(() => {
     if (!embla) return;
     onSelect();
-    embla.on("select", onSelect);
-    embla.on("pointerDown", stop);
+    embla.on('select', onSelect);
+    embla.on('pointerDown', stop);
   }, [embla, onSelect, stop]);
 
   useEffect(() => {
@@ -53,10 +53,12 @@ const EmblaCarousel = ({ slides }) => {
   }, [play]);
 
   return (
-    <div className="embla  sm: '8px',
+    <div
+      className="embla  sm: '8px',
     md: '16px',
     lg: '24px',
-    xl: '48px',">
+    xl: '48px',"
+    >
       <div className="embla__viewport h-full" ref={viewportRef}>
         <div className="embla__container h-full">
           {slides.map((index) => (

@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
-import { FaBars } from "react-icons/fa";
-import logo from "../../images/logo.png";
-import logo1 from "../../images/vanguard.png";
-import { IconContext } from "react-icons/lib";
-import { animateScroll as scroll, Link } from "react-scroll";
+import React, { useEffect, useState } from 'react';
+import { FaBars } from 'react-icons/fa';
+import logo from '../../images/logo.png';
+import logo1 from '../../images/vanguard.png';
+import { IconContext } from 'react-icons/lib';
+import { animateScroll as scroll, Link } from 'react-scroll';
 
 import {
   Nav,
@@ -13,7 +13,7 @@ import {
   MobileIcon,
   NavItem,
   NavLinks,
-} from "./BottomBarElements";
+} from './BottomBarElements';
 
 const BottomBar = ({ toggle }) => {
   const [scrollNav] = useState(false);
@@ -86,7 +86,7 @@ const BottomBar = ({ toggle }) => {
         </NavMenu>
         <NavBtn>
           <h3 className="text-left text-gray-200 font-bold text-1xl">
-            @ Copyright kalway Trailer and Leasing
+            @ Copyright Kalway Trailer and Leasing
           </h3>
         </NavBtn>
         {/* <MobileIcon onClick={toggle}>

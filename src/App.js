@@ -29,12 +29,17 @@ function App() {
 
   return (
     <Router>
-      <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
       <Stickbar />
+      <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
       <Navbar toggle={toggle}></Navbar>
 
       <Switch>
-        <Route exact path="/" component={Home} title="kalway" />
+        <Route
+          exact
+          path="/"
+          component={Home}
+          title="Kalway - 3PL Logistics & Brokerage"
+        />
         <Route exact path="/Contact" component={Contact} title="BigContact" />
 
         <Route exact path="/About" component={About} title="BigAbout" />
@@ -43,7 +48,7 @@ function App() {
           exact
           path="/Product"
           component={Products}
-          title="kalwayProduct"
+          title="KalwayProduct"
         />
         <Route
           exact
@@ -88,7 +93,7 @@ function App() {
       {/* <PartnerCompnay></PartnerCompnay> */}
       {/* <PartnerCompnay></PartnerCompnay> */}
 
-      <FooterContainerBlack />
+      <FooterSection />
       {/* <BottomBar></BottomBar> */}
     </Router>
   );

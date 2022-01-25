@@ -1,9 +1,9 @@
-import { FaBars } from "react-icons/fa";
-import { Link as LinkR } from "react-router-dom";
-import { Link as LinkS } from "react-scroll";
-import styled from "styled-components";
-import bgimage from "../../images/QuoteAtEnd.png";
-import Mbgimage from "../../images/mobilequote.png";
+import { FaBars } from 'react-icons/fa';
+import { Link as LinkR } from 'react-router-dom';
+import { Link as LinkS } from 'react-scroll';
+import styled from 'styled-components';
+import bgimage from '../../images/QuoteAtEnd.png';
+import Mbgimage from '../../images/mobilequote.png';
 
 export const WWOCArd = styled.div`
   background-color: #fff;
@@ -16,6 +16,8 @@ export const WWOCArd = styled.div`
   height: auto;
   overflow: hidden;
   @media screen and (max-width: 768px) {
+    padding: 0;
+    margin: 0;
     height: auto;
   }
 `;
@@ -37,17 +39,18 @@ export const WWOCCHeading = styled.h2`
   font-style: normal;
   font-weight: bold;
   font-size: 45px;
-  width: 70%;
+
   text-align: center;
 
   color: #111;
 
   max-width: 90rem;
   @media screen and (max-width: 768px) {
-    font-size: 39px;
+    font-size: 30px;
     padding: 90px 0px 90px 0px;
   }
   @media screen and (max-width: 480px) {
+    width: 100%;
     font-size: 30px;
     padding: 90px 0px 90px 0px;
     text-align: center;

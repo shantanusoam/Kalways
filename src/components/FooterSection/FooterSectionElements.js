@@ -1,10 +1,10 @@
-import { FaBars } from "react-icons/fa";
-import { Link as LinkR } from "react-router-dom";
-import { Link as LinkS } from "react-scroll";
-import styled from "styled-components";
-import { mobile, laptop } from "../../responsive";
+import { FaBars } from 'react-icons/fa';
+import { Link as LinkR } from 'react-router-dom';
+import { Link as LinkS } from 'react-scroll';
+import styled from 'styled-components';
+import { mobile, laptop } from '../../responsive';
 export const FooterContainer = styled.div`
-  background: #2f7dbd;
+  background: #000;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -13,8 +13,8 @@ export const FooterContainer = styled.div`
   height: 50vh;
   overflow: hidden;
   ${mobile({
-    transition: "0.8s all ease",
-    display: "none",
+    transition: '0.8s all ease',
+    display: 'none',
   })}/* @media screen and (max-width: 320px) and (max-width : 480px) {
     transition: 0.8s all ease;
     display: none;
@@ -65,8 +65,8 @@ export const FotterNav = styled.div`
     flex: 0 0 200px;
     flex-direction: column;
   }
-  ${mobile({ flex: "0 0 200px", "flex-direction": "column" })}
-  ${laptop({ padding: "1000px" })}
+  ${mobile({ flex: '0 0 200px', 'flex-direction': 'column' })}
+  ${laptop({ padding: '1000px' })}
 `;
 export const FotterNavH = styled.div`
   z-index: 2;
@@ -131,10 +131,10 @@ export const FotterContactName = styled.div`
   line-height: 15px;
 
   color: #fff;
-  ${mobile({ "font-size": "20px", padding: "10px 0px 0px 0px" })}
+  ${mobile({ 'font-size': '20px', padding: '10px 0px 0px 0px' })}
   ${laptop({
-    "font-size": "10px",
-    padding: "10px 0px 0px 0px",
+    'font-size': '10px',
+    padding: '10px 0px 0px 0px',
   })} /* @media screen and (max-width: 768px) {
     font-size: 20px;
 }

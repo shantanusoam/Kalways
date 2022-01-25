@@ -79,9 +79,11 @@ const Solution = ({ isOpen, toggle }) => {
                 />
 
                 <div className="p-8">
-                  <h3 className="font-bold text-2xl mb-5">Transportation</h3>
+                  <h3 className="font-bold text-2xl mb-5 sm:text-xl">
+                    Transportation
+                  </h3>
                   <br />
-                  <h3 className=" text-1xl mb-5 h-56">
+                  <h3 className="text-0xl mb-4 lg:text-1xl md:mb-5 lg:h-56">
                     No matter how you prefer to manage your business, we have
                     you covered. You can call or message a specialist who can
                     access our proprietary technology platform on your behalf,
@@ -111,7 +113,7 @@ const Solution = ({ isOpen, toggle }) => {
                     Managed Supply Chain
                   </h3>
                   <br />
-                  <h3 className=" text-1xl mb-5 h-56">
+                  <h3 className=" text-1xl mb-5 lg:h-56">
                     As the market fluctuates, your supply chain must adapt
                     instantly, which means you need more than just a
                     transportation management system (TMS). Without a 3PL who
@@ -138,7 +140,7 @@ const Solution = ({ isOpen, toggle }) => {
                 <div className="p-8">
                   <h3 className="font-bold text-2xl mb-5">Become a Customer</h3>
                   <br />
-                  <h3 className=" text-1xl mb-5 h-56">
+                  <h3 className=" text-1xl mb-5 lg:h-56">
                     Access scalable dedicated fleets that can quickly adapt to
                     short-term market volatility. Kalway private and dedicated
                     fleet services bring you the dependability of professional
@@ -205,7 +207,7 @@ const Solution = ({ isOpen, toggle }) => {
           </WWOCCParagraph>
         </CButton> */}
         <WWOCCHeading>
-          CARRIER PACKET -JOIN TEAM At Kalway <br></br>1-800-295-9737
+          CARRIER PACKET -JOIN TEAM At Kalway <br></br>1-800-502-7000
         </WWOCCHeading>
         <WWOCCParagraph>
           Quickly browse, negotiate, book, track and invoice loads on any of our

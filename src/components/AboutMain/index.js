@@ -11,10 +11,10 @@ const AboutMain = ({ isOpen, toggle }) => {
       <img
         src={whitetruck}
         alt="Our services Truck on black road "
-        width="2500rem"
+        height="90vh"
       />
       <TextContaner className="align-left">
-        <h1 className="text-left text-white font-bold text-7xl bg-black p-8">
+        <h1 className="text-xl text-left text-white font-bold lg:text-7xl bg-black p-8">
           Together, we'll drive a more sustainable global supply chain.
         </h1>
       </TextContaner>
@@ -22,7 +22,7 @@ const AboutMain = ({ isOpen, toggle }) => {
       <TextContanerS>
         <h1 className="text-left text-black font-bold text-4xl pb-8">Kalway</h1>
         <p className="text-left text-gray-800 text-2xl pb-8 font-bold ">
-          kalway’s mission is to move business forward with expertise and
+          Kalway’s mission is to move business forward with expertise and
           integrity. That’s why we’re committed to creating smarter, less
           environmentally impactful solutions for our network. Between 2019 and
           2020, we reduced network CO2 emissions by 18% and improved our
