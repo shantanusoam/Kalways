@@ -23,7 +23,7 @@ height: 100vh;
 
 z-index: 1;
 @media screen and (max-width: 768px) {
-    background: transparent url(${bgimage}) no-repeat center center;
+    background: transparent url(${bgimage}) no-repeat  cover;
     
 }
 `;
@@ -197,7 +197,7 @@ display: none;
     font-weight: bold;
     color: #fff;
     text-align: center;
-    margin: 0px;
+    margin-bottom: 20px;
     padding: 0px;
     }
 `;

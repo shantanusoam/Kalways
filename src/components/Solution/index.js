@@ -1,5 +1,5 @@
 import React from 'react';
-import trucks from '../../images/LOTSOFTRUCKS.png';
+import trucks from '../../images/bg.jpg';
 import Containers from '../../images/comtaimer.png';
 import Shiping from '../../images/shiping.png';
 import './style.css';

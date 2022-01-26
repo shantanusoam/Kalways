@@ -51,7 +51,7 @@ export const WWOCCHeading = styled.h2`
   }
   @media screen and (max-width: 480px) {
     width: 100%;
-    font-size: 30px;
+    font-size: 25px;
     padding: 90px 0px 90px 0px;
     text-align: center;
   }

@@ -179,7 +179,7 @@ export const FotterContactName = styled.div`
   }
 `;
 export const Heading = styled.div`
-  padding: 20rem 0px 0px 60px;
+  padding: 10rem 0px 0px 0px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -192,26 +192,6 @@ export const Heading = styled.div`
   font-size: 55px;
 
   color: #000;
-
-  @media screen and (max-width: 768px) and (max-width: 1024px) {
-    font-size: 10px;
-  }
-  @media screen and (min-width: 1024px) and (max-width: 1380px) {
-    font-size: 10px;
-    width: 90%;
-    padding: 20px 0px 0px 160px;
-  }
-  @media screen and (max-width: 3024px) {
-    font-size: 40px;
-    padding: 0px 0px 10px 160px;
-  }
-  @media screen and (max-width: 480px) {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-  }
 `;
 export const FotterHName = styled.div`
   padding: 20px 0px 20px 80px;

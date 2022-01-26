@@ -1,10 +1,10 @@
-import { FaBars } from "react-icons/fa";
-import { Link as LinkR } from "react-router-dom";
-import { Link as LinkS } from "react-scroll";
-import styled from "styled-components";
+import { FaBars } from 'react-icons/fa';
+import { Link as LinkR } from 'react-router-dom';
+import { Link as LinkS } from 'react-scroll';
+import styled from 'styled-components';
 
 export const Nav = styled.nav`
-  background-color: ${({ scrollNav }) => (scrollNav ? "#000000" : "#000000de")};
+  background-color: ${({ scrollNav }) => (scrollNav ? '#000000' : '#000000de')};
 
   height: 100px;
   //  margin-top:-80px
@@ -64,15 +64,15 @@ export const NavLogo = styled(LinkR)`
     padding: 5px;
   }
   img {
-    height: "92px";
+    height: '92px';
     @media screen and (max-width: 480px) {
-      height: "42px";
+      height: '42px';
       justify-content: center;
       align-items: center;
     }
     @media screen and (max-width: 768px) {
-      height: "20px";
-      width: "10px";
+      height: '20px';
+      width: '10px';
       padding: 5px;
     }
   }
@@ -104,10 +104,10 @@ export const NavLink = styled(LinkR)`
 `;
 export const MobileIcon = styled.div`
   display: none;
-  color: #000;
+  color: #fff;
   @media screen and (max-width: 768px) {
     display: block;
-
+    margin-left: 15rem;
     postion: absolute;
     right: 0;
     top: 0;
@@ -115,9 +115,9 @@ export const MobileIcon = styled.div`
     font-size: 1.8rem;
     cursor: pointer;
     /* background-color: #fff; */
-    color: #000;
+    color: #fff;
     &.active {
-      color: #000;
+      color: #fff;
     }
   }
 `;
@@ -141,9 +141,9 @@ export const NavItem = styled.li`
   // &:hover {
   //   animation: pulse 1s ease-in-out;
   // }
-  // @media screen and (max-width: 768px) {
-  //   display: none;
-  // }
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
   // &:hover {
   // }
   // @keyframes pulse {
@@ -157,7 +157,7 @@ export const NavItem = styled.li`
   // }
 `;
 export const NavLinks = styled(LinkR)`
-  color: ${({ scrollNav }) => (scrollNav ? "#fff" : `#fff`)};
+  color: ${({ scrollNav }) => (scrollNav ? '#fff' : `#fff`)};
   display: flex;
   align-items: center;
   text-decoration: none;

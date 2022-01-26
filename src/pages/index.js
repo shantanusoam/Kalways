@@ -11,12 +11,16 @@ import MapSection from '../components/MapSection';
 import TrailerList from '../components/TrailersList';
 import CenterSection from '../components/CenterSection';
 import Solution from '../components/Solution';
+import Sidebar from '../components/Sidebar';
 
 const SLIDE_COUNT = 5;
 const slides = Array.from(Array(SLIDE_COUNT).keys());
 
 const Lol = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
   const [disabel, setdisabel] = useState(
     () => window.localStorage.getItem('product') ?? false
   );
@@ -34,12 +38,10 @@ const Lol = () => {
     }
     return false;
   }
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  };
 
   return (
     <>
+    
       {/* <EmblaCarousel slides={slides} /> */}
       {/* <Herosection></Herosection> */}
       <HeroSection></HeroSection>

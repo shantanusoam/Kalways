@@ -296,12 +296,14 @@ const HeroSection = () => {
         </ContainerMain>
 
         <PCENTER class="text-gray-600 p-8">
-          One-stop-shop for all your trucking needs. We are an authorized dealer
-          for Vanguard trailers servicing in British Columbia, Canada. We are an
-          established retailer of pre-owned trucks and trailers as well.
+          Work with a trusted global third-party logistics provider that has
+          been empowering business growth for over 15 years. Our centralized
+          marketplace connects you to the people, technology, data and capacity
         </PCENTER>
-
-        <WWOCCButtonM className="p-8">
+        <button className="btn block lg:hidden">
+          <span className="btn-text">Contact us</span>
+        </button>
+        {/* <WWOCCButtonM className="p-8">
           <Link
             to="Footertag"
             smooth={true}
@@ -312,7 +314,7 @@ const HeroSection = () => {
           >
             Contact Us
           </Link>
-        </WWOCCButtonM>
+        </WWOCCButtonM> */}
 
         {/* <div class="pl-4 w-90  md:max-w-9  ">
           <div class="p-8 bg-white  rounded shadow-md bg-opacity-75 ">

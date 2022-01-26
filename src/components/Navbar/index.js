@@ -15,10 +15,14 @@ import {
   NavLinks,
 } from './NavbarElements';
 
-const Navbar = ({ toggle }) => {
+const Navbar = ({ toggle, Speed }) => {
   const [scrollNav, setScrollNav] = useState(false);
+  console.log(Speed);
   const changeNav = () => {
-    if (window.scrollY >= 100) {
+    // if (Speed) {
+    //   setScrollNav(false);
+    // }
+    if (window.scrollY >= 100 || Speed) {
       setScrollNav(true);
     } else {
       setScrollNav(false);
@@ -54,6 +58,11 @@ const Navbar = ({ toggle }) => {
               <NavLinks
                 to="/About"
                 activeClassName="active"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact={true}
+                offset={-80}
                 onClick={toggleHome}
               >
                 <a to="/About">About</a>
@@ -64,6 +73,11 @@ const Navbar = ({ toggle }) => {
               <NavLinks
                 to="/products"
                 onClick={toggleHome}
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact={true}
+                offset={-80}
                 activeClassName="active"
               >
                 <a to="/products">Services</a>
@@ -79,6 +93,11 @@ const Navbar = ({ toggle }) => {
               <NavLinks
                 to="/ShipFlight"
                 onClick={toggleHome}
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact={true}
+                offset={-80}
                 activeClassName="active"
               >
                 <a to="/ShipFlight">Carriers</a>
@@ -88,6 +107,11 @@ const Navbar = ({ toggle }) => {
               <NavLinks
                 to="/Shipper"
                 onClick={toggleHome}
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact={true}
+                offset={-80}
                 activeClassName="active"
               >
                 <a to="/Shipper">Shipper</a>
@@ -97,6 +121,11 @@ const Navbar = ({ toggle }) => {
               <NavLinks
                 to="/Shipfreight"
                 onClick={toggleHome}
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact={true}
+                offset={-80}
                 activeClassName="active"
               >
                 <a to="/Shipfreight">Shipfreight</a>
@@ -106,6 +135,11 @@ const Navbar = ({ toggle }) => {
               <NavLinks
                 to="/Industries"
                 onClick={toggleHome}
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact={true}
+                offset={-80}
                 activeClassName="active"
               >
                 <a to="/Industries">Industries</a>
@@ -117,9 +151,11 @@ const Navbar = ({ toggle }) => {
           <Link to='ContactUs' smooth={true} duration={500} spy={true} exact={true} offset={-80}>Contact Us</Link>
           </NavLinks>
           </NavItem> */}
-
+            <br />
+            <br />
+            <br />
             <MobileIcon onClick={toggle}>
-              <FaBars color="#111" />
+              <FaBars color="#fff" />
             </MobileIcon>
 
             {/* Second Nav */}
