@@ -38,7 +38,7 @@ function App() {
           exact
           path="/"
           component={Home}
-          title="Kalway - 3PL Logistics & Brokerage"
+          title="KALWAY - 3PL Logistics & Brokerage"
         />
         <Route exact path="/Contact" component={Contact} title="BigContact" />
 
@@ -48,7 +48,7 @@ function App() {
           exact
           path="/Product"
           component={Products}
-          title="KalwayProduct"
+          title="KALWAYProduct"
         />
         <Route
           exact
@@ -79,7 +79,7 @@ function App() {
           exact
           path="/WorkAtKalway"
           component={WorkAtKalwayss}
-          title="WorkAtKalway"
+          title="WorkAtKALWAY"
         />
       </Switch>
 

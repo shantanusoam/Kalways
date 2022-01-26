@@ -20,14 +20,13 @@ const Solution = ({ isOpen, toggle }) => {
         <WWOCCHeading>FREIGHT AT FULL SPEED</WWOCCHeading>
         <WWOCCParagraph>
           Work with a trusted global third-party logistics provider that has
-          been empowering business growth for over 15 years. Our centralized
-          marketplace connects you to the people, technology, data and capacity
-          – full truckload, less than truckload (LTL), intermodal and other
-          capacity or asset solutions – needed to take your supply chain
-          further, faster.
+          been empowering business growth. Our centralized marketplace connects
+          you to the people, technology, data and capacity – full truckload,
+          less than truckload (LTL), intermodal and other capacity or asset
+          solutions – needed to take your supply chain further, faster.
         </WWOCCParagraph>
         <CardListRow>
-          <div className="xl:px-14 xl:py-10 md:py-0 md:px-0 bg-white flex flex-row flex-wrap justify-center items-center space-y-5 ">
+          <div className=" md:py-0 md:px-0 bg-white flex flex-row flex-wrap justify-center items-center space-y-5 ">
             {/* <LinkRo
               key={4}
               to={{
@@ -87,10 +86,9 @@ const Solution = ({ isOpen, toggle }) => {
                     No matter how you prefer to manage your business, we have
                     you covered. You can call or message a specialist who can
                     access our proprietary technology platform on your behalf,
-                    or log into our on-demand web portal or download our Kalway
-                    Logistics mobile app. Get the instant access you need to do
-                    everything from book loads to submit PODs. Learn more about
-                    our tech tracking options for carriers.
+                    Get the instant access you need to do everything from book
+                    loads to submit PODs. Learn more about our tech tracking
+                    options for carriers.
                   </h3>
                   <a href="/Contact">
                     <button class="btn">
@@ -142,10 +140,10 @@ const Solution = ({ isOpen, toggle }) => {
                   <br />
                   <h3 className=" text-1xl mb-5 lg:h-56">
                     Access scalable dedicated fleets that can quickly adapt to
-                    short-term market volatility. Kalway private and dedicated
+                    short-term market volatility. KALWAY private and dedicated
                     fleet services bring you the dependability of professional
                     drivers on set schedules, without the expense of ownership.
-                    Do you have your own fleet? Kalway can identify back-haul
+                    Do you have your own fleet? KALWAY can identify back-haul
                     matches to help you eliminate empty miles and turn your
                     deadhead into profit.
                   </h3>
@@ -207,16 +205,16 @@ const Solution = ({ isOpen, toggle }) => {
           </WWOCCParagraph>
         </CButton> */}
         <WWOCCHeading>
-          CARRIER PACKET -JOIN TEAM At Kalway <br></br>1-800-502-7000
+          CARRIER PACKET -JOIN TEAM At KALWAY <br></br>1-800-502-7000
         </WWOCCHeading>
         <WWOCCParagraph>
           Quickly browse, negotiate, book, track and invoice loads on any of our
-          easy-to-use technology channels. Plus, when you need to talk to a AXL
-          logistics specialist, we’re just a phone call away. Life on the road
-          is tough; let us make it easier. Rely on your specialist to know the
-          loads you want, find opportunities that fit your network and stand by
-          you when things get tough. We’re here to help you grow with a variety
-          of dedicated opportunities.
+          easy-to-use technology channels. Plus, when you need to talk to a
+          KALWAY logistics specialist, we’re just a phone call away. Life on the
+          road is tough; let us make it easier. Rely on our specialist to know
+          the loads you want, find opportunities that fit your network and stand
+          by you when things get tough. We’re here to help you grow with a
+          variety of dedicated opportunities.
         </WWOCCParagraph>
         <CardListRow></CardListRow>
       </WWOCardContent>

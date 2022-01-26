@@ -58,7 +58,9 @@ class TrailerList extends React.Component {
                         {trailer.title}
                       </h3>
                       <br />
-                      <h3 className=" text-1xl mb-5 ">{trailer.Description}</h3>
+                      <h3 className=" text-1xl mb-5 lg:h-56">
+                        {trailer.Description}
+                      </h3>
                       <NavLink
                         key={trailer.id}
                         to={{

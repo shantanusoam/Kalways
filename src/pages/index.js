@@ -41,7 +41,6 @@ const Lol = () => {
 
   return (
     <>
-    
       {/* <EmblaCarousel slides={slides} /> */}
       {/* <Herosection></Herosection> */}
       <HeroSection></HeroSection>
@@ -64,7 +63,7 @@ const Lol = () => {
 
 class Home extends React.Component {
   componentDidMount() {
-    document.title = 'Kalway - 3PL Logistics & Brokerage';
+    document.title = 'KALWAY - 3PL Logistics & Brokerage';
   }
 
   render() {

@@ -6,10 +6,12 @@ import styled from 'styled-components';
 export const TextContaner = styled.div`
   display: flex;
   position: absolute;
-  padding: 150px 0px 20px 0px;
+  padding: 0px 0px 20px 0px;
   flex-direction: column;
   justify-content: center;
+  margin-top: -200px;
   width: 60%;
+  background-color: #000000de;
   align-items: center;
   @media screen and (max-width: 768px) {
     display: none;

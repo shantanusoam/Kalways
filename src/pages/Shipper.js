@@ -8,7 +8,7 @@ import image3 from '../images/Rt2.jpg';
 import { Card } from '../components/shipfreight/shipfreight';
 export default class Shipper extends React.Component {
   componentDidMount() {
-    document.title = 'Kalway shipfreight';
+    document.title = 'KALWAY shipfreight';
   }
 
   render() {

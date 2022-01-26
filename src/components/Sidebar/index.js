@@ -125,7 +125,7 @@ const Sidebar = ({ isOpen, toggle }) => {
               spy={true}
               exact={true}
             >
-              Work At Kalways
+              Work At KALWAY
             </addEventListener>
           </SidebarRoute>
         </SideBtnWrap>

@@ -26,9 +26,9 @@ const WorkAtKalwayss = ({ isOpen, toggle }) => {
       <br></br>
       <br></br>
       <br></br>
-      <div className="pt-20"> </div>
+      <div className="pt-18"> </div>
       <ContactForm>
-        <Heading>Work At Kalway</Heading>
+        <Heading>Work At KALWAY</Heading>
         <div
           data-aidaform-widget="form-2019-12"
           data-url="https://shantanu.aidaform.com/work-at-kalways"

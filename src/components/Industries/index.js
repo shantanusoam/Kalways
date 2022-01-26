@@ -11,7 +11,7 @@ import grid4 from '../../images/grid3.png';
 import mgrid10 from '../../images/mgrid10.png';
 import mgrid11 from '../../images/mgrid11.png';
 import mgrid13 from '../../images/mgrid13.png';
-import mgrid14 from '../../images/mgrid14.png';
+import mgrid14 from '../../images/plane.png';
 import mgrid12 from '../../images/mgrid12.png';
 import mgrid15 from '../../images/grid4.png';
 import mgrid16 from '../../images/grid2.png';
@@ -63,17 +63,17 @@ const Industries = () => {
               <h3 className=" pt-10 text-3xl text-white">
                 CROSS-BORDER FREIGHT
               </h3>
-              <p className="font-medium font-bold pt-8 text-white text-4xl w-auto">
+              <p className="font-medium font-bold pt-2 text-white text-4xl w-auto">
                 Driving your business across borders.
               </p>
-              <p className="font-medium pt-8 text-xl w-auto text-white">
+              <p className="font-medium pt-2 text-xl w-auto text-white ">
                 Bring simplicity to an intricate supply chain process with our
                 reliable cross-border solutions.
               </p>
             </div>
           </ContainerMain>
 
-          <PCENTER class="text-gray-600 p-8">
+          <PCENTER class="text-gray-600 pb-24">
             Bring simplicity to an intricate supply chain process with our
             reliable cross-border solutions.
           </PCENTER>
@@ -157,7 +157,7 @@ const Industries = () => {
 
           <div className=" pt-10 grid gap-10 lg:grid-cols-2 grid-cols-1">
             <div className="flex flex-col items-start">
-              <img src={grid1} className=""></img>
+              <img src={grid1} className="w-28"></img>
               <h4 className="text-2xl">AUTOMOTIVE LOGISTICS</h4>
               <p className="font-medium pt-2 text-xl w-auto">
                 Automotive shippers can’t afford to have their supply chain slam
@@ -168,7 +168,7 @@ const Industries = () => {
               </p>
             </div>
             <div className="flex flex-col items-start">
-              <img src={mgrid10} className=""></img>
+              <img src={mgrid10} className="w-28"></img>
               <h4 className="text-2xl">CONSUMER PACKAGED GOODS LOGISTICS</h4>
               <p className="font-medium pt-2 text-xl w-auto">
                 our products are going to fly off the shelf. But first, they
@@ -183,7 +183,7 @@ const Industries = () => {
               </p>
             </div>
             <div className="flex flex-col items-start">
-              <img src={mgrid12} className=""></img>
+              <img src={mgrid12} className="w-28"></img>
               <h4 className="text-2xl">FOOD & BEVERAGE LOGISTICS</h4>
               <p className="font-medium pt-2 text-xl w-auto">
                 Running a food and beverage supply chain is not easy — margins
@@ -201,7 +201,7 @@ const Industries = () => {
               </p>
             </div>
             <div className="flex flex-col items-start">
-              <img src={mgrid13} className=""></img>
+              <img src={mgrid13} className="w-28"></img>
               <h4 className="text-2xl">HEALTHCARE LOGISTICS</h4>
               <p className="font-medium pt-2 text-xl w-auto">
                 Healthcare shippers need fast and reliable service to keep up
@@ -211,7 +211,7 @@ const Industries = () => {
               </p>
             </div>
             <div className="flex flex-col items-start">
-              <img src={mgrid14} className=""></img>
+              <img src={mgrid14} className="w-28"></img>
               <h4 className="text-2xl">Air & Ocean</h4>
               <p className="font-medium pt-2 text-xl w-auto">
                 Running a manufacturing supply chain is not easy. Though
@@ -221,7 +221,7 @@ const Industries = () => {
               </p>
             </div>
             <div className="flex flex-col items-start">
-              <img src={mgrid15} className=""></img>
+              <img src={mgrid15} className="w-24"></img>
               <h4 className="text-2xl">MANUFACTURING LOGISTICS</h4>
               <p className="font-medium pt-2 text-xl w-auto">
                 Running a manufacturing supply chain is not easy. Though
@@ -231,7 +231,7 @@ const Industries = () => {
               </p>
             </div>
             <div className="flex flex-col items-start">
-              <img src={mgrid16} className=""></img>
+              <img src={mgrid16} className="w-24"></img>
               <h4 className="text-2xl">RETAIL LOGISTICS</h4>
               <p className="font-medium pt-2 text-xl w-auto">
                 It’s never been harder to manage a retail supply chain. The line

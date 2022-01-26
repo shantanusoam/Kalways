@@ -23,7 +23,7 @@ h3 {
 `;
 export default class ShipFlightPage extends React.Component {
   componentDidMount() {
-    document.title = 'Kalway shipfreight';
+    document.title = 'KALWAY shipfreight';
   }
 
   render() {

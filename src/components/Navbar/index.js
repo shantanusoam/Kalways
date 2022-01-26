@@ -12,6 +12,7 @@ import {
   NavLogo,
   MobileIcon,
   NavItem,
+  Numbers,
   NavLinks,
 } from './NavbarElements';
 
@@ -42,8 +43,15 @@ const Navbar = ({ toggle, Speed }) => {
     <>
       <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
         <Nav scrollNav={scrollNav}>
-          <NavLogo to="/" onClick={toggleHome}>
+          <NavLogo
+            to="/"
+            onClick={toggleHome}
+            className="flex flex-col content-center aligns-center"
+          >
             <img src={logo} width="150px" alt="logo" />
+            <Numbers className="text-sm items-center pt-2">
+              1-800-502-7000
+            </Numbers>
           </NavLogo>
 
           {/* <Bars onClick={toggle}/> */}

@@ -45,7 +45,7 @@ const ForSandC = ({ isOpen, toggle }) => {
 
             <button class="btn">
               <span class="btn-text">
-                Sign up for <br></br> Kalway
+                Sign up for <br></br> KALWAY
               </span>
             </button> */}
           </div>

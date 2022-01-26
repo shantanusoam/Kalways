@@ -45,15 +45,21 @@ export const NavbarContainer = styled.div`
     justify-content: start;
   }
 `;
+export const Numbers = styled.div`
+  text-align: center;
+  color: #00e700;
+`;
 export const NavLogo = styled(LinkR)`
   color: #fff;
-  justify-self: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   padding: 25px;
-  justify-content: start;
+
   font-size: 1.5\rem;
   display: flex;
-  align-items: flex-start;
+
   margin-left: 2px;
   font-weight: bold;
   text-decoration: none;

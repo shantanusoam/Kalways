@@ -105,7 +105,7 @@ const shipfreight = () => {
                 <img src={mgrid1} className=""></img>
                 <h4 className="text-3xl">Full truckload</h4>
                 <p className="font-medium pt-5 text-xl w-auto">
-                  At Kalway, we consolidate an extremely fragmented market by
+                  At KALWAY, we consolidate an extremely fragmented market by
                   maintaining relationships with over 70,000 carriers to get you
                   access across all equipment types and shipment needs. By
                   maximizing truckload freight capacity, we help you achieve
@@ -118,7 +118,7 @@ const shipfreight = () => {
                 <p className="font-medium pt-5 text-xl w-auto">
                   Choose Less Than Truckload (LTL) to ship your goods
                   efficiently, even when you don’t have a full truck to fill.
-                  Kalway will help you identify modal conversion opportunities
+                  KALWAY will help you identify modal conversion opportunities
                   to maximize savings.
                 </p>
               </div>
@@ -139,19 +139,19 @@ const shipfreight = () => {
                 <img src={grid5} className=""></img>
                 <h4 className="text-3xl">Air & Ocean</h4>
                 <p className="font-medium pt-5 text-xl w-auto">
-                  Kalway is an authorized reseller of UPS air services, with
+                  KALWAY is an authorized reseller of UPS air services, with
                   access to ocean services through UPS. This global footprint,
                   combined with our massive centralized marketplace of carriers
                   in North America, gives you the freedom to move freight
                   anywhere your business demands—all with the same dedication,
-                  visibility and expertise you get from Kalway.
+                  visibility and expertise you get from KALWAY.
                 </p>
               </div>
               <div className="flex flex-col items-start">
                 <img src={grid6} className=""></img>
                 <h4 className="text-3xl">Cross-Border Freight</h4>
                 <p className="font-medium pt-5 text-xl w-auto">
-                  Whether shipping northbound or southbound, Kalway leverages a
+                  Whether shipping northbound or southbound, KALWAY leverages a
                   dense North American carrier network to bring you capacity
                   when and where you need it. We source the right carrier for
                   each opportunity, facilitate the crossing logistics and
@@ -235,7 +235,7 @@ const shipfreight = () => {
               <br />
               <h3 className=" text-1xl mb-5 ">
                 You can trust the quote you get from us, whether it comes
-                through your rep or KalwayGO. If you are quoting for a spot LTL
+                through your rep or KALWAYGO. If you are quoting for a spot LTL
                 load, a high-volume lane, or anything else, we can get you a
                 clear, reliable price.
               </h3>
@@ -325,7 +325,7 @@ const shipfreight = () => {
             <p className="font-medium pt-5 text-xl w-auto">
               Drive cost savings across your network through a combination of a
               dedicated operations team, proprietary cloud-based TMS technology
-              and carrier agnostic capacity solutions. Kalway Transportation
+              and carrier agnostic capacity solutions. KALWAY Transportation
               Management (CTM) provides professional logistics services that can
               help you achieve end-to-end network execution, visibility,
               reporting, optimization and management at a competitive cost.
@@ -336,7 +336,7 @@ const shipfreight = () => {
             <h4 className="text-3xl">Primary Capicity</h4>
             <p className="font-medium pt-5 text-xl w-auto">
               Give your business the ability to navigate the market with
-              primary, backup and spot capacity from Kalway. Our dedicated team
+              primary, backup and spot capacity from KALWAY. Our dedicated team
               of transportation specialists tap into one of the largest
               centralized supply chain networks to customize your contract
               commitment based on your business needs
@@ -346,7 +346,7 @@ const shipfreight = () => {
             <img src={grid4} className=""></img>
             <h4 className="text-3xl">Sustainability</h4>
             <p className="font-medium pt-5 text-xl w-auto">
-              Kalway’s mission is to move business forward with expertise and
+              KALWAY’s mission is to move business forward with expertise and
               integrity. That’s why we’re committed to creating smarter, less
               environmentally impactful solutions for our network. Between 2019
               and 2020, we reduced network CO2 emissions by 18% and improved our
@@ -360,10 +360,10 @@ const shipfreight = () => {
             <img src={grid4} className=""></img>
             <h4 className="text-3xl">ShipperTechnlogy</h4>
             <p className="font-medium pt-5 text-xl w-auto">
-              At Kalway, we know there isn’t a one-size-fits-all solution for
+              At KALWAY, we know there isn’t a one-size-fits-all solution for
               your business. Use our digital solutions for connectivity at your
               fingertips—including on-demand quoting, tendering, tracking and
-              settlement through KalwayGO®. Or make real-time data exchange
+              settlement through KALWAYGO®. Or make real-time data exchange
               easier by automating manual tasks through EDI or API integration
               for full truckload and LTL. Plus, with TMS-enabled transportation
               management services and over 500,000 unique facility reviews,

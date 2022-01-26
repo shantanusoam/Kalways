@@ -89,10 +89,10 @@ const About = () => {
             />
 
             <div className="p-8">
-              <h3 className="font-bold text-2xl mb-5">For Kalway</h3>
+              <h3 className="font-bold text-2xl mb-5">For KALWAY</h3>
               <br />
-              <h3 className=" text-1xl mb-5 h-44">
-                Every Kalway employee has a part to play in driving a more
+              <h3 className=" text-1xl mb-5  h-56 lg:h-48">
+                Every KALWAY employee has a part to play in driving a more
                 sustainable industry. From in-office recycling programs and
                 digital efficiency efforts, to volunteer opportunities with
                 organizations like Chicago Gateway Green, it’s what we do
@@ -113,11 +113,11 @@ const About = () => {
             />
 
             <div className="p-8">
-              <h3 className="font-bold text-2xl mb-5">For Shippers</h3>
+              <h3 className="font-bold text-2xl mb-5 ">For Shippers</h3>
               <br />
-              <h3 className=" text-1xl mb-5 h-44">
+              <h3 className=" text-1xl mb-5 h-56 lg:h-48">
                 Improving your sustainability performance starts with adjusting
-                your approach. Kalway can help you customize solutions that
+                your approach. KALWAY can help you customize solutions that
                 include eliminating empty miles, intermodal conversion, order
                 consolidation, RFP management, asset & route optimization,
                 co-loading freight and network rationalization.
@@ -139,7 +139,7 @@ const About = () => {
             <div className="p-8">
               <h3 className="font-bold text-2xl mb-5">For Carriers</h3>
               <br />
-              <h3 className=" text-1xl mb-5 h-44">
+              <h3 className=" text-1xl mb-5  h-56 lg:h-48">
                 Whether you’re a carrier who is already leveraging fuel
                 alternatives, like biodiesel, or looking to run dedicated routes
                 for sustainability-minded shippers, we’re here to help. We can

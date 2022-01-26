@@ -11,9 +11,9 @@ export const ContactContainer = styled.div`
   align-items: center;
   padding: 50px;
   width: 100%;
-  padding-top: 300px;
+  padding-top: 100px;
   justify-content: center;
-  height: 120vh;
+  height: 130vh;
   overflow: hidden;
   // @media screen and (max-width: 768px) {
   //     transition: 0.8s all ease;
@@ -179,7 +179,7 @@ export const FotterContactName = styled.div`
   }
 `;
 export const Heading = styled.div`
-  padding: 10rem 0px 0px 0px;
+  padding: 4.5rem 0px 0px 0px;
   display: flex;
   flex-direction: row;
   align-items: center;
