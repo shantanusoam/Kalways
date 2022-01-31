@@ -284,6 +284,10 @@ const HeroSection = () => {
   };
   return (
     <HeroContainer id="Home">
+      <Gradients></Gradients>
+      <HeroBg>
+        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+      </HeroBg>
       <HeroContent>
         <ContainerMain>
           <p className="text-white">KALWAY LOGISTIC</p>

@@ -4,7 +4,7 @@ import { Link as LinkR } from 'react-router-dom';
 export const HeroContainer = Styled.div`
 
 overflow: hidden;
-background: transparent url(${bgimage})  center ;
+// background: transparent url(${bgimage})  center ;
 
 background-position: center; /* Center the image */
 background-repeat: no-repeat; /* Do not repeat the image */
@@ -95,7 +95,7 @@ height: 100%;
 // export const HeroBg = Styled.div`
 
 // position: absolute;
-//  background-image: url(../../images/bg.png);
+
 // top: 0;
 // left: 0;
 // bottom: 0;
@@ -127,7 +127,7 @@ object-fit: cover;
 
 background: #232a34;
 @media screen and (max-width: 768px) {
-    display: none;
+    display: blick;
     
 }
 `;
