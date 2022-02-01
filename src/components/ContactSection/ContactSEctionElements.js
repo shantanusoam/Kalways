@@ -52,7 +52,7 @@ export const ContactImage = styled.div`
   }
 `;
 export const AboutContainerHeading = styled.div`
-  font-family: poppins;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;

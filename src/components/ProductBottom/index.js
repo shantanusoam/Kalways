@@ -16,7 +16,7 @@ class ProductBottom extends React.Component {
     };
   }
   componentDidMount() {
-    document.title = "kalway Product";
+    document.title = "KALWAY Product";
   }
 
   render() {

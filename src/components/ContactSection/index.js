@@ -31,7 +31,7 @@ const ContactSectio = ({ isOpen, toggle }) => {
         <Heading style={{ paddingTop: '20px' }}>Contact Us</Heading>
         <div
           data-aidaform-widget="form-2019-12"
-          data-url="https://shantanu.aidaform.com/contact-us-kalways"
+          data-url="https://shantanu.aidaform.com/contact-us-KALWAYs"
           data-width="100%"
           data-height="500px"
           data-do-resize

@@ -1,22 +1,22 @@
-import React, { useState, useEffect } from "react";
-import ContactSection from "../components/ContactSection";
-import MapSection from "../components/MapSection";
+import React, { useState, useEffect } from 'react';
+import ContactSection from '../components/ContactSection';
+import MapSection from '../components/MapSection';
 
 const Contac = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [disabel, setdisabel] = useState(
-    () => window.localStorage.getItem("product") ?? false
+    () => window.localStorage.getItem('product') ?? false
   );
   useEffect(() => {
     // Update the document title using the browser API
     disabeled() ? setdisabel(true) : setdisabel(false);
-    window.localStorage.setItem("product", disabel);
+    window.localStorage.setItem('product', disabel);
   });
 
   function disabeled() {
     const path = window.location.pathname;
-    console.log(path === "/");
-    if (path === "/") {
+    console.log(path === '/');
+    if (path === '/') {
       return true;
     }
     return false;
@@ -26,7 +26,7 @@ const Contac = () => {
   };
   return (
     <>
-      <div style={{ PaddingTop: "200px" }}>
+      <div style={{ PaddingTop: '200px' }}>
         <ContactSection></ContactSection>
         <MapSection></MapSection>
       </div>
@@ -35,7 +35,7 @@ const Contac = () => {
 };
 class Contact extends React.Component {
   componentDidMount() {
-    document.title = "kalway Contact";
+    document.title = 'KALWAY Contact';
   }
 
   render() {

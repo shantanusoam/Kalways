@@ -1,9 +1,14 @@
-#lol{
-    display: none;
+#lol {
+  display: none;
 }
-html,body{
-    overflow-x: hidden;
+
+html,
+body {
+  overflow-x: hidden;
 }
-h2{
-    text-size: 2vw;
+h2 {
+  text-size: 2vw;
+}
+p {
+  font-weight: 300;
 }

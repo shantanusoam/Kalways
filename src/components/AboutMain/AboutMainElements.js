@@ -13,6 +13,9 @@ export const TextContaner = styled.div`
   width: 60%;
   background-color: #000000de;
   align-items: center;
+  h1 {
+    line-height: 5rem;
+  }
   @media screen and (max-width: 768px) {
     display: none;
   }

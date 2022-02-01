@@ -59,7 +59,7 @@ const FooterSection = ({ isOpen, toggle }) => {
           <FotterContact>
             <FotterContactlist>
               <FotterContactName>Email</FotterContactName>
-              <FotterContactNo>info@kalway.com</FotterContactNo>
+              <FotterContactNo>info@KALWAY.com</FotterContactNo>
               {/* //todo */}
             </FotterContactlist>
           </FotterContact>
@@ -81,7 +81,7 @@ const FooterSection = ({ isOpen, toggle }) => {
               <FotterContactNo>
                 Monday - Friday 24Hrs
                 <br />
-                Saturday & Sunday 8AM -5AM
+                Saturday & Sunday 7AM -5PM
               </FotterContactNo>
             </FotterContactlist>
           </FotterContact>

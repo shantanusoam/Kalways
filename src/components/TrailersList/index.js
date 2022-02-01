@@ -26,13 +26,13 @@ class TrailerList extends React.Component {
 
     return (
       <AboutContainer id="Products">
-        <h3 className="text-center text-black font-bold text-5xl pb-8 mt-20 md:pb-3">
-          Services
+        <h3 className="text-center text-black  text-5xl pb-8 mt-24 md:pb-3">
+          SERVICES
           <div className="w-40 h-2  hover:w-10"></div>
         </h3>
 
         <CardListRow>
-          <div className="xl:px-14 xl:py-10 md:py-0 md:px-0 bg-white flex flex-row flex-wrap justify-center items-center space-y-5 ">
+          <div className="xl:px-14 xl:py-10 md:py-0 md:px-0 bg-white flex flex-row flex-wrap justify-center items-center   ">
             {Trailers.map((trailer) => (
               <LinkRo
                 key={trailer.id}
@@ -129,7 +129,7 @@ const TrailerLists = ({ isOpen, toggle }) => {
         Trailer
       </h3>
       <CardListRow>
-        <div className="xl:px-14 xl:py-10 md:py-0 md:px-0 bg-white flex flex-row flex-wrap justify-center items-center space-y-5 ">
+        <div className="xl:px-14 xl:py-10 md:py-0 md:px-0 bg-white flex flex-row flex-wrap justify-center items-center   ">
           {this.state.Trailers.map((trailer) => (
             <Roll left key={trailer.img}>
               <div className="bg-white rounded-xl  m-9 hover:shadow-2xl">

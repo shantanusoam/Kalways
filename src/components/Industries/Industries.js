@@ -257,7 +257,7 @@ color: #ED1C24;
 export const HeroP = Styled.p`
 margin-top: 24px;
 margin-bottom: 24px;
-font-family: poppins;
+font-family: sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 12px;

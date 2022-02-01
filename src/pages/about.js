@@ -37,7 +37,7 @@ const About = () => {
   return (
     <>
       <AboutMain></AboutMain>
-      <div className="xl:px-14 xl:py-10 md:py-0 md:px-0 bg-white flex flex-row flex-wrap justify-center items-center space-y-5 ">
+      <div className="xl:px-14 xl:py-10 md:py-0 md:px-0 bg-white flex flex-row flex-wrap justify-center items-center   ">
         {/* <LinkRo
               key={4}
               to={{

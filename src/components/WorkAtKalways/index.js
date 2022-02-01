@@ -31,7 +31,7 @@ const WorkAtKalwayss = ({ isOpen, toggle }) => {
         <Heading>Work At KALWAY</Heading>
         <div
           data-aidaform-widget="form-2019-12"
-          data-url="https://shantanu.aidaform.com/work-at-kalways"
+          data-url="https://shantanu.aidaform.com/work-at-KALWAYs"
           data-width="100%"
           data-height="500px"
           data-do-resize

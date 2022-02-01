@@ -47,7 +47,9 @@ h4{
 export const ContainerMain = Styled.div`
 display: flex;
 flex-direction: column;
-
+p{
+    line-height: 5rem;
+}
 `;
 // export const HeroBg = Styled.div`
 
@@ -242,7 +244,7 @@ color: #ED1C24;
 export const HeroP = Styled.p`
 margin-top: 24px;
 margin-bottom: 24px;
-font-family: poppins;
+font-family: sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 12px;

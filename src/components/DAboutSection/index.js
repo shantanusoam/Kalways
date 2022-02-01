@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   AboutContainer,
   SpaceContainer,
@@ -12,8 +12,8 @@ import {
   AboutContainerButton,
   AboutContainerImageContent,
   AboutContainerImage,
-} from "./DAboutSectionElement";
-import whitetruck from "../../images/whitetruck.png";
+} from './DAboutSectionElement';
+import whitetruck from '../../images/whitetruck.png';
 const DAboutSection = ({ isOpen, toggle }) => {
   return (
     <AboutContainer id="About">
@@ -31,12 +31,12 @@ const DAboutSection = ({ isOpen, toggle }) => {
           {/* <AboutContainerHeading>KAL TIRES</AboutContainerHeading> */}
           <AboutContainerSubHeading>Our services</AboutContainerSubHeading>
           <AboutContainerPara>
-            kalway Trailers & Leasing is a large and continually-growing
+            KALWAY Trailers & Leasing is a large and continually-growing
             trucking company that starts in California as Kal Freight Inc, with
             over 800 trucks and 2,000 trailers and has over 800 employees. As a
             dynamic modern transportation company with a strategic corporate
             location based in Ontario, California, Kal Freight extended its
-            reach to Canada opening a new location in Abbotsford, as kalway
+            reach to Canada opening a new location in Abbotsford, as KALWAY
             Canada.
           </AboutContainerPara>
           <AboutContainerButton to="/About">

@@ -51,10 +51,10 @@ const shipfreight = () => {
         </HeroBg> */}
         <HeroContent className="flex flex-col 	justify-items-end lg:w-1/2">
           <ContainerMain className="absolute bottom-0 left-20 pb-8 pl-28">
-            <p className="text-white  font-medium pt-8 text-xl w-auto">
+            <p className="text-white  font-extralight pt-8 text-xl w-auto">
               CONSUMER PACKAGED GOODS LOGISTICS
             </p>
-            <p className="text-white font-bold  font-medium pt-3 text-6xl w-5/6">
+            <p className="text-white   pt-3 text-6xl w-5/6">
               Make it, Package it, and We'll Take it From There
             </p>
           </ContainerMain>
@@ -77,14 +77,14 @@ const shipfreight = () => {
           <div className="self-end lg:pl-40 lg:pr-32">
             {/* <h3 className="font-bold pt-10 text-xl">Additional Information</h3> */}
             <h3 className="font-bold pt-10 text-3xl">Ways to Ship</h3>
-            <p className="font-medium pt-8 text-xl w-auto">
+            <p className="font-extralight pt-8 text-xl w-auto">
               Your products are going to fly off the shelf. But first, they have
               to get there on time. Whether you ship tissues or toothpaste,
               sunscreen or salty snacks, your supply chain is feeling the
               pressure. Consumer expectations are rising, delivery times are
               shortening and excuses won’t cut it.
             </p>
-            <p className="font-medium pt-9 text-xl w-auto">
+            <p className="font-extralight pt-9 text-xl w-auto">
               We will help you get your products where they need to go fast,
               efficiently and without interruption. Join the more than 3,500 CPG
               companies who trust us with their freight.
@@ -93,7 +93,7 @@ const shipfreight = () => {
               <div className="flex flex-col items-start">
                 <img src={grid1} className=""></img>
                 <h4 className="text-3xl">Ship freight</h4>
-                <p className="font-medium pt-5 text-xl w-auto">
+                <p className="font-extralight pt-5 text-xl w-auto">
                   Every day, increasingly complex shipping demands put pressure
                   on your business. The ability to succeed requires a shift in
                   focus—from short-term capacity to long-term agility. Work with
@@ -104,7 +104,7 @@ const shipfreight = () => {
               <div className="flex flex-col items-start">
                 <img src={mgrid1} className=""></img>
                 <h4 className="text-3xl">Full truckload</h4>
-                <p className="font-medium pt-5 text-xl w-auto">
+                <p className="font-extralight pt-5 text-xl w-auto">
                   At KALWAY, we consolidate an extremely fragmented market by
                   maintaining relationships with over 70,000 carriers to get you
                   access across all equipment types and shipment needs. By
@@ -115,7 +115,7 @@ const shipfreight = () => {
               <div className="flex flex-col items-start">
                 <img src={mgrid2} className=""></img>
                 <h4 className="text-3xl">Less than Truckload</h4>
-                <p className="font-medium pt-5 text-xl w-auto">
+                <p className="font-extralight pt-5 text-xl w-auto">
                   Choose Less Than Truckload (LTL) to ship your goods
                   efficiently, even when you don’t have a full truck to fill.
                   KALWAY will help you identify modal conversion opportunities
@@ -125,7 +125,7 @@ const shipfreight = () => {
               <div className="flex flex-col items-start">
                 <img src={mgrid4} className="" width="150px"></img>
                 <h4 className="text-3xl">Intermodal Freight</h4>
-                <p className="font-medium pt-5 text-xl w-auto">
+                <p className="font-extralight pt-5 text-xl w-auto">
                   Save money and contribute to your sustainability initiatives
                   by shipping your goods through a combination of truckload and
                   railway transport. Intermodal can add capacity, cut
@@ -138,7 +138,7 @@ const shipfreight = () => {
               <div className="flex flex-col items-start">
                 <img src={grid5} className=""></img>
                 <h4 className="text-3xl">Air & Ocean</h4>
-                <p className="font-medium pt-5 text-xl w-auto">
+                <p className="font-extralight pt-5 text-xl w-auto">
                   KALWAY is an authorized reseller of UPS air services, with
                   access to ocean services through UPS. This global footprint,
                   combined with our massive centralized marketplace of carriers
@@ -150,7 +150,7 @@ const shipfreight = () => {
               <div className="flex flex-col items-start">
                 <img src={grid6} className=""></img>
                 <h4 className="text-3xl">Cross-Border Freight</h4>
-                <p className="font-medium pt-5 text-xl w-auto">
+                <p className="font-extralight pt-5 text-xl w-auto">
                   Whether shipping northbound or southbound, KALWAY leverages a
                   dense North American carrier network to bring you capacity
                   when and where you need it. We source the right carrier for
@@ -162,13 +162,13 @@ const shipfreight = () => {
           </div>
           <div className="flex-1 h-64 drop-shadow-lg z-10">
             <h3 className="font-bold pt-10 text-xl">Learn More</h3>
-            <p className="font-medium pt-10 text-xl w-96 pb-8">
+            <p className="font-extralight pt-10 text-xl w-96 pb-8">
               We measure success by the results we generate for our clients.
-              With every solution, kalway Logistics simplifies transportation
+              With every solution, KALWAY Logistics simplifies transportation
               management—so you can focus on what you do best.
             </p>
             <button class="btn">
-              <span class="btn-text ">- 1-800-502-7000 -</span>
+              <span class="btn-text ">1-800-502-7000</span>
             </button>
           </div>
         </div>
@@ -177,7 +177,7 @@ const shipfreight = () => {
         </h2>
       </div>
 
-      <div className="xl:px-14 xl:py-10 md:py-0 md:px-0 bg-white flex flex-row flex-wrap justify-center items-center space-y-5 ">
+      <div className="xl:px-14 xl:py-10 md:py-0 md:px-0 bg-white flex flex-row flex-wrap justify-center items-center   ">
         {/* <LinkRo
               key={4}
               to={{
@@ -288,14 +288,14 @@ const shipfreight = () => {
         <h3 className="font-bold pt-10 text-5xl">Business Solutions</h3>
         <div className="flex flex-row">
           <div className="lg:pr-40">
-            <p className="font-medium pt-8 text-xl w-auto ">
+            <p className="font-extralight pt-8 text-xl w-auto ">
               Your products are going to fly off the shelf. But first, they have
               to get there on time. Whether you ship tissues or toothpaste,
               sunscreen or salty snacks, your supply chain is feeling the
               pressure. Consumer expectations are rising, delivery times are
               shortening and excuses won’t cut it.
             </p>
-            <p className="font-medium pt-9 pb-10 text-xl w-auto">
+            <p className="font-extralight pt-9 pb-10 text-xl w-auto">
               We will help you get your products where they need to go fast,
               efficiently and without interruption. Join the more than 3,500 CPG
               companies who trust us with their freight.
@@ -310,7 +310,7 @@ const shipfreight = () => {
           <div className="flex flex-col items-start">
             <img src={grid1} className=""></img>
             <h4 className="text-3xl">Flex Solution</h4>
-            <p className="font-medium pt-5 text-xl w-auto">
+            <p className="font-extralight pt-5 text-xl w-auto">
               Customer expectations are changing by the minute. To keep up, your
               business needs custom asset-based solutions to fit your
               high-volume capacity projects. We can help you leverage multiple
@@ -322,7 +322,7 @@ const shipfreight = () => {
           <div className="flex flex-col items-start">
             <img src={grid3} className=""></img>
             <h4 className="text-3xl">Transportation Management</h4>
-            <p className="font-medium pt-5 text-xl w-auto">
+            <p className="font-extralight pt-5 text-xl w-auto">
               Drive cost savings across your network through a combination of a
               dedicated operations team, proprietary cloud-based TMS technology
               and carrier agnostic capacity solutions. KALWAY Transportation
@@ -334,7 +334,7 @@ const shipfreight = () => {
           <div className="flex flex-col items-start">
             <img src={grid4} className=""></img>
             <h4 className="text-3xl">Primary Capicity</h4>
-            <p className="font-medium pt-5 text-xl w-auto">
+            <p className="font-extralight pt-5 text-xl w-auto">
               Give your business the ability to navigate the market with
               primary, backup and spot capacity from KALWAY. Our dedicated team
               of transportation specialists tap into one of the largest
@@ -345,7 +345,7 @@ const shipfreight = () => {
           <div className="flex flex-col items-start">
             <img src={grid4} className=""></img>
             <h4 className="text-3xl">Sustainability</h4>
-            <p className="font-medium pt-5 text-xl w-auto">
+            <p className="font-extralight pt-5 text-xl w-auto">
               KALWAY’s mission is to move business forward with expertise and
               integrity. That’s why we’re committed to creating smarter, less
               environmentally impactful solutions for our network. Between 2019
@@ -359,7 +359,7 @@ const shipfreight = () => {
           <div className="flex flex-col items-start">
             <img src={grid4} className=""></img>
             <h4 className="text-3xl">ShipperTechnlogy</h4>
-            <p className="font-medium pt-5 text-xl w-auto">
+            <p className="font-extralight pt-5 text-xl w-auto">
               At KALWAY, we know there isn’t a one-size-fits-all solution for
               your business. Use our digital solutions for connectivity at your
               fingertips—including on-demand quoting, tendering, tracking and

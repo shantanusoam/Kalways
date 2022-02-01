@@ -290,7 +290,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <ContainerMain>
-          <p className="text-white">KALWAY LOGISTIC</p>
+          <p className="text-white">KALWAY</p>
           <HeroP>Drive your business forward</HeroP>
           <a href="/Contact">
             <button class="btn">

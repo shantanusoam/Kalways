@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont,
-    popins;
+  font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -9,9 +8,13 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',popins,
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', popins,
     monospace;
 }
+/* Heading */
+/* text-left text-black  text-5xl pb-8 */
+/* main heading */
+/* md:text-4xl text-left text-white lg:text-7xl p-8  */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

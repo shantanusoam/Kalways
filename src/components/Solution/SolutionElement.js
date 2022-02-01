@@ -37,8 +37,8 @@ export const WWOCCHeading = styled.h2`
   margin-top: 4px;
   font-family: Poppins;
   font-style: normal;
-  font-weight: bold;
-  font-size: 45px;
+
+  font-size: 4rem;
 
   text-align: center;
 

@@ -26,7 +26,7 @@ const Solution = ({ isOpen, toggle }) => {
           solutions – needed to take your supply chain further, faster.
         </WWOCCParagraph>
         <CardListRow>
-          <div className=" md:py-0 md:px-0 bg-white flex flex-row flex-wrap justify-center items-center space-y-5 ">
+          <div className=" md:py-0 md:px-0 bg-white flex flex-row flex-wrap justify-center items-center   ">
             {/* <LinkRo
               key={4}
               to={{
@@ -78,21 +78,19 @@ const Solution = ({ isOpen, toggle }) => {
                 />
 
                 <div className="p-8">
-                  <h3 className="font-bold text-2xl mb-5 sm:text-xl">
-                    Transportation
-                  </h3>
+                  <h3 className="font-bold text-2xl mb-5">Transportation</h3>
                   <br />
-                  <h3 className="text-0xl mb-4 lg:text-1xl md:mb-5 lg:h-56">
+                  <div className="text-0xl mb-4 lg:text-1xl md:mb-5 lg:h-56">
                     No matter how you prefer to manage your business, we have
                     you covered. You can call or message a specialist who can
                     access our proprietary technology platform on your behalf,
                     Get the instant access you need to do everything from book
                     loads to submit PODs. Learn more about our tech tracking
                     options for carriers.
-                  </h3>
+                  </div>
                   <a href="/Contact">
                     <button class="btn">
-                      <span class="btn-text">Happy to have you</span>
+                      <span class="btn-text">1-800-502-7000</span>
                     </button>
                   </a>
                 </div>
@@ -111,17 +109,17 @@ const Solution = ({ isOpen, toggle }) => {
                     Managed Supply Chain
                   </h3>
                   <br />
-                  <h3 className=" text-1xl mb-5 lg:h-56">
+                  <div className=" text-1xl mb-5 lg:h-56">
                     As the market fluctuates, your supply chain must adapt
                     instantly, which means you need more than just a
                     transportation management system (TMS). Without a 3PL who
                     can configure a solution to support your needs, you’ll be
                     stuck dealing with cost volatility and service disruptions.
                     We help you achieve end-to-end network execution, real-time
-                  </h3>
+                  </div>
                   <a href="/Contact">
                     <button class="btn">
-                      <span class="btn-text">Happy to have you</span>
+                      <span class="btn-text">1-800-502-7000</span>
                     </button>
                   </a>
                 </div>
@@ -138,7 +136,7 @@ const Solution = ({ isOpen, toggle }) => {
                 <div className="p-8">
                   <h3 className="font-bold text-2xl mb-5">Become a Customer</h3>
                   <br />
-                  <h3 className=" text-1xl mb-5 lg:h-56">
+                  <div className=" text-1xl mb-5 lg:h-56">
                     Access scalable dedicated fleets that can quickly adapt to
                     short-term market volatility. KALWAY private and dedicated
                     fleet services bring you the dependability of professional
@@ -146,10 +144,10 @@ const Solution = ({ isOpen, toggle }) => {
                     Do you have your own fleet? KALWAY can identify back-haul
                     matches to help you eliminate empty miles and turn your
                     deadhead into profit.
-                  </h3>
+                  </div>
                   <a href="/Contact">
                     <button class="btn">
-                      <span class="btn-text">Happy to have you</span>
+                      <span class="btn-text">1-800-502-7000</span>
                     </button>
                   </a>
                 </div>
@@ -161,7 +159,7 @@ const Solution = ({ isOpen, toggle }) => {
           <FlipCard>
             <FrontFace>
               <img
-                src="https://kalway.com/wp-content/uploads/2020/02/Markerplace_HP_Flipcard.jpg"
+                src="https://KALWAY.com/wp-content/uploads/2020/02/Markerplace_HP_Flipcard.jpg"
                 alt=""
               />
               <HoveringTextContainer>
@@ -173,7 +171,7 @@ const Solution = ({ isOpen, toggle }) => {
           <FlipCard>
             <FrontFace>
               <img
-                src="https://kalway.com/wp-content/uploads/2020/02/Multi-Modal_hp_Flipcard.jpg"
+                src="https://KALWAY.com/wp-content/uploads/2020/02/Multi-Modal_hp_Flipcard.jpg"
                 alt=""
               />
               <HoveringTextContainer>
@@ -185,7 +183,7 @@ const Solution = ({ isOpen, toggle }) => {
           <FlipCard>
             <FrontFace>
               <img
-                src="https://kalway.com/wp-content/uploads/2020/02/Multi-Modal_hp_Flipcard.jpg"
+                src="https://KALWAY.com/wp-content/uploads/2020/02/Multi-Modal_hp_Flipcard.jpg"
                 alt=""
               />
               <HoveringTextContainer>

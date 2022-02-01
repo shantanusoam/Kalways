@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   WWOCArd,
   WWOCardContent,
@@ -6,7 +6,7 @@ import {
   WWOCCParagraph,
   WWOCCButton,
   CButton,
-} from "./QuoteAtEndElements";
+} from './QuoteAtEndElements';
 
 const QuoteAtEnd = ({ isOpen, toggle }) => {
   return (
@@ -14,14 +14,14 @@ const QuoteAtEnd = ({ isOpen, toggle }) => {
       <WWOCardContent>
         <WWOCCHeading>ARE YOU IN UNITED STATES? WE GOT YOUR BACK</WWOCCHeading>
         {/* <WWOCCParagraph>
-          kalway Trailers & Leasing extended its reach to distribution
+          KALWAY Trailers & Leasing extended its reach to distribution
           warehouses located in California, Texas, Indiana, North Carolina, and
           New Jersey
         </WWOCCParagraph> */}
         <CButton>
           <WWOCCButton to="/Contact">Contact Us</WWOCCButton>
           <WWOCCParagraph
-            to={{ pathname: "https://kaltrailers.com" }}
+            to={{ pathname: 'https://kaltrailers.com' }}
             target="_blank"
           >
             or see our portfolio
